@@ -2,6 +2,7 @@ package de.cxlledjay.roadsideaddons.registry;
 
 import de.cxlledjay.roadsideaddons.RoadsideAddons;
 import de.cxlledjay.roadsideaddons.block.SignPostBase;
+import de.cxlledjay.roadsideaddons.block.sign.SignDanger;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -18,11 +19,16 @@ public class ModBlocks {
 
     // ---------------------------- <new blocks> ----------------------------
 
+    // poles
     public static final Block SIGN_POST_BASE = registerBlock("sign_post_base",
             new SignPostBase(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block SIGN_POST= registerBlock("sign_post",
             new SignPostBase(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+
+    // signs
+    public static final Block SIGN_DANGER = registerBlock("sign_danger",
+            new SignDanger(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
 
 
 

@@ -18,8 +18,11 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.SIGN_POST_BASE))
                     .displayName(Text.translatable("itemgroup.roadside-addons.items"))
                     .entries((displayContext, entries) -> {
+                        // post
                         entries.add(ModBlocks.SIGN_POST_BASE);
                         entries.add(ModBlocks.SIGN_POST);
+                        // signs
+                        entries.add(ModBlocks.SIGN_DANGER);
                     })
             .build());
 

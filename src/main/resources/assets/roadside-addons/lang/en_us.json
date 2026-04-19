@@ -2,5 +2,8 @@
   "block.roadside-addons.sign_post_base": "Sign Post Base",
   "block.roadside-addons.sign_post": "Sign Post",
 
+
+  "block.roadside-addons.sign_danger": "Danger Sign",
+
   "itemgroup.roadside-addons.items": "Roadside Addons Items"
 }
