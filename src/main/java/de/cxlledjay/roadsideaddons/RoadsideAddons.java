@@ -1,5 +1,7 @@
 package de.cxlledjay.roadsideaddons;
 
+import de.cxlledjay.roadsideaddons.registry.ModBlocks;
+import de.cxlledjay.roadsideaddons.registry.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +21,9 @@ public class RoadsideAddons implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Mod has loaded!");
+		LOGGER.info("Loading Mod " + MOD_ID);
+
+		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }

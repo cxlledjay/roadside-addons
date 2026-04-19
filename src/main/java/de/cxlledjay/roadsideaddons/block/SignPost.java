@@ -7,19 +7,17 @@ import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
-import net.minecraft.state.property.DirectionProperty;
-import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
 
-public class SignPostBase extends HorizontalFacingBlock {
+public class SignPost extends HorizontalFacingBlock {
 
-    private static final MapCodec<SignPostBase> CODEC = createCodec(SignPostBase::new);
+    private static final MapCodec<SignPost> CODEC = createCodec(SignPost::new);
 
 
-    public SignPostBase(Settings settings) {
+    public SignPost(Settings settings) {
         super(settings);
     }
 

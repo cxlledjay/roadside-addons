@@ -1,4 +1,32 @@
 package de.cxlledjay.roadsideaddons.registry;
 
+import de.cxlledjay.roadsideaddons.RoadsideAddons;
+import de.cxlledjay.roadsideaddons.block.SignPostBase;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
+
 public class ModItemGroups {
+
+    public static final ItemGroup ROADSIDE_ADDONS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(RoadsideAddons.MOD_ID + "items"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(ModBlocks.SIGN_POST_BASE))
+                    .displayName(Text.translatable("itemgroup.roadside-addons.items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.SIGN_POST_BASE);
+                        entries.add(ModBlocks.SIGN_POST);
+                    })
+            .build());
+
+
+
+    public static void registerItemGroups() {
+        RoadsideAddons.LOGGER.info("Registering Item Groups for " + RoadsideAddons.MOD_ID);
+    }
+
 }

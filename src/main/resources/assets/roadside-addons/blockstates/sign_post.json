@@ -1,18 +1,18 @@
 {
 	"variants": {
 		"facing=north": {
-			"model": "roadside-addons:block/sign_post_base"
+			"model": "roadside-addons:block/sign_post"
 		},
 		"facing=south": {
-			"model": "roadside-addons:block/sign_post_base",
+			"model": "roadside-addons:block/sign_post",
 			"y": 180
 		},
 		"facing=west": {
-			"model": "roadside-addons:block/sign_post_base",
+			"model": "roadside-addons:block/sign_post",
 			"y": 270
 		},
 		"facing=east": {
-			"model": "roadside-addons:block/sign_post_base",
+			"model": "roadside-addons:block/sign_post",
 			"y": 90
 		}
 	}
