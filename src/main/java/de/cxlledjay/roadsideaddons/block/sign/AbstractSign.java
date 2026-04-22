@@ -12,26 +12,34 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
 
-public class AbstractSign extends HorizontalFacingBlock {
-
-    private static final MapCodec<AbstractSign> CODEC = createCodec(AbstractSign::new);
-
+abstract class AbstractSign extends HorizontalFacingBlock {
 
     public AbstractSign(Settings settings) {
         super(settings);
     }
 
     @Override
-    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
-        return CODEC;
-    }
+    protected abstract MapCodec<? extends HorizontalFacingBlock> getCodec();
 
 
-    private static final VoxelShape SHAPE = Block.createCuboidShape(0,0,6,16,16,11);
+    private static final VoxelShape SHAPE_DEFAULT_SN = Block.createCuboidShape(0,0,6,16,16,10);
+    private static final VoxelShape SHAPE_DEFAULT_EW = Block.createCuboidShape(6,0,0,10,16,16);
 
     @Override
     protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return SHAPE;
+        VoxelShape res;
+        switch (state.get(FACING)) {
+            case NORTH:
+            case SOUTH:
+                res = SHAPE_DEFAULT_SN;
+                break;
+            case EAST:
+            case WEST:
+            default:
+                res = SHAPE_DEFAULT_EW;
+                break;
+        }
+        return res;
     }
 
     @Override
