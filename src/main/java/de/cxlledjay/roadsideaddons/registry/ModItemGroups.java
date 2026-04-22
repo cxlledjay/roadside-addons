@@ -24,6 +24,7 @@ public class ModItemGroups {
                         // signs
                         entries.add(ModBlocks.SIGN_DANGER);
                         entries.add(ModBlocks.SIGN_STOP);
+                        entries.add(ModBlocks.SIGN_YIELD);
                     })
             .build());
 

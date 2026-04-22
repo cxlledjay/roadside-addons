@@ -4,6 +4,7 @@ import de.cxlledjay.roadsideaddons.RoadsideAddons;
 import de.cxlledjay.roadsideaddons.block.SignPostBase;
 import de.cxlledjay.roadsideaddons.block.sign.SignDanger;
 import de.cxlledjay.roadsideaddons.block.sign.SignStop;
+import de.cxlledjay.roadsideaddons.block.sign.SignYield;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
@@ -36,6 +37,9 @@ public class ModBlocks {
     public static final Block SIGN_STOP = registerBlock("sign_stop",
             new SignStop(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
 
+    public static final Block SIGN_YIELD = registerBlock("sign_yield",
+            new SignYield(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+
 
 
 
@@ -43,6 +47,7 @@ public class ModBlocks {
     public static void registerTransparency(){
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_DANGER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_STOP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_YIELD, RenderLayer.getCutout());
     }
 
 

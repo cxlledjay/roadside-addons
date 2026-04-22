@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "roadside-addons:block/sign_yield"
+		},
+		"facing=south": {
+			"model": "roadside-addons:block/sign_yield",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "roadside-addons:block/sign_yield",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "roadside-addons:block/sign_yield",
+			"y": 90
+		}
+	}
+}
