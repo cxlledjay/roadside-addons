@@ -30,6 +30,7 @@ public class ModBlocks {
     public static final Block SIGN_POST= registerBlock("sign_post",
             new SignPostBase(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
 
+
     // signs
     public static final Block SIGN_DANGER = registerBlock("sign_danger",
             new SignDanger(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
@@ -66,10 +67,6 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         RoadsideAddons.LOGGER.info("Registering Mod Blocks for " + RoadsideAddons.MOD_ID);
-
-        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-        //    entries.add(ModBlocks.SIGN_POST_BASE);
-        //});
     }
 
 }

@@ -1,0 +1,6 @@
+// 1.21.1	2026-04-22T20:27:22.7007934	Roadside Addons/Block Loot Tables
+3196b8e355b76eae8c16a23ac19c014859f570e2 data\roadside-addons\loot_table\blocks\sign_post.json
+e499ef2886d02f8e39a4bcebd3270bcf6e4347bd data\roadside-addons\loot_table\blocks\sign_danger.json
+e5f767d5d8932387ee49f99a3ce5b614fa9a6197 data\roadside-addons\loot_table\blocks\sign_stop.json
+5484d740c2d5be5123fbeb16ee45f30824e8606e data\roadside-addons\loot_table\blocks\sign_post_base.json
+e1c1af0c67742e67c00c3082ef6353585f845346 data\roadside-addons\loot_table\blocks\sign_yield.json

@@ -2,15 +2,15 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "sign_post",
-		"particle": "sign_post"
+		"0": "roadside-addons:block/sign/post",
+		"particle": "roadside-addons:block/sign/post"
 	},
 	"elements": [
 		{
 			"name": "post",
 			"from": [7, 0, 7],
 			"to": [9, 16, 9],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.5, 8]},
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 9.5, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 2, 16], "texture": "#0"},
 				"east": {"uv": [2, 0, 4, 16], "texture": "#0"},

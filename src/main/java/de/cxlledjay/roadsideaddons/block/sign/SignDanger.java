@@ -2,7 +2,6 @@ package de.cxlledjay.roadsideaddons.block.sign;
 
 
 import com.mojang.serialization.MapCodec;
-import net.minecraft.block.HorizontalFacingBlock;
 
 
 public class SignDanger extends AbstractSign {
@@ -15,7 +14,7 @@ public class SignDanger extends AbstractSign {
     // CODEC overwrite
     private static final MapCodec<SignDanger> CODEC = createCodec(SignDanger::new);
     @Override
-    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
+    protected MapCodec<SignDanger> getCodec() {
         return CODEC;
     }
 }

@@ -7,40 +7,36 @@ import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
+import net.minecraft.state.property.IntProperty;
+import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
 
-public class SignPost extends HorizontalFacingBlock {
-
-    private static final MapCodec<SignPost> CODEC = createCodec(SignPost::new);
-
+public class SignPost extends RotatableBlock {
 
     public SignPost(Settings settings) {
         super(settings);
     }
 
+
+    // ---------------------------- <unique codec> ----------------------------
+    public static final MapCodec<SignPost> CODEC = createCodec(SignPost::new);
+
     @Override
-    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
+    protected MapCodec<? extends RotatableBlock> getCodec() {
         return CODEC;
     }
 
 
-    private static final VoxelShape SHAPE = Block.createCuboidShape(6,0,6,10,16,10);
+
+    // ---------------------------- <hitbox> ----------------------------
+    private static final VoxelShape SHAPE = Block.createCuboidShape(6, 0, 6, 10, 16, 10);
 
     @Override
-    protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+    public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return SHAPE;
-    }
-
-    @Override
-    public @Nullable BlockState getPlacementState(ItemPlacementContext ctx) {
-        return this.getDefaultState().with(FACING, ctx.getHorizontalPlayerFacing());
-    }
-
-    @Override
-    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(FACING);
     }
 }

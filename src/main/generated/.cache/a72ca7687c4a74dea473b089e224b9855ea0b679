@@ -1,0 +1,11 @@
+// 1.21.1	2026-04-22T20:27:22.6997958	Roadside Addons/Model Definitions
+4a72735ae999c674f9ae9df6c4c48a87a782b7a4 assets\roadside-addons\blockstates\sign_danger.json
+5ed9e4e4e0e9c814254a6f76495848ee4af42834 assets\roadside-addons\models\item\sign_post_base.json
+bb6164bd6531736056f4c836bb05843312b40102 assets\roadside-addons\blockstates\sign_post.json
+d1a1553288dfb328b830b34891a1950561270b94 assets\roadside-addons\models\item\sign_post.json
+d1c067d35df06158e3d63167cd23f13f5a292c7b assets\roadside-addons\blockstates\sign_post_base.json
+9ea41657630ebf7bd2e6e56c0c6d41a1505edc4e assets\roadside-addons\models\item\sign_yield.json
+45a5c02b869b3927dd54525c8d725a67d0daf27b assets\roadside-addons\blockstates\sign_yield.json
+922545355e43cd64b6e2f522a2d86c8cab092d76 assets\roadside-addons\blockstates\sign_stop.json
+8db8603d5e1f3c2f93ea413af6af22575e68c617 assets\roadside-addons\models\item\sign_stop.json
+4266fbde592127671b29a95fd2f1f1296ef07a41 assets\roadside-addons\models\item\sign_danger.json

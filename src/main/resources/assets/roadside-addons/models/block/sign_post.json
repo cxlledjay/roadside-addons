@@ -2,8 +2,8 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "roadside-addons:block/sign_post",
-		"particle": "roadside-addons:block/sign_post"
+		"0": "roadside-addons:block/sign/post",
+		"particle": "roadside-addons:block/sign/post"
 	},
 	"elements": [
 		{
@@ -23,29 +23,39 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_righthand": {
-			"translation": [0.25, 4, 0],
+			"rotation": [0, -180, 0],
+			"translation": [-1, 4, 1.75],
 			"scale": [0.6, 0.6, 0.6]
 		},
 		"firstperson_lefthand": {
-			"translation": [0.25, 4, 0],
+			"rotation": [0, -180, 0],
+			"translation": [-1, 4, 1.75],
 			"scale": [0.6, 0.6, 0.6]
 		},
 		"ground": {
+			"rotation": [0, -180, 0],
 			"translation": [0, 1.75, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
-			"rotation": [51, 23, -42]
+			"rotation": [28, -155, 0],
+			"translation": [0, 0.75, 0],
+			"scale": [0.92, 0.92, 0.92]
 		},
 		"head": {
-			"rotation": [-38, 0, 0],
-			"translation": [0, 12, -9.5]
+			"rotation": [-32, 0, 0],
+			"translation": [0, 12.5, -9]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0]
 		}
 	}
 }
