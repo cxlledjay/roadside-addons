@@ -4,6 +4,7 @@
 
 
   "block.roadside-addons.sign_danger": "Danger Sign",
+  "block.roadside-addons.sign_stop": "Stop Sign",
 
   "itemgroup.roadside-addons.items": "Roadside Addons Items"
 }

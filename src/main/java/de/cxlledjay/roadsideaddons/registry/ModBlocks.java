@@ -3,6 +3,7 @@ package de.cxlledjay.roadsideaddons.registry;
 import de.cxlledjay.roadsideaddons.RoadsideAddons;
 import de.cxlledjay.roadsideaddons.block.SignPostBase;
 import de.cxlledjay.roadsideaddons.block.sign.SignDanger;
+import de.cxlledjay.roadsideaddons.block.sign.SignStop;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -29,6 +30,9 @@ public class ModBlocks {
     // signs
     public static final Block SIGN_DANGER = registerBlock("sign_danger",
             new SignDanger(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+
+    public static final Block SIGN_STOP = registerBlock("sign_stop",
+            new SignStop(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
 
 
 

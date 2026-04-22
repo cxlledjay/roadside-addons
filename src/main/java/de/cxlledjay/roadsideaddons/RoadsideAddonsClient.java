@@ -9,5 +9,6 @@ public class RoadsideAddonsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_DANGER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_STOP, RenderLayer.getCutout());
     }
 }

@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIGN_POST);
                         // signs
                         entries.add(ModBlocks.SIGN_DANGER);
+                        entries.add(ModBlocks.SIGN_STOP);
                     })
             .build());
 
