@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "F": {
+      "item": "minecraft:item_frame"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    " N ",
+    "NFN",
+    "NNN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "roadside-addons:sign_danger"
+  }
+}

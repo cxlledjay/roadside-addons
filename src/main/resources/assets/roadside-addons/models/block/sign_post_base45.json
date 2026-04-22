@@ -2,8 +2,8 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "roadside-addons:block/sign/post",
-		"particle": "roadside-addons:block/sign/post"
+		"0": "roadside-addons:block/sign/post_small",
+		"particle": "roadside-addons:block/sign/post_small"
 	},
 	"elements": [
 		{
