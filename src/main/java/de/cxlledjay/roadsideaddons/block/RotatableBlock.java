@@ -18,6 +18,10 @@ import org.jetbrains.annotations.Nullable;
 
 abstract public class RotatableBlock extends Block {
 
+    // 8 way rotation property
+    public static final IntProperty ROTATION = Properties.ROTATION;
+
+
     // ---------------------------- <constructor> ----------------------------
     public RotatableBlock(Settings settings) {
         super(settings);
@@ -35,12 +39,10 @@ abstract public class RotatableBlock extends Block {
 
 
     // ---------------------------- <placement rotation> ----------------------------
-    // 8 way rotation property
-    public static final IntProperty ROTATION = IntProperty.of("rotation", 0, 7);
     @Override
     public @Nullable BlockState getPlacementState(ItemPlacementContext ctx) {
-        // calculate 8-way rotation based on player yaw
-        return this.getDefaultState().with(ROTATION, MathHelper.floor((double)(ctx.getPlayerYaw() * 8.0f / 360.0f) + 0.5) & 7);
+        // calculate 16-way rotation based on player yaw
+        return this.getDefaultState().with(ROTATION, MathHelper.floor((double)(ctx.getPlayerYaw() * 16.0f / 360.0f) + 0.5) & 0x0F);
     }
 
     @Override
