@@ -6,7 +6,7 @@
 		"particle": "roadside-addons:block/post/post",
 		"post": "roadside-addons:block/post/post",
 		"base": "roadside-addons:block/sign_stop/base",
-		"overlay": "roadside-addons:block/sign_stop/overlay_1"
+		"overlay": "roadside-addons:block/sign_stop/defaultpng"
 	},
 	"elements": [
 		{

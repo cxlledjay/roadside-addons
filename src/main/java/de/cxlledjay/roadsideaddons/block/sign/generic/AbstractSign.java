@@ -1,19 +1,17 @@
-package de.cxlledjay.roadsideaddons.block.sign;
+package de.cxlledjay.roadsideaddons.block.sign.generic;
 
 import com.mojang.serialization.MapCodec;
 import de.cxlledjay.roadsideaddons.block.RotatableBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.block.ShapeContext;
-import net.minecraft.item.ItemPlacementContext;
-import net.minecraft.state.StateManager;
+import net.minecraft.state.property.EnumProperty;
+import net.minecraft.state.property.Property;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
-import org.jetbrains.annotations.Nullable;
 
-abstract class AbstractSign extends RotatableBlock {
+public abstract class AbstractSign extends RotatableBlock{
 
     // ---------------------------- <constructor> ----------------------------
     public AbstractSign(Settings settings) {
@@ -73,4 +71,7 @@ abstract class AbstractSign extends RotatableBlock {
         }
         return res;
     }
+
+    // ---------------------------- <variants interface> ----------------------------
+    public abstract EnumProperty<? extends SignVariant> getVariantProperty();
 }

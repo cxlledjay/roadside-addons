@@ -1004,7 +1004,7 @@
   ],
   "textures": {
     "base": "roadside-addons:block/sign_yield/base",
-    "overlay": "roadside-addons:block/sign_yield/overlay_1",
+    "overlay": "roadside-addons:block/sign_yield/default",
     "particle": "roadside-addons:block/sign_yield/base",
     "post": "roadside-addons:block/post/post"
   }

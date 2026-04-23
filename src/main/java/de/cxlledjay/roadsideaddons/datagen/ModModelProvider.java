@@ -30,9 +30,9 @@ public class ModModelProvider extends FabricModelProvider {
         // generate rotating block models for all 16 way rotating blocks
         SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.SIGN_POST_BASE);
         SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.SIGN_POST);
-        SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.SIGN_DANGER);
-        SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.SIGN_YIELD);
-        SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.SIGN_STOP);
+        SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_DANGER);
+        SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_YIELD);
+        SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_STOP);
     }
 
     // ---------------------------- <generate item models> ----------------------------

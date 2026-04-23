@@ -18,7 +18,7 @@ import org.jetbrains.annotations.Nullable;
 
 abstract public class RotatableBlock extends Block {
 
-    // 8 way rotation property
+    // 16 way rotation property
     public static final IntProperty ROTATION = Properties.ROTATION;
 
 

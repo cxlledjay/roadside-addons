@@ -175,7 +175,7 @@
       ],
       "name": "post",
       "rotation": {
-        "angle": -45,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -255,7 +255,7 @@
       ],
       "name": "post",
       "rotation": {
-        "angle": -45,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -334,7 +334,7 @@
         5.999
       ],
       "rotation": {
-        "angle": -45,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -413,7 +413,7 @@
         6
       ],
       "rotation": {
-        "angle": -45,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -492,7 +492,7 @@
         6
       ],
       "rotation": {
-        "angle": -45,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -571,7 +571,7 @@
         6
       ],
       "rotation": {
-        "angle": -45,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -650,7 +650,7 @@
         6
       ],
       "rotation": {
-        "angle": -45,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -729,7 +729,7 @@
         6
       ],
       "rotation": {
-        "angle": -45,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -808,7 +808,7 @@
         6
       ],
       "rotation": {
-        "angle": -45,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -887,7 +887,7 @@
         5.999
       ],
       "rotation": {
-        "angle": -45,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -965,7 +965,7 @@
       ],
       "name": "texture_overlay",
       "rotation": {
-        "angle": -45,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -1024,7 +1024,7 @@
   ],
   "textures": {
     "base": "roadside-addons:block/sign_danger/base",
-    "overlay": "roadside-addons:block/sign_danger/overlay_1",
+    "overlay": "roadside-addons:block/sign_danger/crossing",
     "particle": "roadside-addons:block/post/post",
     "post": "roadside-addons:block/post/post"
   }
