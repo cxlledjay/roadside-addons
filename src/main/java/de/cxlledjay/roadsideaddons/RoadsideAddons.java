@@ -2,6 +2,7 @@ package de.cxlledjay.roadsideaddons;
 
 import de.cxlledjay.roadsideaddons.registry.ModBlocks;
 import de.cxlledjay.roadsideaddons.registry.ModItemGroups;
+import de.cxlledjay.roadsideaddons.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -25,5 +26,6 @@ public class RoadsideAddons implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
 	}
 }

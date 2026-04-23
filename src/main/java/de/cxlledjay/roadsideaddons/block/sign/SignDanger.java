@@ -63,18 +63,4 @@ public class SignDanger extends AbstractSign {
         builder.add(VARIANT, ROTATION);
     }
 
-
-
-    // ---------------------------- <change sign method> ----------------------------
-
-    @Override
-    protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
-
-        // server sided event
-        if(!world.isClient()) {
-            world.setBlockState(pos, state.cycle(VARIANT));
-        }
-
-        return ActionResult.SUCCESS;
-    }
 }

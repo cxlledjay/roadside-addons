@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.SIGN_POST_BASE))
                     .displayName(Text.translatable("itemgroup.roadside-addons.items"))
                     .entries((displayContext, entries) -> {
+                        // ----- blocks
                         // post
                         entries.add(ModBlocks.SIGN_POST_BASE);
                         entries.add(ModBlocks.SIGN_POST);
@@ -25,6 +26,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIGN_DANGER);
                         entries.add(ModBlocks.SIGN_STOP);
                         entries.add(ModBlocks.SIGN_YIELD);
+
+                        // ----- items
+                        entries.add(ModItems.SIGN_BRUSH);
                     })
             .build());
 

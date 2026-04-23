@@ -4,6 +4,7 @@ import com.google.gson.JsonPrimitive;
 import de.cxlledjay.roadsideaddons.RoadsideAddons;
 import de.cxlledjay.roadsideaddons.block.RotatableBlock;
 import de.cxlledjay.roadsideaddons.registry.ModBlocks;
+import de.cxlledjay.roadsideaddons.registry.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Block;
@@ -38,7 +39,7 @@ public class ModModelProvider extends FabricModelProvider {
     // ---------------------------- <generate item models> ----------------------------
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        // ...
+        itemModelGenerator.register(ModItems.SIGN_BRUSH, Models.GENERATED);
     }
 
 
