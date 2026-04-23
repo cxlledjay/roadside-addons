@@ -22,8 +22,8 @@ import java.util.Optional;
 public class SignModelHelper {
 
 
-    private static final double[] angles = {0, -22.5, 45, 22.5}; //< all four rotation angles (DO NOT EDIT!!)
-    private static final String[] fileEndings = {"0", "n22", "45", "22"}; //< matching names for rotation angles (DO NOT EDIT!!)
+    private static final double[] angles = {0, -22.5, -45, 22.5}; //< all four rotation angles (DO NOT EDIT!!)
+    private static final String[] fileEndings = {"0", "n22", "n45", "22"}; //< matching names for rotation angles (DO NOT EDIT!!)
 
 
 
@@ -31,7 +31,7 @@ public class SignModelHelper {
 
 
     // register a "normal" 16 way rotatable block with only one variant (e.g. cone, pole, bollard, ...)
-    public static void generateRotatableBlockData(Block modblock, FabricDataOutput output, BlockStateModelGenerator generator) {
+    public static void generateRotatableBlockData(FabricDataOutput output, BlockStateModelGenerator generator, Block modblock) {
         // generate block and item model for this block
         generateRotatedBlockModelsFromTemplate(modblock, output, generator);
 
@@ -51,18 +51,12 @@ public class SignModelHelper {
 
     private static void generateRotatedBlockModelsFromTemplate(Block modblock, FabricDataOutput output, BlockStateModelGenerator generator) {
 
-        // get filesystem paths
-        Path gendataModelDir = output.getPath()
-                .resolve("assets/")
-                .resolve(RoadsideAddons.MOD_ID)
-                .resolve("models/blocks");
-
+        // get filesystem path
         Path templateModelDir = output.getPath().getParent()
                 .resolve("resources/assets")
                 .resolve(RoadsideAddons.MOD_ID)
                 .resolve("models/block");
 
-        //RoadsideAddons.LOGGER.info("gendata directory located: " + gendataModelDir.toString());
         //RoadsideAddons.LOGGER.info("template models directory located: " + templateModelDir.toString());
 
 
@@ -99,9 +93,11 @@ public class SignModelHelper {
             applyRotation(modifiedJson, angles[i]);
 
             // use generator to save new json
-            Identifier modifiedJsonId = Identifier.of(RoadsideAddons.MOD_ID, "block/" + blockId + "_" + fileEndings[i]);
+            Identifier modifiedJsonId = Identifier.of(RoadsideAddons.MOD_ID, "block/" + blockId + "/"+ blockId + "_" + fileEndings[i]);
             generator.modelCollector.accept(modifiedJsonId, () -> modifiedJson);
         }
+
+        // register item model via parent (refers to template file, which shall be rendered in inv)
         generator.registerParentedItemModel(modblock, Identifier.of(RoadsideAddons.MOD_ID + ":" + "block/" + blockId));
     }
 
@@ -142,8 +138,8 @@ public class SignModelHelper {
 
     private static void generateNormalBlockstates(Block modblock, BlockStateModelGenerator generator) {
 
-        // get block/name (e.g. "block/sign_danger")
-        String blockName = "block/" + Registries.BLOCK.getId(modblock).getPath();
+        // get path+name (e.g. "block/sign_danger/sign_danger")
+        String blockName = "block/" + Registries.BLOCK.getId(modblock).getPath() + "/" + Registries.BLOCK.getId(modblock).getPath();
 
         // get identifiers based on naming convention
         List<Identifier> modelIds = new ArrayList<>();
