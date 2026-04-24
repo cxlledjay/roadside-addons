@@ -36,7 +36,8 @@ public class SignDanger extends AbstractSign {
     // Define the specific Enum for this block
     public enum DangerType implements SignVariant {
         DEFAULT("default"),
-        CROSSING("crossing");
+        CROSSING("crossing"),
+        CONSTRUCTION("construction");
 
         private final String name;
 
