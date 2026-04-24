@@ -27,6 +27,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIGN_STOP);
                         entries.add(ModBlocks.SIGN_YIELD);
 
+                        // cone
+                        entries.add(ModBlocks.TRAFFIC_CONE);
+
                         // ----- items
                         entries.add(ModItems.SIGN_BRUSH);
                     })

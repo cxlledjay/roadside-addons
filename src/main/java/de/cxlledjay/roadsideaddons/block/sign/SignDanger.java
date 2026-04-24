@@ -36,8 +36,34 @@ public class SignDanger extends AbstractSign {
     // Define the specific Enum for this block
     public enum DangerType implements SignVariant {
         DEFAULT("default"),
+        CATTLE("cattle"),
+        CONSTRUCTION("construction"),
         CROSSING("crossing"),
-        CONSTRUCTION("construction");
+        CURVE_LEFT("curve_left"),
+        CURVE_RIGHT("curve_right"),
+        DANGERZONE("dangerzone"),
+        DOUBLECURVE_LEFT("doublecurve_left"),
+        DOUBLECURVE_RIGHT("doublecurve_right"),
+        DRIFT("drift"),
+        FROG("frog"),
+        GRADIENT("gradient"),
+        HORSE("horse"),
+        ICE("ice"),
+        NARROWED("narrowed"),
+        NARROWED_LEFT("narrowed_left"),
+        NARROWED_RIGHT("narrowed_right"),
+        ONCOMING("oncoming"),
+        PEDESTRIAN("pedestrian"),
+        PEDESTRIAN_CROSSING("pedestrian_crossing"),
+        PLANE("plane"),
+        RIGHT_OF_WAY("right_of_way"),
+        ROCKFALL("rockfall"),
+        SHORE("shore"),
+        SLOPE("slope"),
+        TRAFFIC_LIGHT("traffic_light"),
+        TRAIN("train"),
+        UNEVEN("uneven"),
+        WILDLIFE("wildlife");
 
         private final String name;
 

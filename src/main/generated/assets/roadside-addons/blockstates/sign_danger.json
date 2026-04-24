@@ -1,5 +1,9 @@
 {
   "variants": {
+    "rotation=0,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_cattle",
+      "y": 0
+    },
     "rotation=0,variant=construction": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_construction",
       "y": 0
@@ -8,8 +12,112 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_0_crossing",
       "y": 0
     },
+    "rotation=0,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_curve_left",
+      "y": 0
+    },
+    "rotation=0,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_curve_right",
+      "y": 0
+    },
+    "rotation=0,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_dangerzone",
+      "y": 0
+    },
     "rotation=0,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_default",
+      "y": 0
+    },
+    "rotation=0,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_doublecurve_left",
+      "y": 0
+    },
+    "rotation=0,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_doublecurve_right",
+      "y": 0
+    },
+    "rotation=0,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_drift",
+      "y": 0
+    },
+    "rotation=0,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_frog",
+      "y": 0
+    },
+    "rotation=0,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_gradient",
+      "y": 0
+    },
+    "rotation=0,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_horse",
+      "y": 0
+    },
+    "rotation=0,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_ice",
+      "y": 0
+    },
+    "rotation=0,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed",
+      "y": 0
+    },
+    "rotation=0,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed_left",
+      "y": 0
+    },
+    "rotation=0,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed_right",
+      "y": 0
+    },
+    "rotation=0,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_oncoming",
+      "y": 0
+    },
+    "rotation=0,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_pedestrian",
+      "y": 0
+    },
+    "rotation=0,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_pedestrian_crossing",
+      "y": 0
+    },
+    "rotation=0,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_plane",
+      "y": 0
+    },
+    "rotation=0,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_right_of_way",
+      "y": 0
+    },
+    "rotation=0,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_rockfall",
+      "y": 0
+    },
+    "rotation=0,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_shore",
+      "y": 0
+    },
+    "rotation=0,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_slope",
+      "y": 0
+    },
+    "rotation=0,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_traffic_light",
+      "y": 0
+    },
+    "rotation=0,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_train",
+      "y": 0
+    },
+    "rotation=0,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_uneven",
+      "y": 0
+    },
+    "rotation=0,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_wildlife",
+      "y": 0
+    },
+    "rotation=1,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_cattle",
       "y": 0
     },
     "rotation=1,variant=construction": {
@@ -20,9 +128,113 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_crossing",
       "y": 0
     },
+    "rotation=1,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_curve_left",
+      "y": 0
+    },
+    "rotation=1,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_curve_right",
+      "y": 0
+    },
+    "rotation=1,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_dangerzone",
+      "y": 0
+    },
     "rotation=1,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_default",
       "y": 0
+    },
+    "rotation=1,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_doublecurve_left",
+      "y": 0
+    },
+    "rotation=1,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_doublecurve_right",
+      "y": 0
+    },
+    "rotation=1,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_drift",
+      "y": 0
+    },
+    "rotation=1,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_frog",
+      "y": 0
+    },
+    "rotation=1,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_gradient",
+      "y": 0
+    },
+    "rotation=1,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_horse",
+      "y": 0
+    },
+    "rotation=1,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_ice",
+      "y": 0
+    },
+    "rotation=1,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed",
+      "y": 0
+    },
+    "rotation=1,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed_left",
+      "y": 0
+    },
+    "rotation=1,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed_right",
+      "y": 0
+    },
+    "rotation=1,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_oncoming",
+      "y": 0
+    },
+    "rotation=1,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_pedestrian",
+      "y": 0
+    },
+    "rotation=1,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_pedestrian_crossing",
+      "y": 0
+    },
+    "rotation=1,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_plane",
+      "y": 0
+    },
+    "rotation=1,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_right_of_way",
+      "y": 0
+    },
+    "rotation=1,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_rockfall",
+      "y": 0
+    },
+    "rotation=1,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_shore",
+      "y": 0
+    },
+    "rotation=1,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_slope",
+      "y": 0
+    },
+    "rotation=1,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_traffic_light",
+      "y": 0
+    },
+    "rotation=1,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_train",
+      "y": 0
+    },
+    "rotation=1,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_uneven",
+      "y": 0
+    },
+    "rotation=1,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_wildlife",
+      "y": 0
+    },
+    "rotation=10,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_cattle",
+      "y": 180
     },
     "rotation=10,variant=construction": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_construction",
@@ -32,9 +244,113 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_crossing",
       "y": 180
     },
+    "rotation=10,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_curve_left",
+      "y": 180
+    },
+    "rotation=10,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_curve_right",
+      "y": 180
+    },
+    "rotation=10,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_dangerzone",
+      "y": 180
+    },
     "rotation=10,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_default",
       "y": 180
+    },
+    "rotation=10,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_doublecurve_left",
+      "y": 180
+    },
+    "rotation=10,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_doublecurve_right",
+      "y": 180
+    },
+    "rotation=10,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_drift",
+      "y": 180
+    },
+    "rotation=10,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_frog",
+      "y": 180
+    },
+    "rotation=10,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_gradient",
+      "y": 180
+    },
+    "rotation=10,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_horse",
+      "y": 180
+    },
+    "rotation=10,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_ice",
+      "y": 180
+    },
+    "rotation=10,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed",
+      "y": 180
+    },
+    "rotation=10,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed_left",
+      "y": 180
+    },
+    "rotation=10,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed_right",
+      "y": 180
+    },
+    "rotation=10,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_oncoming",
+      "y": 180
+    },
+    "rotation=10,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_pedestrian",
+      "y": 180
+    },
+    "rotation=10,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_pedestrian_crossing",
+      "y": 180
+    },
+    "rotation=10,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_plane",
+      "y": 180
+    },
+    "rotation=10,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_right_of_way",
+      "y": 180
+    },
+    "rotation=10,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_rockfall",
+      "y": 180
+    },
+    "rotation=10,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_shore",
+      "y": 180
+    },
+    "rotation=10,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_slope",
+      "y": 180
+    },
+    "rotation=10,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_traffic_light",
+      "y": 180
+    },
+    "rotation=10,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_train",
+      "y": 180
+    },
+    "rotation=10,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_uneven",
+      "y": 180
+    },
+    "rotation=10,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_wildlife",
+      "y": 180
+    },
+    "rotation=11,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_cattle",
+      "y": 270
     },
     "rotation=11,variant=construction": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_construction",
@@ -44,8 +360,112 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_22_crossing",
       "y": 270
     },
+    "rotation=11,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_curve_left",
+      "y": 270
+    },
+    "rotation=11,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_curve_right",
+      "y": 270
+    },
+    "rotation=11,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_dangerzone",
+      "y": 270
+    },
     "rotation=11,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_default",
+      "y": 270
+    },
+    "rotation=11,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_doublecurve_left",
+      "y": 270
+    },
+    "rotation=11,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_doublecurve_right",
+      "y": 270
+    },
+    "rotation=11,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_drift",
+      "y": 270
+    },
+    "rotation=11,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_frog",
+      "y": 270
+    },
+    "rotation=11,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_gradient",
+      "y": 270
+    },
+    "rotation=11,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_horse",
+      "y": 270
+    },
+    "rotation=11,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_ice",
+      "y": 270
+    },
+    "rotation=11,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed",
+      "y": 270
+    },
+    "rotation=11,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed_left",
+      "y": 270
+    },
+    "rotation=11,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed_right",
+      "y": 270
+    },
+    "rotation=11,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_oncoming",
+      "y": 270
+    },
+    "rotation=11,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_pedestrian",
+      "y": 270
+    },
+    "rotation=11,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_pedestrian_crossing",
+      "y": 270
+    },
+    "rotation=11,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_plane",
+      "y": 270
+    },
+    "rotation=11,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_right_of_way",
+      "y": 270
+    },
+    "rotation=11,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_rockfall",
+      "y": 270
+    },
+    "rotation=11,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_shore",
+      "y": 270
+    },
+    "rotation=11,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_slope",
+      "y": 270
+    },
+    "rotation=11,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_traffic_light",
+      "y": 270
+    },
+    "rotation=11,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_train",
+      "y": 270
+    },
+    "rotation=11,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_uneven",
+      "y": 270
+    },
+    "rotation=11,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_wildlife",
+      "y": 270
+    },
+    "rotation=12,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_cattle",
       "y": 270
     },
     "rotation=12,variant=construction": {
@@ -56,8 +476,112 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_0_crossing",
       "y": 270
     },
+    "rotation=12,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_curve_left",
+      "y": 270
+    },
+    "rotation=12,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_curve_right",
+      "y": 270
+    },
+    "rotation=12,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_dangerzone",
+      "y": 270
+    },
     "rotation=12,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_default",
+      "y": 270
+    },
+    "rotation=12,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_doublecurve_left",
+      "y": 270
+    },
+    "rotation=12,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_doublecurve_right",
+      "y": 270
+    },
+    "rotation=12,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_drift",
+      "y": 270
+    },
+    "rotation=12,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_frog",
+      "y": 270
+    },
+    "rotation=12,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_gradient",
+      "y": 270
+    },
+    "rotation=12,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_horse",
+      "y": 270
+    },
+    "rotation=12,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_ice",
+      "y": 270
+    },
+    "rotation=12,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed",
+      "y": 270
+    },
+    "rotation=12,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed_left",
+      "y": 270
+    },
+    "rotation=12,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed_right",
+      "y": 270
+    },
+    "rotation=12,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_oncoming",
+      "y": 270
+    },
+    "rotation=12,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_pedestrian",
+      "y": 270
+    },
+    "rotation=12,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_pedestrian_crossing",
+      "y": 270
+    },
+    "rotation=12,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_plane",
+      "y": 270
+    },
+    "rotation=12,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_right_of_way",
+      "y": 270
+    },
+    "rotation=12,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_rockfall",
+      "y": 270
+    },
+    "rotation=12,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_shore",
+      "y": 270
+    },
+    "rotation=12,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_slope",
+      "y": 270
+    },
+    "rotation=12,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_traffic_light",
+      "y": 270
+    },
+    "rotation=12,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_train",
+      "y": 270
+    },
+    "rotation=12,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_uneven",
+      "y": 270
+    },
+    "rotation=12,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_wildlife",
+      "y": 270
+    },
+    "rotation=13,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_cattle",
       "y": 270
     },
     "rotation=13,variant=construction": {
@@ -68,8 +592,112 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_crossing",
       "y": 270
     },
+    "rotation=13,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_curve_left",
+      "y": 270
+    },
+    "rotation=13,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_curve_right",
+      "y": 270
+    },
+    "rotation=13,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_dangerzone",
+      "y": 270
+    },
     "rotation=13,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_default",
+      "y": 270
+    },
+    "rotation=13,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_doublecurve_left",
+      "y": 270
+    },
+    "rotation=13,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_doublecurve_right",
+      "y": 270
+    },
+    "rotation=13,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_drift",
+      "y": 270
+    },
+    "rotation=13,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_frog",
+      "y": 270
+    },
+    "rotation=13,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_gradient",
+      "y": 270
+    },
+    "rotation=13,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_horse",
+      "y": 270
+    },
+    "rotation=13,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_ice",
+      "y": 270
+    },
+    "rotation=13,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed",
+      "y": 270
+    },
+    "rotation=13,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed_left",
+      "y": 270
+    },
+    "rotation=13,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed_right",
+      "y": 270
+    },
+    "rotation=13,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_oncoming",
+      "y": 270
+    },
+    "rotation=13,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_pedestrian",
+      "y": 270
+    },
+    "rotation=13,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_pedestrian_crossing",
+      "y": 270
+    },
+    "rotation=13,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_plane",
+      "y": 270
+    },
+    "rotation=13,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_right_of_way",
+      "y": 270
+    },
+    "rotation=13,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_rockfall",
+      "y": 270
+    },
+    "rotation=13,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_shore",
+      "y": 270
+    },
+    "rotation=13,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_slope",
+      "y": 270
+    },
+    "rotation=13,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_traffic_light",
+      "y": 270
+    },
+    "rotation=13,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_train",
+      "y": 270
+    },
+    "rotation=13,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_uneven",
+      "y": 270
+    },
+    "rotation=13,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_wildlife",
+      "y": 270
+    },
+    "rotation=14,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_cattle",
       "y": 270
     },
     "rotation=14,variant=construction": {
@@ -80,9 +708,113 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_crossing",
       "y": 270
     },
+    "rotation=14,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_curve_left",
+      "y": 270
+    },
+    "rotation=14,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_curve_right",
+      "y": 270
+    },
+    "rotation=14,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_dangerzone",
+      "y": 270
+    },
     "rotation=14,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_default",
       "y": 270
+    },
+    "rotation=14,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_doublecurve_left",
+      "y": 270
+    },
+    "rotation=14,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_doublecurve_right",
+      "y": 270
+    },
+    "rotation=14,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_drift",
+      "y": 270
+    },
+    "rotation=14,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_frog",
+      "y": 270
+    },
+    "rotation=14,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_gradient",
+      "y": 270
+    },
+    "rotation=14,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_horse",
+      "y": 270
+    },
+    "rotation=14,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_ice",
+      "y": 270
+    },
+    "rotation=14,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed",
+      "y": 270
+    },
+    "rotation=14,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed_left",
+      "y": 270
+    },
+    "rotation=14,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed_right",
+      "y": 270
+    },
+    "rotation=14,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_oncoming",
+      "y": 270
+    },
+    "rotation=14,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_pedestrian",
+      "y": 270
+    },
+    "rotation=14,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_pedestrian_crossing",
+      "y": 270
+    },
+    "rotation=14,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_plane",
+      "y": 270
+    },
+    "rotation=14,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_right_of_way",
+      "y": 270
+    },
+    "rotation=14,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_rockfall",
+      "y": 270
+    },
+    "rotation=14,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_shore",
+      "y": 270
+    },
+    "rotation=14,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_slope",
+      "y": 270
+    },
+    "rotation=14,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_traffic_light",
+      "y": 270
+    },
+    "rotation=14,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_train",
+      "y": 270
+    },
+    "rotation=14,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_uneven",
+      "y": 270
+    },
+    "rotation=14,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_wildlife",
+      "y": 270
+    },
+    "rotation=15,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_cattle",
+      "y": 0
     },
     "rotation=15,variant=construction": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_construction",
@@ -92,8 +824,112 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_22_crossing",
       "y": 0
     },
+    "rotation=15,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_curve_left",
+      "y": 0
+    },
+    "rotation=15,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_curve_right",
+      "y": 0
+    },
+    "rotation=15,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_dangerzone",
+      "y": 0
+    },
     "rotation=15,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_default",
+      "y": 0
+    },
+    "rotation=15,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_doublecurve_left",
+      "y": 0
+    },
+    "rotation=15,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_doublecurve_right",
+      "y": 0
+    },
+    "rotation=15,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_drift",
+      "y": 0
+    },
+    "rotation=15,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_frog",
+      "y": 0
+    },
+    "rotation=15,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_gradient",
+      "y": 0
+    },
+    "rotation=15,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_horse",
+      "y": 0
+    },
+    "rotation=15,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_ice",
+      "y": 0
+    },
+    "rotation=15,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed",
+      "y": 0
+    },
+    "rotation=15,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed_left",
+      "y": 0
+    },
+    "rotation=15,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed_right",
+      "y": 0
+    },
+    "rotation=15,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_oncoming",
+      "y": 0
+    },
+    "rotation=15,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_pedestrian",
+      "y": 0
+    },
+    "rotation=15,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_pedestrian_crossing",
+      "y": 0
+    },
+    "rotation=15,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_plane",
+      "y": 0
+    },
+    "rotation=15,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_right_of_way",
+      "y": 0
+    },
+    "rotation=15,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_rockfall",
+      "y": 0
+    },
+    "rotation=15,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_shore",
+      "y": 0
+    },
+    "rotation=15,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_slope",
+      "y": 0
+    },
+    "rotation=15,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_traffic_light",
+      "y": 0
+    },
+    "rotation=15,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_train",
+      "y": 0
+    },
+    "rotation=15,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_uneven",
+      "y": 0
+    },
+    "rotation=15,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_wildlife",
+      "y": 0
+    },
+    "rotation=2,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_cattle",
       "y": 0
     },
     "rotation=2,variant=construction": {
@@ -104,9 +940,113 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_crossing",
       "y": 0
     },
+    "rotation=2,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_curve_left",
+      "y": 0
+    },
+    "rotation=2,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_curve_right",
+      "y": 0
+    },
+    "rotation=2,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_dangerzone",
+      "y": 0
+    },
     "rotation=2,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_default",
       "y": 0
+    },
+    "rotation=2,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_doublecurve_left",
+      "y": 0
+    },
+    "rotation=2,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_doublecurve_right",
+      "y": 0
+    },
+    "rotation=2,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_drift",
+      "y": 0
+    },
+    "rotation=2,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_frog",
+      "y": 0
+    },
+    "rotation=2,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_gradient",
+      "y": 0
+    },
+    "rotation=2,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_horse",
+      "y": 0
+    },
+    "rotation=2,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_ice",
+      "y": 0
+    },
+    "rotation=2,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed",
+      "y": 0
+    },
+    "rotation=2,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed_left",
+      "y": 0
+    },
+    "rotation=2,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed_right",
+      "y": 0
+    },
+    "rotation=2,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_oncoming",
+      "y": 0
+    },
+    "rotation=2,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_pedestrian",
+      "y": 0
+    },
+    "rotation=2,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_pedestrian_crossing",
+      "y": 0
+    },
+    "rotation=2,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_plane",
+      "y": 0
+    },
+    "rotation=2,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_right_of_way",
+      "y": 0
+    },
+    "rotation=2,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_rockfall",
+      "y": 0
+    },
+    "rotation=2,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_shore",
+      "y": 0
+    },
+    "rotation=2,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_slope",
+      "y": 0
+    },
+    "rotation=2,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_traffic_light",
+      "y": 0
+    },
+    "rotation=2,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_train",
+      "y": 0
+    },
+    "rotation=2,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_uneven",
+      "y": 0
+    },
+    "rotation=2,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_wildlife",
+      "y": 0
+    },
+    "rotation=3,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_cattle",
+      "y": 90
     },
     "rotation=3,variant=construction": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_construction",
@@ -116,8 +1056,112 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_22_crossing",
       "y": 90
     },
+    "rotation=3,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_curve_left",
+      "y": 90
+    },
+    "rotation=3,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_curve_right",
+      "y": 90
+    },
+    "rotation=3,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_dangerzone",
+      "y": 90
+    },
     "rotation=3,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_default",
+      "y": 90
+    },
+    "rotation=3,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_doublecurve_left",
+      "y": 90
+    },
+    "rotation=3,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_doublecurve_right",
+      "y": 90
+    },
+    "rotation=3,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_drift",
+      "y": 90
+    },
+    "rotation=3,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_frog",
+      "y": 90
+    },
+    "rotation=3,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_gradient",
+      "y": 90
+    },
+    "rotation=3,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_horse",
+      "y": 90
+    },
+    "rotation=3,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_ice",
+      "y": 90
+    },
+    "rotation=3,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed",
+      "y": 90
+    },
+    "rotation=3,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed_left",
+      "y": 90
+    },
+    "rotation=3,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed_right",
+      "y": 90
+    },
+    "rotation=3,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_oncoming",
+      "y": 90
+    },
+    "rotation=3,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_pedestrian",
+      "y": 90
+    },
+    "rotation=3,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_pedestrian_crossing",
+      "y": 90
+    },
+    "rotation=3,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_plane",
+      "y": 90
+    },
+    "rotation=3,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_right_of_way",
+      "y": 90
+    },
+    "rotation=3,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_rockfall",
+      "y": 90
+    },
+    "rotation=3,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_shore",
+      "y": 90
+    },
+    "rotation=3,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_slope",
+      "y": 90
+    },
+    "rotation=3,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_traffic_light",
+      "y": 90
+    },
+    "rotation=3,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_train",
+      "y": 90
+    },
+    "rotation=3,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_uneven",
+      "y": 90
+    },
+    "rotation=3,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_wildlife",
+      "y": 90
+    },
+    "rotation=4,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_cattle",
       "y": 90
     },
     "rotation=4,variant=construction": {
@@ -128,8 +1172,112 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_0_crossing",
       "y": 90
     },
+    "rotation=4,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_curve_left",
+      "y": 90
+    },
+    "rotation=4,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_curve_right",
+      "y": 90
+    },
+    "rotation=4,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_dangerzone",
+      "y": 90
+    },
     "rotation=4,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_default",
+      "y": 90
+    },
+    "rotation=4,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_doublecurve_left",
+      "y": 90
+    },
+    "rotation=4,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_doublecurve_right",
+      "y": 90
+    },
+    "rotation=4,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_drift",
+      "y": 90
+    },
+    "rotation=4,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_frog",
+      "y": 90
+    },
+    "rotation=4,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_gradient",
+      "y": 90
+    },
+    "rotation=4,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_horse",
+      "y": 90
+    },
+    "rotation=4,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_ice",
+      "y": 90
+    },
+    "rotation=4,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed",
+      "y": 90
+    },
+    "rotation=4,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed_left",
+      "y": 90
+    },
+    "rotation=4,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed_right",
+      "y": 90
+    },
+    "rotation=4,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_oncoming",
+      "y": 90
+    },
+    "rotation=4,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_pedestrian",
+      "y": 90
+    },
+    "rotation=4,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_pedestrian_crossing",
+      "y": 90
+    },
+    "rotation=4,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_plane",
+      "y": 90
+    },
+    "rotation=4,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_right_of_way",
+      "y": 90
+    },
+    "rotation=4,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_rockfall",
+      "y": 90
+    },
+    "rotation=4,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_shore",
+      "y": 90
+    },
+    "rotation=4,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_slope",
+      "y": 90
+    },
+    "rotation=4,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_traffic_light",
+      "y": 90
+    },
+    "rotation=4,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_train",
+      "y": 90
+    },
+    "rotation=4,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_uneven",
+      "y": 90
+    },
+    "rotation=4,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_wildlife",
+      "y": 90
+    },
+    "rotation=5,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_cattle",
       "y": 90
     },
     "rotation=5,variant=construction": {
@@ -140,8 +1288,112 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_crossing",
       "y": 90
     },
+    "rotation=5,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_curve_left",
+      "y": 90
+    },
+    "rotation=5,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_curve_right",
+      "y": 90
+    },
+    "rotation=5,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_dangerzone",
+      "y": 90
+    },
     "rotation=5,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_default",
+      "y": 90
+    },
+    "rotation=5,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_doublecurve_left",
+      "y": 90
+    },
+    "rotation=5,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_doublecurve_right",
+      "y": 90
+    },
+    "rotation=5,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_drift",
+      "y": 90
+    },
+    "rotation=5,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_frog",
+      "y": 90
+    },
+    "rotation=5,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_gradient",
+      "y": 90
+    },
+    "rotation=5,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_horse",
+      "y": 90
+    },
+    "rotation=5,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_ice",
+      "y": 90
+    },
+    "rotation=5,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed",
+      "y": 90
+    },
+    "rotation=5,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed_left",
+      "y": 90
+    },
+    "rotation=5,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed_right",
+      "y": 90
+    },
+    "rotation=5,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_oncoming",
+      "y": 90
+    },
+    "rotation=5,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_pedestrian",
+      "y": 90
+    },
+    "rotation=5,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_pedestrian_crossing",
+      "y": 90
+    },
+    "rotation=5,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_plane",
+      "y": 90
+    },
+    "rotation=5,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_right_of_way",
+      "y": 90
+    },
+    "rotation=5,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_rockfall",
+      "y": 90
+    },
+    "rotation=5,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_shore",
+      "y": 90
+    },
+    "rotation=5,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_slope",
+      "y": 90
+    },
+    "rotation=5,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_traffic_light",
+      "y": 90
+    },
+    "rotation=5,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_train",
+      "y": 90
+    },
+    "rotation=5,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_uneven",
+      "y": 90
+    },
+    "rotation=5,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_wildlife",
+      "y": 90
+    },
+    "rotation=6,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_cattle",
       "y": 90
     },
     "rotation=6,variant=construction": {
@@ -152,9 +1404,113 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_crossing",
       "y": 90
     },
+    "rotation=6,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_curve_left",
+      "y": 90
+    },
+    "rotation=6,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_curve_right",
+      "y": 90
+    },
+    "rotation=6,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_dangerzone",
+      "y": 90
+    },
     "rotation=6,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_default",
       "y": 90
+    },
+    "rotation=6,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_doublecurve_left",
+      "y": 90
+    },
+    "rotation=6,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_doublecurve_right",
+      "y": 90
+    },
+    "rotation=6,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_drift",
+      "y": 90
+    },
+    "rotation=6,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_frog",
+      "y": 90
+    },
+    "rotation=6,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_gradient",
+      "y": 90
+    },
+    "rotation=6,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_horse",
+      "y": 90
+    },
+    "rotation=6,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_ice",
+      "y": 90
+    },
+    "rotation=6,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed",
+      "y": 90
+    },
+    "rotation=6,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed_left",
+      "y": 90
+    },
+    "rotation=6,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_narrowed_right",
+      "y": 90
+    },
+    "rotation=6,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_oncoming",
+      "y": 90
+    },
+    "rotation=6,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_pedestrian",
+      "y": 90
+    },
+    "rotation=6,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_pedestrian_crossing",
+      "y": 90
+    },
+    "rotation=6,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_plane",
+      "y": 90
+    },
+    "rotation=6,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_right_of_way",
+      "y": 90
+    },
+    "rotation=6,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_rockfall",
+      "y": 90
+    },
+    "rotation=6,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_shore",
+      "y": 90
+    },
+    "rotation=6,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_slope",
+      "y": 90
+    },
+    "rotation=6,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_traffic_light",
+      "y": 90
+    },
+    "rotation=6,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_train",
+      "y": 90
+    },
+    "rotation=6,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_uneven",
+      "y": 90
+    },
+    "rotation=6,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_wildlife",
+      "y": 90
+    },
+    "rotation=7,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_cattle",
+      "y": 180
     },
     "rotation=7,variant=construction": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_construction",
@@ -164,8 +1520,112 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_22_crossing",
       "y": 180
     },
+    "rotation=7,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_curve_left",
+      "y": 180
+    },
+    "rotation=7,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_curve_right",
+      "y": 180
+    },
+    "rotation=7,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_dangerzone",
+      "y": 180
+    },
     "rotation=7,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_default",
+      "y": 180
+    },
+    "rotation=7,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_doublecurve_left",
+      "y": 180
+    },
+    "rotation=7,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_doublecurve_right",
+      "y": 180
+    },
+    "rotation=7,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_drift",
+      "y": 180
+    },
+    "rotation=7,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_frog",
+      "y": 180
+    },
+    "rotation=7,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_gradient",
+      "y": 180
+    },
+    "rotation=7,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_horse",
+      "y": 180
+    },
+    "rotation=7,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_ice",
+      "y": 180
+    },
+    "rotation=7,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed",
+      "y": 180
+    },
+    "rotation=7,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed_left",
+      "y": 180
+    },
+    "rotation=7,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_narrowed_right",
+      "y": 180
+    },
+    "rotation=7,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_oncoming",
+      "y": 180
+    },
+    "rotation=7,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_pedestrian",
+      "y": 180
+    },
+    "rotation=7,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_pedestrian_crossing",
+      "y": 180
+    },
+    "rotation=7,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_plane",
+      "y": 180
+    },
+    "rotation=7,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_right_of_way",
+      "y": 180
+    },
+    "rotation=7,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_rockfall",
+      "y": 180
+    },
+    "rotation=7,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_shore",
+      "y": 180
+    },
+    "rotation=7,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_slope",
+      "y": 180
+    },
+    "rotation=7,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_traffic_light",
+      "y": 180
+    },
+    "rotation=7,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_train",
+      "y": 180
+    },
+    "rotation=7,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_uneven",
+      "y": 180
+    },
+    "rotation=7,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_wildlife",
+      "y": 180
+    },
+    "rotation=8,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_cattle",
       "y": 180
     },
     "rotation=8,variant=construction": {
@@ -176,8 +1636,112 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_0_crossing",
       "y": 180
     },
+    "rotation=8,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_curve_left",
+      "y": 180
+    },
+    "rotation=8,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_curve_right",
+      "y": 180
+    },
+    "rotation=8,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_dangerzone",
+      "y": 180
+    },
     "rotation=8,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_default",
+      "y": 180
+    },
+    "rotation=8,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_doublecurve_left",
+      "y": 180
+    },
+    "rotation=8,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_doublecurve_right",
+      "y": 180
+    },
+    "rotation=8,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_drift",
+      "y": 180
+    },
+    "rotation=8,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_frog",
+      "y": 180
+    },
+    "rotation=8,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_gradient",
+      "y": 180
+    },
+    "rotation=8,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_horse",
+      "y": 180
+    },
+    "rotation=8,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_ice",
+      "y": 180
+    },
+    "rotation=8,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed",
+      "y": 180
+    },
+    "rotation=8,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed_left",
+      "y": 180
+    },
+    "rotation=8,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_narrowed_right",
+      "y": 180
+    },
+    "rotation=8,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_oncoming",
+      "y": 180
+    },
+    "rotation=8,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_pedestrian",
+      "y": 180
+    },
+    "rotation=8,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_pedestrian_crossing",
+      "y": 180
+    },
+    "rotation=8,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_plane",
+      "y": 180
+    },
+    "rotation=8,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_right_of_way",
+      "y": 180
+    },
+    "rotation=8,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_rockfall",
+      "y": 180
+    },
+    "rotation=8,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_shore",
+      "y": 180
+    },
+    "rotation=8,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_slope",
+      "y": 180
+    },
+    "rotation=8,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_traffic_light",
+      "y": 180
+    },
+    "rotation=8,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_train",
+      "y": 180
+    },
+    "rotation=8,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_uneven",
+      "y": 180
+    },
+    "rotation=8,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_wildlife",
+      "y": 180
+    },
+    "rotation=9,variant=cattle": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_cattle",
       "y": 180
     },
     "rotation=9,variant=construction": {
@@ -188,8 +1752,108 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_crossing",
       "y": 180
     },
+    "rotation=9,variant=curve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_curve_left",
+      "y": 180
+    },
+    "rotation=9,variant=curve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_curve_right",
+      "y": 180
+    },
+    "rotation=9,variant=dangerzone": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_dangerzone",
+      "y": 180
+    },
     "rotation=9,variant=default": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_default",
+      "y": 180
+    },
+    "rotation=9,variant=doublecurve_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_doublecurve_left",
+      "y": 180
+    },
+    "rotation=9,variant=doublecurve_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_doublecurve_right",
+      "y": 180
+    },
+    "rotation=9,variant=drift": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_drift",
+      "y": 180
+    },
+    "rotation=9,variant=frog": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_frog",
+      "y": 180
+    },
+    "rotation=9,variant=gradient": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_gradient",
+      "y": 180
+    },
+    "rotation=9,variant=horse": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_horse",
+      "y": 180
+    },
+    "rotation=9,variant=ice": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_ice",
+      "y": 180
+    },
+    "rotation=9,variant=narrowed": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed",
+      "y": 180
+    },
+    "rotation=9,variant=narrowed_left": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed_left",
+      "y": 180
+    },
+    "rotation=9,variant=narrowed_right": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_narrowed_right",
+      "y": 180
+    },
+    "rotation=9,variant=oncoming": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_oncoming",
+      "y": 180
+    },
+    "rotation=9,variant=pedestrian": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_pedestrian",
+      "y": 180
+    },
+    "rotation=9,variant=pedestrian_crossing": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_pedestrian_crossing",
+      "y": 180
+    },
+    "rotation=9,variant=plane": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_plane",
+      "y": 180
+    },
+    "rotation=9,variant=right_of_way": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_right_of_way",
+      "y": 180
+    },
+    "rotation=9,variant=rockfall": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_rockfall",
+      "y": 180
+    },
+    "rotation=9,variant=shore": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_shore",
+      "y": 180
+    },
+    "rotation=9,variant=slope": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_slope",
+      "y": 180
+    },
+    "rotation=9,variant=traffic_light": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_traffic_light",
+      "y": 180
+    },
+    "rotation=9,variant=train": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_train",
+      "y": 180
+    },
+    "rotation=9,variant=uneven": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_uneven",
+      "y": 180
+    },
+    "rotation=9,variant=wildlife": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_wildlife",
       "y": 180
     }
   }

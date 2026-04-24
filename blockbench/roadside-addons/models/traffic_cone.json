@@ -1,0 +1,135 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"particle": "roadside-addons:block/cone/traffic_cone",
+		"cone": "roadside-addons:block/cone/traffic_cone"
+	},
+	"elements": [
+		{
+			"name": "bottom",
+			"from": [1.5, 0, 1.5],
+			"to": [14.5, 1, 14.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [6.25, 1, 9, 1.25], "texture": "#cone"},
+				"east": {"uv": [6.25, 1.25, 9, 1.5], "texture": "#cone"},
+				"south": {"uv": [6.25, 1.5, 9, 1.75], "texture": "#cone"},
+				"west": {"uv": [1.75, 6.25, 4.5, 6.5], "texture": "#cone"},
+				"up": {"uv": [2.75, 2.75, 0, 0], "texture": "#cone"},
+				"down": {"uv": [2.75, 2.75, 0, 5.5], "texture": "#cone"}
+			}
+		},
+		{
+			"name": "one",
+			"from": [3, 1, 3],
+			"to": [13, 3.5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [5, 2.5, 7.25, 3], "texture": "#cone"},
+				"east": {"uv": [5, 3, 7.25, 3.5], "texture": "#cone"},
+				"south": {"uv": [5, 3.5, 7.25, 4], "texture": "#cone"},
+				"west": {"uv": [5, 4, 7.25, 4.5], "texture": "#cone"},
+				"up": {"uv": [5, 2.25, 2.75, 0], "texture": "#cone"},
+				"down": {"uv": [5, 2.25, 2.75, 4.5], "texture": "#cone"}
+			}
+		},
+		{
+			"name": "two",
+			"from": [4, 3.5, 4],
+			"to": [12, 6, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 5.5, 1.75, 6], "texture": "#cone"},
+				"east": {"uv": [0, 6, 1.75, 6.5], "texture": "#cone"},
+				"south": {"uv": [6.25, 0, 8, 0.5], "texture": "#cone"},
+				"west": {"uv": [6.25, 0.5, 8, 1], "texture": "#cone"},
+				"up": {"uv": [4.5, 6.25, 2.75, 4.5], "texture": "#cone"},
+				"down": {"uv": [6.25, 4.5, 4.5, 6.25], "texture": "#cone"}
+			}
+		},
+		{
+			"name": "three",
+			"from": [5, 6, 5],
+			"to": [11, 8.5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [6.25, 1.75, 7.5, 2.25], "texture": "#cone"},
+				"east": {"uv": [4.5, 6.25, 5.75, 6.75], "texture": "#cone"},
+				"south": {"uv": [6.25, 4.5, 7.5, 5], "texture": "#cone"},
+				"west": {"uv": [6.25, 5, 7.5, 5.5], "texture": "#cone"},
+				"up": {"uv": [6.25, 1.25, 5, 0], "texture": "#cone"},
+				"down": {"uv": [6.25, 1.25, 5, 2.5], "texture": "#cone"}
+			}
+		},
+		{
+			"name": "four",
+			"from": [6, 8.5, 6],
+			"to": [10, 11, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [5.75, 6.25, 6.5, 6.75], "texture": "#cone"},
+				"east": {"uv": [0, 6.5, 0.75, 7], "texture": "#cone"},
+				"south": {"uv": [0.75, 6.5, 1.5, 7], "texture": "#cone"},
+				"west": {"uv": [1.5, 6.5, 2.25, 7], "texture": "#cone"},
+				"up": {"uv": [2.5, 6.25, 1.75, 5.5], "texture": "#cone"},
+				"down": {"uv": [7, 5.5, 6.25, 6.25], "texture": "#cone"}
+			}
+		},
+		{
+			"name": "top",
+			"from": [7, 11, 7],
+			"to": [9, 13.5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [2.5, 5.5, 2.75, 6], "texture": "#cone"},
+				"east": {"uv": [2.25, 6.5, 2.5, 7], "texture": "#cone"},
+				"south": {"uv": [2.5, 6.5, 2.75, 7], "texture": "#cone"},
+				"west": {"uv": [2.75, 6.5, 3, 7], "texture": "#cone"},
+				"up": {"uv": [2.75, 6.25, 2.5, 6], "texture": "#cone"},
+				"down": {"uv": [6.5, 2.25, 6.25, 2.5], "texture": "#cone"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"translation": [-0.5, 5, 2.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [-0.5, 5, 2.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [24, -20, 0],
+			"translation": [0, 3.25, 0]
+		},
+		"head": {
+			"translation": [0, 14, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "cone",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

@@ -77,6 +77,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+        // ------------------------- <cone> -------------------------
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRAFFIC_CONE,9)
+                .pattern(" W ")
+                .pattern("OOO")
+                .pattern("GGG")
+                .input('O', Items.ORANGE_CONCRETE)
+                .input('W', Items.WHITE_CONCRETE)
+                .input('G', Items.GRAY_CONCRETE)
+                .criterion(hasItem(Items.ORANGE_CONCRETE), conditionsFromItem(Items.ORANGE_CONCRETE))
+                .criterion(hasItem(Items.WHITE_CONCRETE), conditionsFromItem(Items.WHITE_CONCRETE))
+                .criterion(hasItem(Items.GRAY_CONCRETE), conditionsFromItem(Items.GRAY_CONCRETE))
+                .offerTo(exporter);
+
+
         // ------------------------- <items> -------------------------
         // sign brush
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SIGN_BRUSH,1)

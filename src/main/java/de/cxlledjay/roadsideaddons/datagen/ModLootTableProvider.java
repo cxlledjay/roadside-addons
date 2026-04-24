@@ -19,5 +19,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SIGN_DANGER);
         addDrop(ModBlocks.SIGN_YIELD);
         addDrop(ModBlocks.SIGN_STOP);
+        addDrop(ModBlocks.TRAFFIC_CONE);
     }
 }
