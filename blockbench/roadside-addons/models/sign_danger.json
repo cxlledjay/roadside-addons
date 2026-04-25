@@ -39,8 +39,8 @@
 		},
 		{
 			"name": "rotatable",
-			"from": [6.499, 13.999, 5.999],
-			"to": [9.501, 16.001, 7.001],
+			"from": [6.5, 14, 6],
+			"to": [9.5, 16, 7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [2, 11.5, 3.5, 12.5], "texture": "#base"},
@@ -137,8 +137,8 @@
 		},
 		{
 			"name": "rotatable",
-			"from": [1.499, -0.001, 5.999],
-			"to": [14.501, 1.001, 7.001],
+			"from": [1.5, 0, 6],
+			"to": [14.5, 1, 7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [8.5, 4.5, 15, 5], "texture": "#base"},

@@ -37,6 +37,7 @@ public class ModModelProvider extends FabricModelProvider {
         SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_DANGER);
         SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_YIELD);
         SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_STOP);
+        SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_REGULATORY);
     }
 
     // ---------------------------- <generate item models> ----------------------------

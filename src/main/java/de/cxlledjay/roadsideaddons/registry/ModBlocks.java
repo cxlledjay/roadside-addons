@@ -6,6 +6,7 @@ import de.cxlledjay.roadsideaddons.block.sign.post.SignPostBase;
 import de.cxlledjay.roadsideaddons.block.sign.post.SignPostBaseConstruction;
 import de.cxlledjay.roadsideaddons.block.construction.TrafficCone;
 import de.cxlledjay.roadsideaddons.block.sign.variants.SignDanger;
+import de.cxlledjay.roadsideaddons.block.sign.variants.SignRegulatory;
 import de.cxlledjay.roadsideaddons.block.sign.variants.SignStop;
 import de.cxlledjay.roadsideaddons.block.sign.variants.SignYield;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -45,6 +46,9 @@ public class ModBlocks {
     public static final Block SIGN_YIELD = registerBlock("sign_yield",
             new SignYield(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
 
+    public static final Block SIGN_REGULATORY = registerBlock("sign_regulatory",
+            new SignRegulatory(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+
 
     // ---------------------------- <construction> ----------------------------
      public static final Block TRAFFIC_CONE = registerBlock("traffic_cone",
@@ -61,6 +65,7 @@ public class ModBlocks {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_DANGER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_STOP, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_YIELD, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_REGULATORY, RenderLayer.getCutout());
     }
 
 

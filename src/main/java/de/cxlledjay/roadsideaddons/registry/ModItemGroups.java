@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIGN_DANGER);
                         entries.add(ModBlocks.SIGN_STOP);
                         entries.add(ModBlocks.SIGN_YIELD);
+                        entries.add(ModBlocks.SIGN_REGULATORY);
 
                         // construction
                         entries.add(ModBlocks.TRAFFIC_CONE);
