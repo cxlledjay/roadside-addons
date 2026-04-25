@@ -171,7 +171,7 @@
         0,
         7
       ],
-      "name": "post",
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -249,7 +249,7 @@
         6.999,
         6.999
       ],
-      "name": "post",
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -327,6 +327,7 @@
         -0.001,
         5.999
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -404,6 +405,7 @@
         1,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -481,6 +483,7 @@
         2,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -558,6 +561,7 @@
         3,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -635,6 +639,7 @@
         14.999,
         5.999
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -712,6 +717,7 @@
         14,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -789,6 +795,7 @@
         13,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -866,6 +873,7 @@
         12,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -943,6 +951,7 @@
         4,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -1020,7 +1029,7 @@
         -0.01,
         5.99
       ],
-      "name": "overlay_texture",
+      "name": "rotatable",
       "rotation": {
         "angle": -22.5,
         "axis": "y",
@@ -1074,7 +1083,19 @@
       ],
       "scope": 0
     },
-    11
+    {
+      "children": [
+        11
+      ],
+      "color": 0,
+      "name": "overlay",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "scope": 0
+    }
   ],
   "texture_size": [
     32,

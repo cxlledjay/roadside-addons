@@ -1,6 +1,7 @@
-package de.cxlledjay.roadsideaddons.block;
+package de.cxlledjay.roadsideaddons.block.sign.post;
 
 import com.mojang.serialization.MapCodec;
+import de.cxlledjay.roadsideaddons.block.RotatableBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
@@ -8,15 +9,15 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class TrafficCone extends RotatableBlock {
+public class SignPost extends RotatableBlock {
 
-    public TrafficCone(Settings settings) {
+    public SignPost(Settings settings) {
         super(settings);
     }
 
 
     // ---------------------------- <unique codec> ----------------------------
-    public static final MapCodec<TrafficCone> CODEC = createCodec(TrafficCone::new);
+    public static final MapCodec<SignPost> CODEC = createCodec(SignPost::new);
 
     @Override
     protected MapCodec<? extends RotatableBlock> getCodec() {
@@ -26,7 +27,7 @@ public class TrafficCone extends RotatableBlock {
 
 
     // ---------------------------- <hitbox> ----------------------------
-    private static final VoxelShape SHAPE = Block.createCuboidShape(3, 0, 3, 13, 12, 13);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(6, 0, 6, 10, 16, 10);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

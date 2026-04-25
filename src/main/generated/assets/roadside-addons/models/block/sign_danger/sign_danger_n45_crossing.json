@@ -173,7 +173,7 @@
         0,
         7
       ],
-      "name": "post",
+      "name": "rotatable",
       "rotation": {
         "angle": -45,
         "axis": "y",
@@ -253,7 +253,7 @@
         2.999,
         6.999
       ],
-      "name": "post",
+      "name": "rotatable",
       "rotation": {
         "angle": -45,
         "axis": "y",
@@ -333,6 +333,7 @@
         13.999,
         5.999
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -45,
         "axis": "y",
@@ -412,6 +413,7 @@
         12,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -45,
         "axis": "y",
@@ -491,6 +493,7 @@
         10,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -45,
         "axis": "y",
@@ -570,6 +573,7 @@
         8,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -45,
         "axis": "y",
@@ -649,6 +653,7 @@
         6,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -45,
         "axis": "y",
@@ -728,6 +733,7 @@
         4,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -45,
         "axis": "y",
@@ -807,6 +813,7 @@
         1,
         6
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -45,
         "axis": "y",
@@ -886,6 +893,7 @@
         -0.001,
         5.999
       ],
+      "name": "rotatable",
       "rotation": {
         "angle": -45,
         "axis": "y",
@@ -963,7 +971,7 @@
         -0.002,
         5.998
       ],
-      "name": "texture_overlay",
+      "name": "rotatable",
       "rotation": {
         "angle": -45,
         "axis": "y",
@@ -1016,7 +1024,19 @@
       ],
       "scope": 0
     },
-    10
+    {
+      "children": [
+        10
+      ],
+      "color": 0,
+      "name": "overlay",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "scope": 0
+    }
   ],
   "texture_size": [
     32,

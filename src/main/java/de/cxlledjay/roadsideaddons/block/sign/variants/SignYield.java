@@ -1,4 +1,4 @@
-package de.cxlledjay.roadsideaddons.block.sign;
+package de.cxlledjay.roadsideaddons.block.sign.variants;
 
 import com.mojang.serialization.MapCodec;
 import de.cxlledjay.roadsideaddons.block.sign.generic.AbstractSign;
@@ -6,17 +6,18 @@ import de.cxlledjay.roadsideaddons.block.sign.generic.SignVariant;
 import net.minecraft.state.property.EnumProperty;
 
 
-public class SignStop extends AbstractSign {
+public class SignYield extends AbstractSign {
 
     // boilerplate constructor
-    public SignStop(Settings settings) {
+    public SignYield(Settings settings) {
         super(settings);
     }
 
+
     // CODEC overwrite
-    private static final MapCodec<SignStop> CODEC = createCodec(SignStop::new);
+    private static final MapCodec<SignYield> CODEC = createCodec(SignYield::new);
     @Override
-    protected MapCodec<SignStop> getCodec() {
+    protected MapCodec<SignYield> getCodec() {
         return CODEC;
     }
 

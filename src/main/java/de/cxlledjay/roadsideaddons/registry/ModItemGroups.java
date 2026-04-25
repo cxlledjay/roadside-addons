@@ -1,7 +1,6 @@
 package de.cxlledjay.roadsideaddons.registry;
 
 import de.cxlledjay.roadsideaddons.RoadsideAddons;
-import de.cxlledjay.roadsideaddons.block.SignPostBase;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -19,16 +18,19 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.roadside-addons.items"))
                     .entries((displayContext, entries) -> {
                         // ----- blocks
-                        // post
-                        entries.add(ModBlocks.SIGN_POST_BASE);
+
+                        // sign post
                         entries.add(ModBlocks.SIGN_POST);
-                        // signs
+                        entries.add(ModBlocks.SIGN_POST_BASE);
+                        entries.add(ModBlocks.SIGN_POST_BASE_CONSTRUCTION);
+                        // sign variants
                         entries.add(ModBlocks.SIGN_DANGER);
                         entries.add(ModBlocks.SIGN_STOP);
                         entries.add(ModBlocks.SIGN_YIELD);
 
-                        // cone
+                        // construction
                         entries.add(ModBlocks.TRAFFIC_CONE);
+                        entries.add(ModBlocks.BOLLARD_CONSTRUCTION);
 
                         // ----- items
                         entries.add(ModItems.SIGN_BRUSH);

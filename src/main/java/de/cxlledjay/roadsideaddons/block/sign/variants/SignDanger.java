@@ -1,4 +1,4 @@
-package de.cxlledjay.roadsideaddons.block.sign;
+package de.cxlledjay.roadsideaddons.block.sign.variants;
 
 
 import com.mojang.serialization.MapCodec;
@@ -6,13 +6,8 @@ import de.cxlledjay.roadsideaddons.block.sign.generic.AbstractSign;
 import de.cxlledjay.roadsideaddons.block.sign.generic.SignVariant;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.EnumProperty;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.hit.BlockHitResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.World;
 
 
 public class SignDanger extends AbstractSign {
@@ -63,6 +58,7 @@ public class SignDanger extends AbstractSign {
         TRAFFIC_LIGHT("traffic_light"),
         TRAIN("train"),
         UNEVEN("uneven"),
+        TREE("tree"),
         WILDLIFE("wildlife");
 
         private final String name;

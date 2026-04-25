@@ -178,7 +178,7 @@
         0,
         7
       ],
-      "name": "post",
+      "name": "rotatable",
       "rotation": {
         "angle": 22.5,
         "axis": "y",

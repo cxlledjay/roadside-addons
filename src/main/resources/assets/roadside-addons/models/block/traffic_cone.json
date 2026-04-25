@@ -8,7 +8,7 @@
 	},
 	"elements": [
 		{
-			"name": "bottom",
+			"name": "rotatable",
 			"from": [1.5, 0, 1.5],
 			"to": [14.5, 1, 14.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
@@ -22,7 +22,7 @@
 			}
 		},
 		{
-			"name": "one",
+			"name": "rotatable",
 			"from": [3, 1, 3],
 			"to": [13, 3.5, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
@@ -36,7 +36,7 @@
 			}
 		},
 		{
-			"name": "two",
+			"name": "rotatable",
 			"from": [4, 3.5, 4],
 			"to": [12, 6, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
@@ -50,7 +50,7 @@
 			}
 		},
 		{
-			"name": "three",
+			"name": "rotatable",
 			"from": [5, 6, 5],
 			"to": [11, 8.5, 11],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
@@ -64,7 +64,7 @@
 			}
 		},
 		{
-			"name": "four",
+			"name": "rotatable",
 			"from": [6, 8.5, 6],
 			"to": [10, 11, 10],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
@@ -78,7 +78,7 @@
 			}
 		},
 		{
-			"name": "top",
+			"name": "rotatable",
 			"from": [7, 11, 7],
 			"to": [9, 13.5, 9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
@@ -116,8 +116,9 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
-			"rotation": [24, -20, 0],
-			"translation": [0, 3.25, 0]
+			"rotation": [28, -155, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.82, 0.82, 0.82]
 		},
 		"head": {
 			"translation": [0, 14, 0]

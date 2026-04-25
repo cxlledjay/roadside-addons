@@ -1,22 +1,20 @@
 package de.cxlledjay.roadsideaddons.registry;
 
 import de.cxlledjay.roadsideaddons.RoadsideAddons;
-import de.cxlledjay.roadsideaddons.block.SignPostBase;
-import de.cxlledjay.roadsideaddons.block.TrafficCone;
-import de.cxlledjay.roadsideaddons.block.sign.SignDanger;
-import de.cxlledjay.roadsideaddons.block.sign.SignStop;
-import de.cxlledjay.roadsideaddons.block.sign.SignYield;
+import de.cxlledjay.roadsideaddons.block.construction.BollardConstruction;
+import de.cxlledjay.roadsideaddons.block.sign.post.SignPostBase;
+import de.cxlledjay.roadsideaddons.block.sign.post.SignPostBaseConstruction;
+import de.cxlledjay.roadsideaddons.block.construction.TrafficCone;
+import de.cxlledjay.roadsideaddons.block.sign.variants.SignDanger;
+import de.cxlledjay.roadsideaddons.block.sign.variants.SignStop;
+import de.cxlledjay.roadsideaddons.block.sign.variants.SignYield;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.component.DataComponentTypes;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -26,15 +24,18 @@ public class ModBlocks {
 
     // ---------------------------- <new blocks> ----------------------------
 
-    // poles
-    public static final Block SIGN_POST_BASE = registerBlock("sign_post_base",
-            new SignPostBase(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
-
+    // ---------------------------- <sign poles> ----------------------------
     public static final Block SIGN_POST= registerBlock("sign_post",
             new SignPostBase(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
 
+    public static final Block SIGN_POST_BASE = registerBlock("sign_post_base",
+            new SignPostBase(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
 
-    // signs
+    public static final Block SIGN_POST_BASE_CONSTRUCTION = registerBlock("sign_post_base_construction",
+            new SignPostBaseConstruction(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.METAL)));
+
+
+    // ---------------------------- <sign variants> ----------------------------
     public static final Block SIGN_DANGER = registerBlock("sign_danger",
             new SignDanger(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
 
@@ -45,9 +46,12 @@ public class ModBlocks {
             new SignYield(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
 
 
-    // cone
+    // ---------------------------- <construction> ----------------------------
      public static final Block TRAFFIC_CONE = registerBlock("traffic_cone",
              new TrafficCone(AbstractBlock.Settings.create().nonOpaque().strength(0.5f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.POINTED_DRIPSTONE)));
+
+    public static final Block BOLLARD_CONSTRUCTION = registerBlock("bollard_construction",
+            new BollardConstruction(AbstractBlock.Settings.create().nonOpaque().strength(1.5f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)));
 
 
 

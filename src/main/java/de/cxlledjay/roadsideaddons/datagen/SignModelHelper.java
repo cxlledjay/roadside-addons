@@ -184,18 +184,22 @@ public class SignModelHelper {
                 if (element.isJsonObject()) {
                     JsonObject elementObj = element.getAsJsonObject();
 
-                    // 3. Check if this element has a 'rotation' object
-                    if (elementObj.has("rotation") && elementObj.get("rotation").isJsonObject()) {
-                        JsonObject rotationObj = elementObj.getAsJsonObject("rotation");
+                    // 3. Verify the element has a "name" property, and it equals "rotatable"
+                    if (elementObj.has("name") && "rotatable".equals(elementObj.get("name").getAsString())) {
 
-                        // 4. Overwrite the 'angle' property
-                        // .addProperty automatically replaces the old value if the key exists
-                        if (newAngle == Math.floor(newAngle)) {
-                            // Pass it as an integer to force Gson to omit the ".0"
-                            rotationObj.addProperty("angle", (int) newAngle);
-                        } else {
-                            // Keep it as a double for values like 22.5
-                            rotationObj.addProperty("angle", newAngle);
+                        // 4. Check if this targeted element has a 'rotation' object
+                        if (elementObj.has("rotation") && elementObj.get("rotation").isJsonObject()) {
+                            JsonObject rotationObj = elementObj.getAsJsonObject("rotation");
+
+                            // 5. Overwrite the 'angle' property
+                            // .addProperty automatically replaces the old value if the key exists
+                            if (newAngle == Math.floor(newAngle)) {
+                                // Pass it as an integer to force Gson to omit the ".0"
+                                rotationObj.addProperty("angle", (int) newAngle);
+                            } else {
+                                // Keep it as a double for values like 22.5
+                                rotationObj.addProperty("angle", newAngle);
+                            }
                         }
                     }
                 }
