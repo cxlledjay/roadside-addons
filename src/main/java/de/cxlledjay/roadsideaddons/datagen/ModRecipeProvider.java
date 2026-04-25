@@ -40,8 +40,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_POST_BASE_CONSTRUCTION,3)
+                .pattern(" I ")
+                .pattern(" I ")
+                .pattern("CIC")
+                .input('I', Items.IRON_INGOT)
+                .input('C', Items.CYAN_TERRACOTTA)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(Items.CYAN_TERRACOTTA), conditionsFromItem(Items.CYAN_TERRACOTTA))
+                .offerTo(exporter);
 
-        // ------------------------- <signs> -------------------------
+
+        // ------------------------- <sign variants> -------------------------
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_DANGER,1)
                 .pattern(" N ")
@@ -77,7 +87,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-        // ------------------------- <cone> -------------------------
+        // ------------------------- <construction> -------------------------
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRAFFIC_CONE,9)
                 .pattern(" W ")
@@ -89,6 +99,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.ORANGE_CONCRETE), conditionsFromItem(Items.ORANGE_CONCRETE))
                 .criterion(hasItem(Items.WHITE_CONCRETE), conditionsFromItem(Items.WHITE_CONCRETE))
                 .criterion(hasItem(Items.GRAY_CONCRETE), conditionsFromItem(Items.GRAY_CONCRETE))
+                .offerTo(exporter);
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOLLARD_CONSTRUCTION,3)
+                .pattern(" W ")
+                .pattern(" R ")
+                .pattern("CWC")
+                .input('R', Items.RED_CONCRETE)
+                .input('W', Items.WHITE_CONCRETE)
+                .input('C', Items.CYAN_TERRACOTTA)
+                .criterion(hasItem(Items.RED_CONCRETE), conditionsFromItem(Items.RED_CONCRETE))
+                .criterion(hasItem(Items.WHITE_CONCRETE), conditionsFromItem(Items.WHITE_CONCRETE))
+                .criterion(hasItem(Items.CYAN_TERRACOTTA), conditionsFromItem(Items.CYAN_TERRACOTTA))
                 .offerTo(exporter);
 
 

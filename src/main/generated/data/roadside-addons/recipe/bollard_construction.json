@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "minecraft:cyan_terracotta"
+    },
+    "R": {
+      "item": "minecraft:red_concrete"
+    },
+    "W": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "pattern": [
+    " W ",
+    " R ",
+    "CWC"
+  ],
+  "result": {
+    "count": 3,
+    "id": "roadside-addons:bollard_construction"
+  }
+}

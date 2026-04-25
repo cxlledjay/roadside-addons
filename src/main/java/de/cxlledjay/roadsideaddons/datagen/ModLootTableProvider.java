@@ -14,11 +14,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        // sign posts
         addDrop(ModBlocks.SIGN_POST);
         addDrop(ModBlocks.SIGN_POST_BASE);
+        addDrop(ModBlocks.SIGN_POST_BASE_CONSTRUCTION);
+        // sign variants
         addDrop(ModBlocks.SIGN_DANGER);
         addDrop(ModBlocks.SIGN_YIELD);
         addDrop(ModBlocks.SIGN_STOP);
+        // construction
         addDrop(ModBlocks.TRAFFIC_CONE);
+        addDrop(ModBlocks.BOLLARD_CONSTRUCTION);
     }
 }

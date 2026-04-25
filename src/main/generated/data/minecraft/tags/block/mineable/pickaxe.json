@@ -2,8 +2,10 @@
   "values": [
     "roadside-addons:sign_post",
     "roadside-addons:sign_post_base",
+    "roadside-addons:sign_post_base_construction",
     "roadside-addons:sign_danger",
     "roadside-addons:sign_yield",
-    "roadside-addons:sign_stop"
+    "roadside-addons:sign_stop",
+    "roadside-addons:bollard_construction"
   ]
 }

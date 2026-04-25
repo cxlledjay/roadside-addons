@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "minecraft:cyan_terracotta"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " I ",
+    " I ",
+    "CIC"
+  ],
+  "result": {
+    "count": 3,
+    "id": "roadside-addons:sign_post_base_construction"
+  }
+}

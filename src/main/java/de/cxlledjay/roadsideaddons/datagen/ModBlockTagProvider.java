@@ -18,15 +18,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.SIGN_POST)
                 .add(ModBlocks.SIGN_POST_BASE)
+                .add(ModBlocks.SIGN_POST_BASE_CONSTRUCTION)
                 .add(ModBlocks.SIGN_DANGER)
                 .add(ModBlocks.SIGN_YIELD)
-                .add(ModBlocks.SIGN_STOP);
+                .add(ModBlocks.SIGN_STOP)
+                .add(ModBlocks.BOLLARD_CONSTRUCTION);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SIGN_POST)
                 .add(ModBlocks.SIGN_POST_BASE)
+                .add(ModBlocks.SIGN_POST_BASE_CONSTRUCTION)
                 .add(ModBlocks.SIGN_DANGER)
                 .add(ModBlocks.SIGN_YIELD)
-                .add(ModBlocks.SIGN_STOP);
+                .add(ModBlocks.SIGN_STOP)
+                .add(ModBlocks.BOLLARD_CONSTRUCTION);
     }
 }
