@@ -1,5 +1,9 @@
 {
   "variants": {
+    "rotation=0,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_blank",
+      "y": 0
+    },
     "rotation=0,variant=cattle": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_cattle",
       "y": 0
@@ -118,6 +122,10 @@
     },
     "rotation=0,variant=wildlife": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_wildlife",
+      "y": 0
+    },
+    "rotation=1,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_blank",
       "y": 0
     },
     "rotation=1,variant=cattle": {
@@ -240,6 +248,10 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_wildlife",
       "y": 0
     },
+    "rotation=10,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_blank",
+      "y": 180
+    },
     "rotation=10,variant=cattle": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_cattle",
       "y": 180
@@ -360,6 +372,10 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_wildlife",
       "y": 180
     },
+    "rotation=11,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_blank",
+      "y": 270
+    },
     "rotation=11,variant=cattle": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_cattle",
       "y": 270
@@ -478,6 +494,10 @@
     },
     "rotation=11,variant=wildlife": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_wildlife",
+      "y": 270
+    },
+    "rotation=12,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_blank",
       "y": 270
     },
     "rotation=12,variant=cattle": {
@@ -600,6 +620,10 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_0_wildlife",
       "y": 270
     },
+    "rotation=13,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_blank",
+      "y": 270
+    },
     "rotation=13,variant=cattle": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_cattle",
       "y": 270
@@ -718,6 +742,10 @@
     },
     "rotation=13,variant=wildlife": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_wildlife",
+      "y": 270
+    },
+    "rotation=14,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_blank",
       "y": 270
     },
     "rotation=14,variant=cattle": {
@@ -840,6 +868,10 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_wildlife",
       "y": 270
     },
+    "rotation=15,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_blank",
+      "y": 0
+    },
     "rotation=15,variant=cattle": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_cattle",
       "y": 0
@@ -958,6 +990,10 @@
     },
     "rotation=15,variant=wildlife": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_wildlife",
+      "y": 0
+    },
+    "rotation=2,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_blank",
       "y": 0
     },
     "rotation=2,variant=cattle": {
@@ -1080,6 +1116,10 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_wildlife",
       "y": 0
     },
+    "rotation=3,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_blank",
+      "y": 90
+    },
     "rotation=3,variant=cattle": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_cattle",
       "y": 90
@@ -1198,6 +1238,10 @@
     },
     "rotation=3,variant=wildlife": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_wildlife",
+      "y": 90
+    },
+    "rotation=4,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_blank",
       "y": 90
     },
     "rotation=4,variant=cattle": {
@@ -1320,6 +1364,10 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_0_wildlife",
       "y": 90
     },
+    "rotation=5,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_blank",
+      "y": 90
+    },
     "rotation=5,variant=cattle": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_cattle",
       "y": 90
@@ -1438,6 +1486,10 @@
     },
     "rotation=5,variant=wildlife": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_wildlife",
+      "y": 90
+    },
+    "rotation=6,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n45_blank",
       "y": 90
     },
     "rotation=6,variant=cattle": {
@@ -1560,6 +1612,10 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_wildlife",
       "y": 90
     },
+    "rotation=7,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_22_blank",
+      "y": 180
+    },
     "rotation=7,variant=cattle": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_cattle",
       "y": 180
@@ -1680,6 +1736,10 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_22_wildlife",
       "y": 180
     },
+    "rotation=8,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_0_blank",
+      "y": 180
+    },
     "rotation=8,variant=cattle": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_cattle",
       "y": 180
@@ -1798,6 +1858,10 @@
     },
     "rotation=8,variant=wildlife": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_wildlife",
+      "y": 180
+    },
+    "rotation=9,variant=blank": {
+      "model": "roadside-addons:block/sign_danger/sign_danger_n22_blank",
       "y": 180
     },
     "rotation=9,variant=cattle": {

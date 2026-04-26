@@ -6,7 +6,7 @@
 		"particle": "roadside-addons:block/post/post",
 		"post": "roadside-addons:block/post/post",
 		"base": "roadside-addons:block/sign_danger/base",
-		"overlay": "roadside-addons:block/sign_danger/default"
+		"overlay": "roadside-addons:block/sign_danger/blank"
 	},
 	"elements": [
 		{

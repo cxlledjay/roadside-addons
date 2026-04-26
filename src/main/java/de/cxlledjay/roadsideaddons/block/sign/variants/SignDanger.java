@@ -16,7 +16,7 @@ public class SignDanger extends AbstractSign {
     public SignDanger(Settings settings) {
         super(settings);
         // Set default rotation to 0 (South)
-        this.setDefaultState(this.stateManager.getDefaultState().with(VARIANT, DangerType.DEFAULT));
+        this.setDefaultState(this.stateManager.getDefaultState().with(VARIANT, DangerType.BLANK));
     }
 
     // ---------------------------- <CODEC> ----------------------------
@@ -59,7 +59,10 @@ public class SignDanger extends AbstractSign {
         TRAIN("train", "general"),
         UNEVEN("uneven", "general"),
         TREE("tree", "general"),
-        WILDLIFE("wildlife", "general");
+        WILDLIFE("wildlife", "general"),
+
+        // --- blank ---
+        BLANK("blank", "blank");
 
         private final String name;
         private final String category;
