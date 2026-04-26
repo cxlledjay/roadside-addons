@@ -9,11 +9,10 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.state.property.Property;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-
-import static de.cxlledjay.roadsideaddons.block.sign.variants.SignDanger.VARIANT;
 
 public class SignBrush extends Item {
 
@@ -40,9 +39,11 @@ public class SignBrush extends Item {
                 // only execute brush logic when it has multiple variants
                 if(signBlock.getVariantProperty() != null) {
 
+                    Property<?> variantProperty = signBlock.getVariantProperty();
+
                     // for now: cycle variant
                     // TODO: menu and custom screen
-                    world.setBlockState(pos, world.getBlockState(pos).cycle(VARIANT));
+                    world.setBlockState(pos, world.getBlockState(pos).cycle(variantProperty));
 
                     // also damage the brush
                     context.getStack().damage(1,((ServerWorld) world),
