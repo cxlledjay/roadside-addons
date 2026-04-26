@@ -30,18 +30,25 @@ public class SignRegulatory extends AbstractSign {
 
     // Define the specific Enum for this block
     public enum DangerType implements SignVariant {
-        DEFAULT("default"),
-        SPEED_LIMIT_30("speed_limit_30");
+        DEFAULT("default", "general"),
+        SPEED_LIMIT_30("speed_limit_30", "general");
 
         private final String name;
+        private final String category;
 
-        DangerType(String name) {
+        DangerType(String name, String category) {
             this.name = name;
+            this.category = category;
         }
 
         @Override
         public String asString() {
             return this.name;
+        }
+
+        @Override
+        public String getCategory() {
+            return this.category;
         }
     }
 

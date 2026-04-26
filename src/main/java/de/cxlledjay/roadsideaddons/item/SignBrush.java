@@ -53,7 +53,7 @@ public class SignBrush extends Item {
                             });
 
                     // and play a sound
-                    world.playSound(null, pos, SoundEvents.BLOCK_NETHER_ORE_FALL, SoundCategory.BLOCKS);
+                    world.playSound(null, pos, SoundEvents.BLOCK_METAL_HIT, SoundCategory.BLOCKS);
 
                     // set result to success for player hand swing animation
                     res = ActionResult.SUCCESS;

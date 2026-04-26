@@ -6,5 +6,8 @@ public interface SignVariant extends StringIdentifiable {
 
     @Override
     String asString();
+
+    /// get variant category for gui grouping
+    String getCategory();
 }
 

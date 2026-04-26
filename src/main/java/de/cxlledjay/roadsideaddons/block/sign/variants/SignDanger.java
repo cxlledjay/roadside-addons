@@ -30,47 +30,52 @@ public class SignDanger extends AbstractSign {
 
     // Define the specific Enum for this block
     public enum DangerType implements SignVariant {
-        DEFAULT("default"),
-        CATTLE("cattle"),
-        CONSTRUCTION("construction"),
-        CROSSING("crossing"),
-        CURVE_LEFT("curve_left"),
-        CURVE_RIGHT("curve_right"),
-        DANGERZONE("dangerzone"),
-        DOUBLECURVE_LEFT("doublecurve_left"),
-        DOUBLECURVE_RIGHT("doublecurve_right"),
-        DRIFT("drift"),
-        FROG("frog"),
-        GRADIENT("gradient"),
-        HORSE("horse"),
-        ICE("ice"),
-        NARROWED("narrowed"),
-        NARROWED_LEFT("narrowed_left"),
-        NARROWED_RIGHT("narrowed_right"),
-        ONCOMING("oncoming"),
-        PEDESTRIAN("pedestrian"),
-        PEDESTRIAN_CROSSING("pedestrian_crossing"),
-        PLANE("plane"),
-        RIGHT_OF_WAY("right_of_way"),
-        ROCKFALL("rockfall"),
-        SHORE("shore"),
-        SLOPE("slope"),
-        TRAFFIC_LIGHT("traffic_light"),
-        TRAIN("train"),
-        UNEVEN("uneven"),
-        TREE("tree"),
-        WILDLIFE("wildlife");
+        DEFAULT("default", "general"),
+        CATTLE("cattle", "general"),
+        CONSTRUCTION("construction", "general"),
+        CROSSING("crossing", "general"),
+        CURVE_LEFT("curve_left", "general"),
+        CURVE_RIGHT("curve_right", "general"),
+        DANGERZONE("dangerzone", "general"),
+        DOUBLECURVE_LEFT("doublecurve_left", "general"),
+        DOUBLECURVE_RIGHT("doublecurve_right", "general"),
+        DRIFT("drift", "general"),
+        FROG("frog", "general"),
+        GRADIENT("gradient", "general"),
+        HORSE("horse", "general"),
+        ICE("ice", "general"),
+        NARROWED("narrowed", "general"),
+        NARROWED_LEFT("narrowed_left", "general"),
+        NARROWED_RIGHT("narrowed_right", "general"),
+        ONCOMING("oncoming", "general"),
+        PEDESTRIAN("pedestrian", "general"),
+        PEDESTRIAN_CROSSING("pedestrian_crossing", "general"),
+        PLANE("plane", "general"),
+        RIGHT_OF_WAY("right_of_way", "general"),
+        ROCKFALL("rockfall", "general"),
+        SHORE("shore", "general"),
+        SLOPE("slope", "general"),
+        TRAFFIC_LIGHT("traffic_light", "general"),
+        TRAIN("train", "general"),
+        UNEVEN("uneven", "general"),
+        TREE("tree", "general"),
+        WILDLIFE("wildlife", "general");
 
         private final String name;
+        private final String category;
 
-        DangerType(String name) {
+        DangerType(String name, String category) {
             this.name = name;
+            this.category = category;
         }
 
         @Override
         public String asString() {
             return this.name;
         }
+
+        @Override
+        public String getCategory() { return this.category; }
     }
 
     public static final EnumProperty<DangerType> VARIANT = EnumProperty.of("variant", DangerType.class);
