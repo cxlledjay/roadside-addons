@@ -1,7 +1,9 @@
 package de.cxlledjay.roadsideaddons.item;
 
 import de.cxlledjay.roadsideaddons.block.sign.generic.AbstractSign;
+import de.cxlledjay.roadsideaddons.gui.SignVariantSelectScreen;
 import net.minecraft.block.Block;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemUsageContext;
@@ -23,6 +25,39 @@ public class SignBrush extends Item {
 
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
+
+        // default action
+        ActionResult res = ActionResult.FAIL;
+
+        // retrieve info from context
+        World world = context.getWorld();
+        BlockPos pos = context.getBlockPos();
+        Block clickedBlock = world.getBlockState(pos).getBlock();
+
+        // check if sign block was clicked
+        if(clickedBlock instanceof AbstractSign signBlock) {
+
+            // check if there are multiple variants
+            if(signBlock.getVariantProperty() != null) {
+
+                // get the variant enum
+                Property<?> variantProperty = signBlock.getVariantProperty();
+
+                if(world.isClient()) {
+                    // open gui on client side
+                    MinecraftClient.getInstance().setScreen(new SignVariantSelectScreen(pos, clickedBlock, variantProperty));
+                }
+
+                // set result to success for player hand swing animation
+                res = ActionResult.SUCCESS;
+            }
+        }
+        return res;
+    }
+
+
+    // testing
+    private ActionResult useOnBlockTest(ItemUsageContext context) {
 
         ActionResult res = ActionResult.FAIL;
 
