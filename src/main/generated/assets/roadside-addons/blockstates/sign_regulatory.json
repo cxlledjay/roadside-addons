@@ -4,12 +4,28 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_default",
       "y": 0
     },
+    "rotation=0,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_direction_right",
+      "y": 0
+    },
+    "rotation=0,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_direction_right2",
+      "y": 0
+    },
     "rotation=0,variant=speed_limit_30": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_speed_limit_30",
       "y": 0
     },
     "rotation=1,variant=default": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_default",
+      "y": 0
+    },
+    "rotation=1,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_direction_right",
+      "y": 0
+    },
+    "rotation=1,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_direction_right2",
       "y": 0
     },
     "rotation=1,variant=speed_limit_30": {
@@ -20,12 +36,28 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_default",
       "y": 180
     },
+    "rotation=10,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_direction_right",
+      "y": 180
+    },
+    "rotation=10,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_direction_right2",
+      "y": 180
+    },
     "rotation=10,variant=speed_limit_30": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_speed_limit_30",
       "y": 180
     },
     "rotation=11,variant=default": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_default",
+      "y": 270
+    },
+    "rotation=11,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_direction_right",
+      "y": 270
+    },
+    "rotation=11,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_direction_right2",
       "y": 270
     },
     "rotation=11,variant=speed_limit_30": {
@@ -36,12 +68,28 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_default",
       "y": 270
     },
+    "rotation=12,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_direction_right",
+      "y": 270
+    },
+    "rotation=12,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_direction_right2",
+      "y": 270
+    },
     "rotation=12,variant=speed_limit_30": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_speed_limit_30",
       "y": 270
     },
     "rotation=13,variant=default": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_default",
+      "y": 270
+    },
+    "rotation=13,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_direction_right",
+      "y": 270
+    },
+    "rotation=13,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_direction_right2",
       "y": 270
     },
     "rotation=13,variant=speed_limit_30": {
@@ -52,12 +100,28 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_default",
       "y": 270
     },
+    "rotation=14,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_direction_right",
+      "y": 270
+    },
+    "rotation=14,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_direction_right2",
+      "y": 270
+    },
     "rotation=14,variant=speed_limit_30": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_speed_limit_30",
       "y": 270
     },
     "rotation=15,variant=default": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_default",
+      "y": 0
+    },
+    "rotation=15,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_direction_right",
+      "y": 0
+    },
+    "rotation=15,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_direction_right2",
       "y": 0
     },
     "rotation=15,variant=speed_limit_30": {
@@ -68,12 +132,28 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_default",
       "y": 0
     },
+    "rotation=2,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_direction_right",
+      "y": 0
+    },
+    "rotation=2,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_direction_right2",
+      "y": 0
+    },
     "rotation=2,variant=speed_limit_30": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_speed_limit_30",
       "y": 0
     },
     "rotation=3,variant=default": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_default",
+      "y": 90
+    },
+    "rotation=3,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_direction_right",
+      "y": 90
+    },
+    "rotation=3,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_direction_right2",
       "y": 90
     },
     "rotation=3,variant=speed_limit_30": {
@@ -84,12 +164,28 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_default",
       "y": 90
     },
+    "rotation=4,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_direction_right",
+      "y": 90
+    },
+    "rotation=4,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_direction_right2",
+      "y": 90
+    },
     "rotation=4,variant=speed_limit_30": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_speed_limit_30",
       "y": 90
     },
     "rotation=5,variant=default": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_default",
+      "y": 90
+    },
+    "rotation=5,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_direction_right",
+      "y": 90
+    },
+    "rotation=5,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_direction_right2",
       "y": 90
     },
     "rotation=5,variant=speed_limit_30": {
@@ -100,12 +196,28 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_default",
       "y": 90
     },
+    "rotation=6,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_direction_right",
+      "y": 90
+    },
+    "rotation=6,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_direction_right2",
+      "y": 90
+    },
     "rotation=6,variant=speed_limit_30": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_speed_limit_30",
       "y": 90
     },
     "rotation=7,variant=default": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_default",
+      "y": 180
+    },
+    "rotation=7,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_direction_right",
+      "y": 180
+    },
+    "rotation=7,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_direction_right2",
       "y": 180
     },
     "rotation=7,variant=speed_limit_30": {
@@ -116,12 +228,28 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_default",
       "y": 180
     },
+    "rotation=8,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_direction_right",
+      "y": 180
+    },
+    "rotation=8,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_direction_right2",
+      "y": 180
+    },
     "rotation=8,variant=speed_limit_30": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_speed_limit_30",
       "y": 180
     },
     "rotation=9,variant=default": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_default",
+      "y": 180
+    },
+    "rotation=9,variant=direction_right": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_direction_right",
+      "y": 180
+    },
+    "rotation=9,variant=direction_right2": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_direction_right2",
       "y": 180
     },
     "rotation=9,variant=speed_limit_30": {

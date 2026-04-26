@@ -31,7 +31,8 @@ public class SignRegulatory extends AbstractSign {
     // Define the specific Enum for this block
     public enum DangerType implements SignVariant {
         DEFAULT("default", "general"),
-        SPEED_LIMIT_30("speed_limit_30", "general");
+        SPEED_LIMIT_30("speed_limit_30", "general"),
+        DIRECTION_RIGHT("direction_right", "driving_direction");
 
         private final String name;
         private final String category;
