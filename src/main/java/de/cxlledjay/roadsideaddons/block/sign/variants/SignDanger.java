@@ -30,36 +30,43 @@ public class SignDanger extends AbstractSign {
 
     // Define the specific Enum for this block
     public enum DangerType implements SignVariant {
-        DEFAULT("default", "general"),
+
+        // --- general ---
+        //DEFAULT("default", "general"),
         CATTLE("cattle", "general"),
         CONSTRUCTION("construction", "general"),
-        CROSSING("crossing", "general"),
-        CURVE_LEFT("curve_left", "general"),
-        CURVE_RIGHT("curve_right", "general"),
         DANGERZONE("dangerzone", "general"),
-        DOUBLECURVE_LEFT("doublecurve_left", "general"),
-        DOUBLECURVE_RIGHT("doublecurve_right", "general"),
         DRIFT("drift", "general"),
         FROG("frog", "general"),
         GRADIENT("gradient", "general"),
         HORSE("horse", "general"),
         ICE("ice", "general"),
-        NARROWED("narrowed", "general"),
-        NARROWED_LEFT("narrowed_left", "general"),
-        NARROWED_RIGHT("narrowed_right", "general"),
         ONCOMING("oncoming", "general"),
         PEDESTRIAN("pedestrian", "general"),
         PEDESTRIAN_CROSSING("pedestrian_crossing", "general"),
         PLANE("plane", "general"),
-        RIGHT_OF_WAY("right_of_way", "general"),
         ROCKFALL("rockfall", "general"),
         SHORE("shore", "general"),
         SLOPE("slope", "general"),
         TRAFFIC_LIGHT("traffic_light", "general"),
-        TRAIN("train", "general"),
         UNEVEN("uneven", "general"),
-        TREE("tree", "general"),
+        //TREE("tree", "general"),
         WILDLIFE("wildlife", "general"),
+        TRAIN("train", "general"),
+
+        // --- street_course ---
+        CURVE_LEFT("curve_left", "street_course"),
+        CURVE_RIGHT("curve_right", "street_course"),
+        DOUBLECURVE_LEFT("doublecurve_left", "street_course"),
+        DOUBLECURVE_RIGHT("doublecurve_right", "street_course"),
+        NARROWED("narrowed", "street_course"),
+        NARROWED_LEFT("narrowed_left", "street_course"),
+        NARROWED_RIGHT("narrowed_right", "street_course"),
+
+        // --- priority ---
+        RIGHT_OF_WAY("right_of_way", "priority"),
+        CROSSING("crossing", "priority"),
+
 
         // --- blank ---
         BLANK("blank", "blank");

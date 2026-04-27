@@ -13,6 +13,19 @@
   "block.roadside-addons.sign_regulatory": "Regulatory Sign",
   "block.roadside-addons.sign_priority_road": "Priority Road Sign",
 
+  "sign_category.roadside-addons.general" : "General",
+  "sign_category.roadside-addons.street_course" : "Street Course",
+  "sign_category.roadside-addons.priority" : "Right of Way",
+  "sign_category.roadside-addons.blank" : "Blank Sign",
+  "sign_category.roadside-addons.directional" : "Prescribed Directions of Travel",
+  "sign_category.roadside-addons.special_routes" : "Special Routes",
+  "sign_category.roadside-addons.no_stopping" : "Parking Restrictions",
+  "sign_category.roadside-addons.no_stopping_restricted" : "Stopping Restrictions",
+  "sign_category.roadside-addons.speed_limit" : "Speed Limit",
+  "sign_category.roadside-addons.speed_limit_end" : "Lifted Speed Limit",
+  "sign_category.roadside-addons.passing" : "Overtaking Bans",
+  "sign_category.roadside-addons.other" : "Other Variants",
+
 
 
   "block.roadside-addons.traffic_cone": "Traffic Cone",

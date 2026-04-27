@@ -1,5 +1,6 @@
 package de.cxlledjay.roadsideaddons;
 
+import de.cxlledjay.roadsideaddons.networking.ModMessages;
 import de.cxlledjay.roadsideaddons.registry.ModBlocks;
 import de.cxlledjay.roadsideaddons.registry.ModItemGroups;
 import de.cxlledjay.roadsideaddons.registry.ModItems;
@@ -27,5 +28,7 @@ public class RoadsideAddons implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
+
+		ModMessages.registerC2SPackets();
 	}
 }
