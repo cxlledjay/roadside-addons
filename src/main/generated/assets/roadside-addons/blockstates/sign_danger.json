@@ -28,10 +28,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_0_dangerzone",
       "y": 0
     },
-    "rotation=0,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_0_default",
-      "y": 0
-    },
     "rotation=0,variant=doublecurve_left": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_doublecurve_left",
       "y": 0
@@ -112,10 +108,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_0_train",
       "y": 0
     },
-    "rotation=0,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_0_tree",
-      "y": 0
-    },
     "rotation=0,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_uneven",
       "y": 0
@@ -150,10 +142,6 @@
     },
     "rotation=1,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_dangerzone",
-      "y": 0
-    },
-    "rotation=1,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n22_default",
       "y": 0
     },
     "rotation=1,variant=doublecurve_left": {
@@ -236,10 +224,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_train",
       "y": 0
     },
-    "rotation=1,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n22_tree",
-      "y": 0
-    },
     "rotation=1,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_uneven",
       "y": 0
@@ -274,10 +258,6 @@
     },
     "rotation=10,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_dangerzone",
-      "y": 180
-    },
-    "rotation=10,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n45_default",
       "y": 180
     },
     "rotation=10,variant=doublecurve_left": {
@@ -360,10 +340,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_train",
       "y": 180
     },
-    "rotation=10,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n45_tree",
-      "y": 180
-    },
     "rotation=10,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_uneven",
       "y": 180
@@ -398,10 +374,6 @@
     },
     "rotation=11,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_dangerzone",
-      "y": 270
-    },
-    "rotation=11,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_22_default",
       "y": 270
     },
     "rotation=11,variant=doublecurve_left": {
@@ -484,10 +456,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_22_train",
       "y": 270
     },
-    "rotation=11,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_22_tree",
-      "y": 270
-    },
     "rotation=11,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_uneven",
       "y": 270
@@ -522,10 +490,6 @@
     },
     "rotation=12,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_dangerzone",
-      "y": 270
-    },
-    "rotation=12,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_0_default",
       "y": 270
     },
     "rotation=12,variant=doublecurve_left": {
@@ -608,10 +572,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_0_train",
       "y": 270
     },
-    "rotation=12,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_0_tree",
-      "y": 270
-    },
     "rotation=12,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_uneven",
       "y": 270
@@ -646,10 +606,6 @@
     },
     "rotation=13,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_dangerzone",
-      "y": 270
-    },
-    "rotation=13,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n22_default",
       "y": 270
     },
     "rotation=13,variant=doublecurve_left": {
@@ -732,10 +688,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_train",
       "y": 270
     },
-    "rotation=13,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n22_tree",
-      "y": 270
-    },
     "rotation=13,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_uneven",
       "y": 270
@@ -770,10 +722,6 @@
     },
     "rotation=14,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_dangerzone",
-      "y": 270
-    },
-    "rotation=14,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n45_default",
       "y": 270
     },
     "rotation=14,variant=doublecurve_left": {
@@ -856,10 +804,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_train",
       "y": 270
     },
-    "rotation=14,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n45_tree",
-      "y": 270
-    },
     "rotation=14,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_uneven",
       "y": 270
@@ -894,10 +838,6 @@
     },
     "rotation=15,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_dangerzone",
-      "y": 0
-    },
-    "rotation=15,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_22_default",
       "y": 0
     },
     "rotation=15,variant=doublecurve_left": {
@@ -980,10 +920,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_22_train",
       "y": 0
     },
-    "rotation=15,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_22_tree",
-      "y": 0
-    },
     "rotation=15,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_uneven",
       "y": 0
@@ -1018,10 +954,6 @@
     },
     "rotation=2,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_dangerzone",
-      "y": 0
-    },
-    "rotation=2,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n45_default",
       "y": 0
     },
     "rotation=2,variant=doublecurve_left": {
@@ -1104,10 +1036,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_train",
       "y": 0
     },
-    "rotation=2,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n45_tree",
-      "y": 0
-    },
     "rotation=2,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_uneven",
       "y": 0
@@ -1142,10 +1070,6 @@
     },
     "rotation=3,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_dangerzone",
-      "y": 90
-    },
-    "rotation=3,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_22_default",
       "y": 90
     },
     "rotation=3,variant=doublecurve_left": {
@@ -1228,10 +1152,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_22_train",
       "y": 90
     },
-    "rotation=3,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_22_tree",
-      "y": 90
-    },
     "rotation=3,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_uneven",
       "y": 90
@@ -1266,10 +1186,6 @@
     },
     "rotation=4,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_dangerzone",
-      "y": 90
-    },
-    "rotation=4,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_0_default",
       "y": 90
     },
     "rotation=4,variant=doublecurve_left": {
@@ -1352,10 +1268,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_0_train",
       "y": 90
     },
-    "rotation=4,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_0_tree",
-      "y": 90
-    },
     "rotation=4,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_uneven",
       "y": 90
@@ -1390,10 +1302,6 @@
     },
     "rotation=5,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_dangerzone",
-      "y": 90
-    },
-    "rotation=5,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n22_default",
       "y": 90
     },
     "rotation=5,variant=doublecurve_left": {
@@ -1476,10 +1384,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_train",
       "y": 90
     },
-    "rotation=5,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n22_tree",
-      "y": 90
-    },
     "rotation=5,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_uneven",
       "y": 90
@@ -1514,10 +1418,6 @@
     },
     "rotation=6,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_dangerzone",
-      "y": 90
-    },
-    "rotation=6,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n45_default",
       "y": 90
     },
     "rotation=6,variant=doublecurve_left": {
@@ -1600,10 +1500,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_train",
       "y": 90
     },
-    "rotation=6,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n45_tree",
-      "y": 90
-    },
     "rotation=6,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n45_uneven",
       "y": 90
@@ -1638,10 +1534,6 @@
     },
     "rotation=7,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_dangerzone",
-      "y": 180
-    },
-    "rotation=7,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_22_default",
       "y": 180
     },
     "rotation=7,variant=doublecurve_left": {
@@ -1724,10 +1616,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_22_train",
       "y": 180
     },
-    "rotation=7,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_22_tree",
-      "y": 180
-    },
     "rotation=7,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_22_uneven",
       "y": 180
@@ -1762,10 +1650,6 @@
     },
     "rotation=8,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_dangerzone",
-      "y": 180
-    },
-    "rotation=8,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_0_default",
       "y": 180
     },
     "rotation=8,variant=doublecurve_left": {
@@ -1848,10 +1732,6 @@
       "model": "roadside-addons:block/sign_danger/sign_danger_0_train",
       "y": 180
     },
-    "rotation=8,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_0_tree",
-      "y": 180
-    },
     "rotation=8,variant=uneven": {
       "model": "roadside-addons:block/sign_danger/sign_danger_0_uneven",
       "y": 180
@@ -1886,10 +1766,6 @@
     },
     "rotation=9,variant=dangerzone": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_dangerzone",
-      "y": 180
-    },
-    "rotation=9,variant=default": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n22_default",
       "y": 180
     },
     "rotation=9,variant=doublecurve_left": {
@@ -1970,10 +1846,6 @@
     },
     "rotation=9,variant=train": {
       "model": "roadside-addons:block/sign_danger/sign_danger_n22_train",
-      "y": 180
-    },
-    "rotation=9,variant=tree": {
-      "model": "roadside-addons:block/sign_danger/sign_danger_n22_tree",
       "y": 180
     },
     "rotation=9,variant=uneven": {

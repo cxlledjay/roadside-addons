@@ -34,6 +34,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TRAFFIC_CONE);
                         entries.add(ModBlocks.BOLLARD_CONSTRUCTION);
 
+                        // bollard
+                        entries.add(ModBlocks.BOLLARD_GERMAN);
+
                         // ----- items
                         entries.add(ModItems.SIGN_BRUSH);
                     })

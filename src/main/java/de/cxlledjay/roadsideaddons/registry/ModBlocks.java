@@ -1,6 +1,7 @@
 package de.cxlledjay.roadsideaddons.registry;
 
 import de.cxlledjay.roadsideaddons.RoadsideAddons;
+import de.cxlledjay.roadsideaddons.block.bollards.GermanBollard;
 import de.cxlledjay.roadsideaddons.block.construction.BollardConstruction;
 import de.cxlledjay.roadsideaddons.block.sign.post.SignPostBase;
 import de.cxlledjay.roadsideaddons.block.sign.post.SignPostBaseConstruction;
@@ -56,6 +57,11 @@ public class ModBlocks {
 
     public static final Block BOLLARD_CONSTRUCTION = registerBlock("bollard_construction",
             new BollardConstruction(AbstractBlock.Settings.create().nonOpaque().strength(1.5f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)));
+
+    // ---------------------------- <bollards> ----------------------------
+
+    public static final Block BOLLARD_GERMAN = registerBlock("bollard_german",
+            new GermanBollard(AbstractBlock.Settings.create().nonOpaque().strength(1.5f).requiresTool().sounds(BlockSoundGroup.POLISHED_TUFF)));
 
 
 

@@ -34,6 +34,7 @@ public class ModModelProvider extends FabricModelProvider {
         SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.SIGN_POST_BASE_CONSTRUCTION);
         SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.TRAFFIC_CONE);
         SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.BOLLARD_CONSTRUCTION);
+        SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.BOLLARD_GERMAN);
         SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_DANGER);
         SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_YIELD);
         SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_STOP);
