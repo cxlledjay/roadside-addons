@@ -25,7 +25,7 @@ public class SignBrush extends Item {
 
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
-        return useOnBlockTest(context);
+        return useOnBlockScreen(context);
     }
 
     public ActionResult useOnBlockScreen(ItemUsageContext context) {

@@ -90,11 +90,11 @@ public class SignRegulatory extends AbstractSign {
         SPECIAL_PEDESTRIAN("special_pedestrian", "special_routes"),
 
         // --- speed_limit ---
+        SPEED_LIMIT_5("speed_limit_5", "speed_limit"),
         SPEED_LIMIT_10("speed_limit_10", "speed_limit"),
         SPEED_LIMIT_20("speed_limit_20", "speed_limit"),
         SPEED_LIMIT_30("speed_limit_30", "speed_limit"),
         SPEED_LIMIT_40("speed_limit_40", "speed_limit"),
-        SPEED_LIMIT_5("speed_limit_5", "speed_limit"),
         SPEED_LIMIT_50("speed_limit_50", "speed_limit"),
         SPEED_LIMIT_60("speed_limit_60", "speed_limit"),
         SPEED_LIMIT_70("speed_limit_70", "speed_limit"),
@@ -104,7 +104,6 @@ public class SignRegulatory extends AbstractSign {
         SPEED_LIMIT_110("speed_limit_110", "speed_limit"),
         SPEED_LIMIT_120("speed_limit_120", "speed_limit"),
         SPEED_LIMIT_130("speed_limit_130", "speed_limit"),
-        SPEED_LIMIT_END("speed_limit_end", "speed_limit"),
         SPEED_LIMIT_END_5("speed_limit_end_5", "speed_limit"),
         SPEED_LIMIT_END_10("speed_limit_end_10", "speed_limit"),
         SPEED_LIMIT_END_20("speed_limit_end_20", "speed_limit"),
@@ -119,6 +118,7 @@ public class SignRegulatory extends AbstractSign {
         SPEED_LIMIT_END_110("speed_limit_end_110", "speed_limit"),
         SPEED_LIMIT_END_120("speed_limit_end_120", "speed_limit"),
         SPEED_LIMIT_END_130("speed_limit_end_130", "speed_limit"),
+        SPEED_LIMIT_END("speed_limit_end", "speed_limit"),
         SPEED_MINIMUM_30("speed_minimum_30", "speed_limit"),
         SPEED_MINIMUM_30_OVER("speed_minimum_30_over", "speed_limit"),
 
