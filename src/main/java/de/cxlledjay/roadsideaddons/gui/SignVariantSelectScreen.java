@@ -2,9 +2,8 @@ package de.cxlledjay.roadsideaddons.gui;
 
 import de.cxlledjay.roadsideaddons.RoadsideAddons;
 import de.cxlledjay.roadsideaddons.block.sign.generic.SignVariant;
-import de.cxlledjay.roadsideaddons.block.sign.variants.SignDanger;
-import de.cxlledjay.roadsideaddons.block.sign.variants.SignRegulatory;
 import net.minecraft.block.Block;
+import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.widget.ButtonWidget;
 import net.minecraft.client.gui.widget.DirectionalLayoutWidget;
@@ -39,6 +38,32 @@ public class SignVariantSelectScreen extends Screen {
         initGui();
     }
 
+    @Override
+    public void renderBackground(DrawContext context, int mouseX, int mouseY, float delta) {
+
+        super.renderBackground(context, mouseX, mouseY, delta);
+
+        // 1. Define the boundaries based on your list dimensions
+        int listTopY = 10;
+        int listBottomY = this.height - 40; // 30 (top) + (this.height - 60) (height)
+
+        // We use 0xCC000000 (80% Black) for the dark bars so it perfectly
+        // matches the starting color of your fillGradient inside the list!
+        int darkTint = 0xD4000000;
+        int lightTint = 0x55000000; // 20% Black for the middle so the screen isn't too dark
+
+        // 2. Draw Top Header Bar (Dark)
+        // From Y=0 down to the top of the list
+        context.fill(0, 0, this.width, listTopY, darkTint);
+
+        // 3. Draw Middle Content Area (Light)
+        // Sits exactly behind the scrolling list
+        context.fill(0, listTopY, this.width, listBottomY, lightTint);
+
+        // 4. Draw Bottom Footer Bar (Dark)
+        // From the bottom of the list down to the bottom of the screen
+        context.fill(0, listBottomY, this.width, this.height, darkTint);
+    }
 
     // ---------------------------- <gui> ----------------------------
 
@@ -47,14 +72,11 @@ public class SignVariantSelectScreen extends Screen {
 
     private void initGui() {
 
-        final int listWidth = (this.width / 4) * 3;
-
         // 1. Create the scrollable list (leaves 30px at top/bottom for title/close button)
-        VariantListWidget listWidget = new VariantListWidget(this.client, listWidth, this.height - 40, 10);
-        listWidget.setX((this.width - listWidth) / 2);
+        VariantListWidget listWidget = new VariantListWidget(this.client, this.width, this.height - 50, 10);
 
         // Calculate how many buttons can fit in one row
-        int maxButtonsPerRow = listWidget.getRowWidth() / buttonSpacing;
+        int maxButtonsPerRow = (listWidget.getRowWidth() - 120) / buttonSpacing;
 
         // 2. Get your grouped variants (From our earlier Map code!)
         Map<String, List<SignVariant>> groupedVariants = getGroupedVariants();
