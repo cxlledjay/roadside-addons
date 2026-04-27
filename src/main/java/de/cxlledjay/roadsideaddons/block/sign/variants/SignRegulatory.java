@@ -16,7 +16,7 @@ public class SignRegulatory extends AbstractSign {
     public SignRegulatory(Settings settings) {
         super(settings);
         // Set default rotation to 0 (South)
-        this.setDefaultState(this.stateManager.getDefaultState().with(VARIANT, DangerType.BLANK));
+        this.setDefaultState(this.stateManager.getDefaultState().with(VARIANT, RegulatoryType.BLANK));
     }
 
     // ---------------------------- <CODEC> ----------------------------
@@ -29,7 +29,7 @@ public class SignRegulatory extends AbstractSign {
     // ---------------------------- <variants> ----------------------------
 
     // Define the specific Enum for this block
-    public enum DangerType implements SignVariant {
+    public enum RegulatoryType implements SignVariant {
         // --- traffic_bans ---
         DEFAULT("default", "traffic_bans"),
         BAN_ACTUAL_AXLE_LOAD("ban_actual_axle_load", "traffic_bans"),
@@ -142,7 +142,7 @@ public class SignRegulatory extends AbstractSign {
         private final String name;
         private final String category;
 
-        DangerType(String name, String category) {
+        RegulatoryType(String name, String category) {
             this.name = name;
             this.category = category;
         }
@@ -158,7 +158,7 @@ public class SignRegulatory extends AbstractSign {
         }
     }
 
-    public static final EnumProperty<DangerType> VARIANT = EnumProperty.of("variant", DangerType.class);
+    public static final EnumProperty<RegulatoryType> VARIANT = EnumProperty.of("variant", RegulatoryType.class);
 
     @Override
     public EnumProperty<? extends SignVariant> getVariantProperty() {

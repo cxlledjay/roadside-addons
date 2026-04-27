@@ -25,6 +25,10 @@ public class SignBrush extends Item {
 
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
+        return useOnBlockTest(context);
+    }
+
+    public ActionResult useOnBlockScreen(ItemUsageContext context) {
 
         // default action
         ActionResult res = ActionResult.FAIL;

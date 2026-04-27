@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "rotation=0,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_blank",
+      "y": 0
+    },
+    "rotation=0,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_priority_road",
+      "y": 0
+    },
+    "rotation=0,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_priority_road_end",
+      "y": 0
+    },
+    "rotation=1,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_blank",
+      "y": 0
+    },
+    "rotation=1,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_priority_road",
+      "y": 0
+    },
+    "rotation=1,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_priority_road_end",
+      "y": 0
+    },
+    "rotation=10,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_blank",
+      "y": 180
+    },
+    "rotation=10,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_priority_road",
+      "y": 180
+    },
+    "rotation=10,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_priority_road_end",
+      "y": 180
+    },
+    "rotation=11,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_blank",
+      "y": 270
+    },
+    "rotation=11,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_priority_road",
+      "y": 270
+    },
+    "rotation=11,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_priority_road_end",
+      "y": 270
+    },
+    "rotation=12,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_blank",
+      "y": 270
+    },
+    "rotation=12,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_priority_road",
+      "y": 270
+    },
+    "rotation=12,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_priority_road_end",
+      "y": 270
+    },
+    "rotation=13,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_blank",
+      "y": 270
+    },
+    "rotation=13,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_priority_road",
+      "y": 270
+    },
+    "rotation=13,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_priority_road_end",
+      "y": 270
+    },
+    "rotation=14,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_blank",
+      "y": 270
+    },
+    "rotation=14,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_priority_road",
+      "y": 270
+    },
+    "rotation=14,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_priority_road_end",
+      "y": 270
+    },
+    "rotation=15,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_blank",
+      "y": 0
+    },
+    "rotation=15,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_priority_road",
+      "y": 0
+    },
+    "rotation=15,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_priority_road_end",
+      "y": 0
+    },
+    "rotation=2,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_blank",
+      "y": 0
+    },
+    "rotation=2,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_priority_road",
+      "y": 0
+    },
+    "rotation=2,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_priority_road_end",
+      "y": 0
+    },
+    "rotation=3,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_blank",
+      "y": 90
+    },
+    "rotation=3,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_priority_road",
+      "y": 90
+    },
+    "rotation=3,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_priority_road_end",
+      "y": 90
+    },
+    "rotation=4,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_blank",
+      "y": 90
+    },
+    "rotation=4,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_priority_road",
+      "y": 90
+    },
+    "rotation=4,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_priority_road_end",
+      "y": 90
+    },
+    "rotation=5,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_blank",
+      "y": 90
+    },
+    "rotation=5,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_priority_road",
+      "y": 90
+    },
+    "rotation=5,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_priority_road_end",
+      "y": 90
+    },
+    "rotation=6,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_blank",
+      "y": 90
+    },
+    "rotation=6,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_priority_road",
+      "y": 90
+    },
+    "rotation=6,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n45_priority_road_end",
+      "y": 90
+    },
+    "rotation=7,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_blank",
+      "y": 180
+    },
+    "rotation=7,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_priority_road",
+      "y": 180
+    },
+    "rotation=7,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_22_priority_road_end",
+      "y": 180
+    },
+    "rotation=8,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_blank",
+      "y": 180
+    },
+    "rotation=8,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_priority_road",
+      "y": 180
+    },
+    "rotation=8,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_0_priority_road_end",
+      "y": 180
+    },
+    "rotation=9,variant=blank": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_blank",
+      "y": 180
+    },
+    "rotation=9,variant=priority_road": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_priority_road",
+      "y": 180
+    },
+    "rotation=9,variant=priority_road_end": {
+      "model": "roadside-addons:block/sign_priority_road/sign_priority_road_n22_priority_road_end",
+      "y": 180
+    }
+  }
+}
