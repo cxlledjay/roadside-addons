@@ -29,6 +29,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIGN_YIELD);
                         entries.add(ModBlocks.SIGN_REGULATORY);
                         entries.add(ModBlocks.SIGN_PRIORITY_ROAD);
+                        entries.add(ModBlocks.SIGN_INFORMATION);
+                        entries.add(ModBlocks.SIGN_ONEWAY);
+                        entries.add(ModBlocks.SIGN_SUPPLEMENTARY_SQUARE);
+                        entries.add(ModBlocks.SIGN_SUPPLEMENTARY_WIDE);
 
                         // construction
                         entries.add(ModBlocks.TRAFFIC_CONE);

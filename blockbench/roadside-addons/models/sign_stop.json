@@ -3,10 +3,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"2": "roadside-addons:block/sign_stop/default",
 		"particle": "roadside-addons:block/post/post",
 		"post": "roadside-addons:block/post/post",
-		"base": "roadside-addons:block/sign_stop/base"
+		"base": "roadside-addons:block/sign_stop/base",
+		"overlay": "roadside-addons:block/sign_stop/blank"
 	},
 	"elements": [
 		{
@@ -169,12 +169,12 @@
 			"to": [16.01, 16.01, 6.01],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 8, 8], "texture": "#2"},
-				"east": {"uv": [0, 0, 0, 8], "texture": "#2"},
-				"south": {"uv": [0, 8, 8, 16], "texture": "#2"},
-				"west": {"uv": [0, 0, 0, 8], "texture": "#2"},
-				"up": {"uv": [8, 0, 0, 0], "texture": "#2"},
-				"down": {"uv": [8, 0, 0, 0], "texture": "#2"}
+				"north": {"uv": [0, 0, 8, 8], "texture": "#overlay"},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#overlay"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#overlay"},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#overlay"},
+				"up": {"uv": [8, 0, 0, 0], "texture": "#overlay"},
+				"down": {"uv": [8, 0, 0, 0], "texture": "#overlay"}
 			}
 		}
 	],

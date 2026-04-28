@@ -10,6 +10,7 @@ import de.cxlledjay.roadsideaddons.block.sign.variants.*;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.MapColor;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.BlockItem;
@@ -49,6 +50,18 @@ public class ModBlocks {
 
     public static final Block SIGN_PRIORITY_ROAD= registerBlock("sign_priority_road",
             new SignPriorityRoad(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+
+    public static final Block SIGN_INFORMATION= registerBlock("sign_information",
+            new SignInformation(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+
+    public static final Block SIGN_ONEWAY= registerBlock("sign_oneway",
+            new SignOneway(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+
+    public static final Block SIGN_SUPPLEMENTARY_SQUARE= registerBlock("sign_supplementary_square",
+            new SignSupplementarySquare(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+
+    public static final Block SIGN_SUPPLEMENTARY_WIDE= registerBlock("sign_supplementary_wide",
+            new SignSupplementaryWide(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
 
 
     // ---------------------------- <construction> ----------------------------

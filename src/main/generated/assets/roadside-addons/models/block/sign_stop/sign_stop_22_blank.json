@@ -173,7 +173,7 @@
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -251,7 +251,7 @@
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -323,13 +323,13 @@
         }
       },
       "from": [
-        3.999,
-        -0.001,
-        5.999
+        4,
+        0,
+        6
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -338,9 +338,9 @@
         ]
       },
       "to": [
-        12.001,
-        1.001,
-        7.001
+        12,
+        1,
+        7
       ]
     },
     {
@@ -407,7 +407,7 @@
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -485,7 +485,7 @@
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -563,7 +563,7 @@
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -635,13 +635,13 @@
         }
       },
       "from": [
-        3.999,
-        14.999,
-        5.999
+        4,
+        15,
+        6
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -650,9 +650,9 @@
         ]
       },
       "to": [
-        12.001,
-        16.001,
-        7.001
+        12,
+        16,
+        7
       ]
     },
     {
@@ -719,7 +719,7 @@
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -797,7 +797,7 @@
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -875,7 +875,7 @@
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -953,7 +953,7 @@
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -1031,7 +1031,7 @@
       ],
       "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": 22.5,
         "axis": "y",
         "origin": [
           8,
@@ -1103,7 +1103,7 @@
   ],
   "textures": {
     "base": "roadside-addons:block/sign_stop/base",
-    "overlay": "roadside-addons:block/sign_stop/default",
+    "overlay": "roadside-addons:block/sign_stop/blank",
     "particle": "roadside-addons:block/post/post",
     "post": "roadside-addons:block/post/post"
   }

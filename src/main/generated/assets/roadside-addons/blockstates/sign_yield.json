@@ -1,67 +1,131 @@
 {
   "variants": {
-    "rotation=0": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_0",
+    "rotation=0,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_0_blank",
       "y": 0
     },
-    "rotation=1": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_n22",
+    "rotation=0,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_0_default",
       "y": 0
     },
-    "rotation=10": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_n45",
+    "rotation=1,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n22_blank",
+      "y": 0
+    },
+    "rotation=1,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n22_default",
+      "y": 0
+    },
+    "rotation=10,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n45_blank",
       "y": 180
     },
-    "rotation=11": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_22",
-      "y": 270
-    },
-    "rotation=12": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_0",
-      "y": 270
-    },
-    "rotation=13": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_n22",
-      "y": 270
-    },
-    "rotation=14": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_n45",
-      "y": 270
-    },
-    "rotation=15": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_22",
-      "y": 0
-    },
-    "rotation=2": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_n45",
-      "y": 0
-    },
-    "rotation=3": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_22",
-      "y": 90
-    },
-    "rotation=4": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_0",
-      "y": 90
-    },
-    "rotation=5": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_n22",
-      "y": 90
-    },
-    "rotation=6": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_n45",
-      "y": 90
-    },
-    "rotation=7": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_22",
+    "rotation=10,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n45_default",
       "y": 180
     },
-    "rotation=8": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_0",
+    "rotation=11,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_22_blank",
+      "y": 270
+    },
+    "rotation=11,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_22_default",
+      "y": 270
+    },
+    "rotation=12,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_0_blank",
+      "y": 270
+    },
+    "rotation=12,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_0_default",
+      "y": 270
+    },
+    "rotation=13,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n22_blank",
+      "y": 270
+    },
+    "rotation=13,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n22_default",
+      "y": 270
+    },
+    "rotation=14,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n45_blank",
+      "y": 270
+    },
+    "rotation=14,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n45_default",
+      "y": 270
+    },
+    "rotation=15,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_22_blank",
+      "y": 0
+    },
+    "rotation=15,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_22_default",
+      "y": 0
+    },
+    "rotation=2,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n45_blank",
+      "y": 0
+    },
+    "rotation=2,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n45_default",
+      "y": 0
+    },
+    "rotation=3,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_22_blank",
+      "y": 90
+    },
+    "rotation=3,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_22_default",
+      "y": 90
+    },
+    "rotation=4,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_0_blank",
+      "y": 90
+    },
+    "rotation=4,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_0_default",
+      "y": 90
+    },
+    "rotation=5,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n22_blank",
+      "y": 90
+    },
+    "rotation=5,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n22_default",
+      "y": 90
+    },
+    "rotation=6,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n45_blank",
+      "y": 90
+    },
+    "rotation=6,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n45_default",
+      "y": 90
+    },
+    "rotation=7,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_22_blank",
       "y": 180
     },
-    "rotation=9": {
-      "model": "roadside-addons:block/sign_yield/sign_yield_n22",
+    "rotation=7,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_22_default",
+      "y": 180
+    },
+    "rotation=8,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_0_blank",
+      "y": 180
+    },
+    "rotation=8,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_0_default",
+      "y": 180
+    },
+    "rotation=9,variant=blank": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n22_blank",
+      "y": 180
+    },
+    "rotation=9,variant=default": {
+      "model": "roadside-addons:block/sign_yield/sign_yield_n22_default",
       "y": 180
     }
   }

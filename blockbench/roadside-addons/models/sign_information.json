@@ -1,0 +1,128 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "roadside-addons:block/sign_information/base",
+		"base": "roadside-addons:block/sign_information/base",
+		"overlay": "roadside-addons:block/sign_information/blank",
+		"post": "roadside-addons:block/post/post"
+	},
+	"elements": [
+		{
+			"name": "rotatable",
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 8], "texture": "#post"},
+				"east": {"uv": [1, 0, 2, 8], "texture": "#post"},
+				"south": {"uv": [2, 0, 3, 8], "texture": "#post"},
+				"west": {"uv": [3, 0, 4, 8], "texture": "#post"},
+				"up": {"uv": [5, 4, 4, 3], "texture": "#post"},
+				"down": {"uv": [5, 4, 4, 5], "texture": "#post"}
+			}
+		},
+		{
+			"name": "rotatable",
+			"from": [1.999, 6.999, 6.999],
+			"to": [14.001, 9.001, 8.001],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [4, 0, 10, 1], "texture": "#post"},
+				"east": {"uv": [5, 3, 5.5, 4], "texture": "#post"},
+				"south": {"uv": [4, 1, 10, 2], "texture": "#post"},
+				"west": {"uv": [4, 5, 4.5, 6], "texture": "#post"},
+				"up": {"uv": [10, 2.5, 4, 2], "texture": "#post"},
+				"down": {"uv": [10, 2.5, 4, 3], "texture": "#post"}
+			}
+		},
+		{
+			"name": "rotatable",
+			"from": [0, 0, 6],
+			"to": [16, 16, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#base"},
+				"east": {"uv": [4, 0, 4.25, 4], "texture": "#base"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#base"},
+				"west": {"uv": [4, 4, 4.25, 8], "texture": "#base"},
+				"up": {"uv": [8.25, 0.25, 4.25, 0], "texture": "#base"},
+				"down": {"uv": [8.25, 0.25, 4.25, 0.5], "texture": "#base"}
+			}
+		},
+		{
+			"name": "rotatable",
+			"from": [-0.002, -0.002, 5.998],
+			"to": [16.002, 16.002, 6.002],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#overlay"},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#overlay"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#overlay"},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#overlay"},
+				"up": {"uv": [8, 0, 0, 0], "texture": "#overlay"},
+				"down": {"uv": [8, 0, 0, 0], "texture": "#overlay"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-1, 4, 1.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-1, 4, 1.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [28, -155, 0],
+			"translation": [0, 0.75, 0],
+			"scale": [0.92, 0.92, 0.92]
+		},
+		"head": {
+			"translation": [0, 14.5, 0]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "post",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "sign",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [2]
+		},
+		{
+			"name": "overlay",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [3]
+		}
+	]
+}

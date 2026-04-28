@@ -40,6 +40,10 @@ public class ModModelProvider extends FabricModelProvider {
         SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_STOP);
         SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_REGULATORY);
         SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_PRIORITY_ROAD);
+        SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_INFORMATION);
+        SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_ONEWAY);
+        SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_SUPPLEMENTARY_SQUARE);
+        SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_SUPPLEMENTARY_WIDE);
     }
 
     // ---------------------------- <generate item models> ----------------------------

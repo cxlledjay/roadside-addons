@@ -12,6 +12,10 @@
   "block.roadside-addons.sign_yield": "Yield Sign",
   "block.roadside-addons.sign_regulatory": "Regulatory Sign",
   "block.roadside-addons.sign_priority_road": "Priority Road Sign",
+  "block.roadside-addons.sign_information": "Information Sign",
+  "block.roadside-addons.sign_oneway": "Oneway Sign",
+  "block.roadside-addons.sign_supplementary_square": "Supplementary Sign (Square)",
+  "block.roadside-addons.sign_supplementary_wide": "Supplementary Sign (Wide)",
 
   "sign_category.roadside-addons.general" : "General",
   "sign_category.roadside-addons.street_course" : "Street Course",
@@ -25,6 +29,7 @@
   "sign_category.roadside-addons.speed_limit_end" : "Lifted Speed Limit",
   "sign_category.roadside-addons.passing" : "Overtaking Bans",
   "sign_category.roadside-addons.other" : "Other Variants",
+  "sign_category.roadside-addons.legacy" : "Legacy Designs",
 
 
 

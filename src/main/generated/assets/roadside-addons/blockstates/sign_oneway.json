@@ -1,0 +1,132 @@
+{
+  "variants": {
+    "rotation=0,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_blank",
+      "y": 0
+    },
+    "rotation=0,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_default",
+      "y": 0
+    },
+    "rotation=1,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_blank",
+      "y": 0
+    },
+    "rotation=1,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_default",
+      "y": 0
+    },
+    "rotation=10,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_blank",
+      "y": 180
+    },
+    "rotation=10,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_default",
+      "y": 180
+    },
+    "rotation=11,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_blank",
+      "y": 270
+    },
+    "rotation=11,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_default",
+      "y": 270
+    },
+    "rotation=12,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_blank",
+      "y": 270
+    },
+    "rotation=12,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_default",
+      "y": 270
+    },
+    "rotation=13,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_blank",
+      "y": 270
+    },
+    "rotation=13,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_default",
+      "y": 270
+    },
+    "rotation=14,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_blank",
+      "y": 270
+    },
+    "rotation=14,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_default",
+      "y": 270
+    },
+    "rotation=15,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_blank",
+      "y": 0
+    },
+    "rotation=15,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_default",
+      "y": 0
+    },
+    "rotation=2,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_blank",
+      "y": 0
+    },
+    "rotation=2,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_default",
+      "y": 0
+    },
+    "rotation=3,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_blank",
+      "y": 90
+    },
+    "rotation=3,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_default",
+      "y": 90
+    },
+    "rotation=4,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_blank",
+      "y": 90
+    },
+    "rotation=4,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_default",
+      "y": 90
+    },
+    "rotation=5,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_blank",
+      "y": 90
+    },
+    "rotation=5,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_default",
+      "y": 90
+    },
+    "rotation=6,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_blank",
+      "y": 90
+    },
+    "rotation=6,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_default",
+      "y": 90
+    },
+    "rotation=7,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_blank",
+      "y": 180
+    },
+    "rotation=7,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_default",
+      "y": 180
+    },
+    "rotation=8,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_blank",
+      "y": 180
+    },
+    "rotation=8,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_default",
+      "y": 180
+    },
+    "rotation=9,variant=blank": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_blank",
+      "y": 180
+    },
+    "rotation=9,variant=default": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_default",
+      "y": 180
+    }
+  }
+}
