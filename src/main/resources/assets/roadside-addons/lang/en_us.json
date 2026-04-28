@@ -31,6 +31,12 @@
   "sign_category.roadside-addons.other" : "Other Variants",
   "sign_category.roadside-addons.legacy" : "Legacy Designs",
 
+  "sign_category.roadside-addons.zone" : "Zones",
+  "sign_category.roadside-addons.parking" : "Parking Information",
+  "sign_category.roadside-addons.highway" : "Highways",
+  "sign_category.roadside-addons.facilities" : "Facility Information",
+  "sign_category.roadside-addons.pedestrian_crossing" : "Pedestrian Crossing",
+
 
 
   "block.roadside-addons.traffic_cone": "Traffic Cone",

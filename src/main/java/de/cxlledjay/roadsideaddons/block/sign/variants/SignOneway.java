@@ -32,7 +32,8 @@ public class SignOneway extends AbstractSign {
     public enum OnewayType implements SignVariant {
 
         // --- general ---
-        DEFAULT("default", "general"),
+        LEFT("left", "general"),
+        RIGHT("right", "general"),
         // --- blank ---
         BLANK("blank", "blank");
 

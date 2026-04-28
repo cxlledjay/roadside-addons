@@ -1,131 +1,3267 @@
 {
   "variants": {
+    "rotation=0,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_autobahn",
+      "y": 0
+    },
+    "rotation=0,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_autobahn_end",
+      "y": 0
+    },
+    "rotation=0,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_bike_zone",
+      "y": 0
+    },
+    "rotation=0,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_bike_zone_end",
+      "y": 0
+    },
     "rotation=0,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_0_blank",
       "y": 0
     },
-    "rotation=0,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_0_default",
+    "rotation=0,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camper",
+      "y": 0
+    },
+    "rotation=0,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camping",
+      "y": 0
+    },
+    "rotation=0,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camping_ground",
+      "y": 0
+    },
+    "rotation=0,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_church",
+      "y": 0
+    },
+    "rotation=0,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_dead_end",
+      "y": 0
+    },
+    "rotation=0,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_emergency_bay",
+      "y": 0
+    },
+    "rotation=0,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_first_aid",
+      "y": 0
+    },
+    "rotation=0,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station",
+      "y": 0
+    },
+    "rotation=0,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_charging",
+      "y": 0
+    },
+    "rotation=0,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_cng",
+      "y": 0
+    },
+    "rotation=0,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_h2",
+      "y": 0
+    },
+    "rotation=0,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_lpg",
+      "y": 0
+    },
+    "rotation=0,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_hotel",
+      "y": 0
+    },
+    "rotation=0,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_information",
+      "y": 0
+    },
+    "rotation=0,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_inn",
+      "y": 0
+    },
+    "rotation=0,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_kiosk",
+      "y": 0
+    },
+    "rotation=0,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_motor_road",
+      "y": 0
+    },
+    "rotation=0,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_motor_road_end",
+      "y": 0
+    },
+    "rotation=0,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_no_stopping_zone",
+      "y": 0
+    },
+    "rotation=0,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_no_stopping_zone_end",
+      "y": 0
+    },
+    "rotation=0,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_park_and_ride",
+      "y": 0
+    },
+    "rotation=0,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking",
+      "y": 0
+    },
+    "rotation=0,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_garage",
+      "y": 0
+    },
+    "rotation=0,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_left",
+      "y": 0
+    },
+    "rotation=0,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_middle_left",
+      "y": 0
+    },
+    "rotation=0,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_middle_right",
+      "y": 0
+    },
+    "rotation=0,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_right",
+      "y": 0
+    },
+    "rotation=0,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_zone",
+      "y": 0
+    },
+    "rotation=0,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_zone_end",
+      "y": 0
+    },
+    "rotation=0,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_crossing_left",
+      "y": 0
+    },
+    "rotation=0,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_crossing_right",
+      "y": 0
+    },
+    "rotation=0,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_zone",
+      "y": 0
+    },
+    "rotation=0,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_zone_end",
+      "y": 0
+    },
+    "rotation=0,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_phone",
+      "y": 0
+    },
+    "rotation=0,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_phone_sos",
+      "y": 0
+    },
+    "rotation=0,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_police",
+      "y": 0
+    },
+    "rotation=0,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_priority",
+      "y": 0
+    },
+    "rotation=0,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_roadside_assistance",
+      "y": 0
+    },
+    "rotation=0,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_20_zone",
+      "y": 0
+    },
+    "rotation=0,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_20_zone_end",
+      "y": 0
+    },
+    "rotation=0,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_30_zone",
+      "y": 0
+    },
+    "rotation=0,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_30_zone_end",
+      "y": 0
+    },
+    "rotation=0,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_stairs_down",
+      "y": 0
+    },
+    "rotation=0,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_stairs_up",
+      "y": 0
+    },
+    "rotation=0,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_tunnel",
+      "y": 0
+    },
+    "rotation=0,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_wc",
+      "y": 0
+    },
+    "rotation=1,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_autobahn",
+      "y": 0
+    },
+    "rotation=1,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_autobahn_end",
+      "y": 0
+    },
+    "rotation=1,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_bike_zone",
+      "y": 0
+    },
+    "rotation=1,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_bike_zone_end",
       "y": 0
     },
     "rotation=1,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_n22_blank",
       "y": 0
     },
-    "rotation=1,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_n22_default",
+    "rotation=1,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camper",
       "y": 0
+    },
+    "rotation=1,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camping",
+      "y": 0
+    },
+    "rotation=1,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camping_ground",
+      "y": 0
+    },
+    "rotation=1,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_church",
+      "y": 0
+    },
+    "rotation=1,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_dead_end",
+      "y": 0
+    },
+    "rotation=1,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_emergency_bay",
+      "y": 0
+    },
+    "rotation=1,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_first_aid",
+      "y": 0
+    },
+    "rotation=1,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station",
+      "y": 0
+    },
+    "rotation=1,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_charging",
+      "y": 0
+    },
+    "rotation=1,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_cng",
+      "y": 0
+    },
+    "rotation=1,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_h2",
+      "y": 0
+    },
+    "rotation=1,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_lpg",
+      "y": 0
+    },
+    "rotation=1,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_hotel",
+      "y": 0
+    },
+    "rotation=1,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_information",
+      "y": 0
+    },
+    "rotation=1,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_inn",
+      "y": 0
+    },
+    "rotation=1,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_kiosk",
+      "y": 0
+    },
+    "rotation=1,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_motor_road",
+      "y": 0
+    },
+    "rotation=1,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_motor_road_end",
+      "y": 0
+    },
+    "rotation=1,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_no_stopping_zone",
+      "y": 0
+    },
+    "rotation=1,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_no_stopping_zone_end",
+      "y": 0
+    },
+    "rotation=1,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_park_and_ride",
+      "y": 0
+    },
+    "rotation=1,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking",
+      "y": 0
+    },
+    "rotation=1,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_garage",
+      "y": 0
+    },
+    "rotation=1,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_left",
+      "y": 0
+    },
+    "rotation=1,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_middle_left",
+      "y": 0
+    },
+    "rotation=1,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_middle_right",
+      "y": 0
+    },
+    "rotation=1,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_right",
+      "y": 0
+    },
+    "rotation=1,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_zone",
+      "y": 0
+    },
+    "rotation=1,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_zone_end",
+      "y": 0
+    },
+    "rotation=1,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_crossing_left",
+      "y": 0
+    },
+    "rotation=1,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_crossing_right",
+      "y": 0
+    },
+    "rotation=1,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_zone",
+      "y": 0
+    },
+    "rotation=1,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_zone_end",
+      "y": 0
+    },
+    "rotation=1,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_phone",
+      "y": 0
+    },
+    "rotation=1,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_phone_sos",
+      "y": 0
+    },
+    "rotation=1,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_police",
+      "y": 0
+    },
+    "rotation=1,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_priority",
+      "y": 0
+    },
+    "rotation=1,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_roadside_assistance",
+      "y": 0
+    },
+    "rotation=1,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_20_zone",
+      "y": 0
+    },
+    "rotation=1,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_20_zone_end",
+      "y": 0
+    },
+    "rotation=1,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_30_zone",
+      "y": 0
+    },
+    "rotation=1,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_30_zone_end",
+      "y": 0
+    },
+    "rotation=1,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_stairs_down",
+      "y": 0
+    },
+    "rotation=1,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_stairs_up",
+      "y": 0
+    },
+    "rotation=1,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_tunnel",
+      "y": 0
+    },
+    "rotation=1,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_wc",
+      "y": 0
+    },
+    "rotation=10,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_autobahn",
+      "y": 180
+    },
+    "rotation=10,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_autobahn_end",
+      "y": 180
+    },
+    "rotation=10,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_bike_zone",
+      "y": 180
+    },
+    "rotation=10,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_bike_zone_end",
+      "y": 180
     },
     "rotation=10,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_n45_blank",
       "y": 180
     },
-    "rotation=10,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_n45_default",
+    "rotation=10,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camper",
       "y": 180
+    },
+    "rotation=10,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camping",
+      "y": 180
+    },
+    "rotation=10,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camping_ground",
+      "y": 180
+    },
+    "rotation=10,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_church",
+      "y": 180
+    },
+    "rotation=10,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_dead_end",
+      "y": 180
+    },
+    "rotation=10,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_emergency_bay",
+      "y": 180
+    },
+    "rotation=10,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_first_aid",
+      "y": 180
+    },
+    "rotation=10,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station",
+      "y": 180
+    },
+    "rotation=10,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_charging",
+      "y": 180
+    },
+    "rotation=10,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_cng",
+      "y": 180
+    },
+    "rotation=10,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_h2",
+      "y": 180
+    },
+    "rotation=10,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_lpg",
+      "y": 180
+    },
+    "rotation=10,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_hotel",
+      "y": 180
+    },
+    "rotation=10,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_information",
+      "y": 180
+    },
+    "rotation=10,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_inn",
+      "y": 180
+    },
+    "rotation=10,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_kiosk",
+      "y": 180
+    },
+    "rotation=10,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_motor_road",
+      "y": 180
+    },
+    "rotation=10,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_motor_road_end",
+      "y": 180
+    },
+    "rotation=10,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_no_stopping_zone",
+      "y": 180
+    },
+    "rotation=10,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_no_stopping_zone_end",
+      "y": 180
+    },
+    "rotation=10,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_park_and_ride",
+      "y": 180
+    },
+    "rotation=10,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking",
+      "y": 180
+    },
+    "rotation=10,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_garage",
+      "y": 180
+    },
+    "rotation=10,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_left",
+      "y": 180
+    },
+    "rotation=10,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_middle_left",
+      "y": 180
+    },
+    "rotation=10,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_middle_right",
+      "y": 180
+    },
+    "rotation=10,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_right",
+      "y": 180
+    },
+    "rotation=10,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_zone",
+      "y": 180
+    },
+    "rotation=10,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_zone_end",
+      "y": 180
+    },
+    "rotation=10,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_crossing_left",
+      "y": 180
+    },
+    "rotation=10,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_crossing_right",
+      "y": 180
+    },
+    "rotation=10,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_zone",
+      "y": 180
+    },
+    "rotation=10,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_zone_end",
+      "y": 180
+    },
+    "rotation=10,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_phone",
+      "y": 180
+    },
+    "rotation=10,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_phone_sos",
+      "y": 180
+    },
+    "rotation=10,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_police",
+      "y": 180
+    },
+    "rotation=10,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_priority",
+      "y": 180
+    },
+    "rotation=10,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_roadside_assistance",
+      "y": 180
+    },
+    "rotation=10,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_20_zone",
+      "y": 180
+    },
+    "rotation=10,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_20_zone_end",
+      "y": 180
+    },
+    "rotation=10,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_30_zone",
+      "y": 180
+    },
+    "rotation=10,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_30_zone_end",
+      "y": 180
+    },
+    "rotation=10,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_stairs_down",
+      "y": 180
+    },
+    "rotation=10,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_stairs_up",
+      "y": 180
+    },
+    "rotation=10,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_tunnel",
+      "y": 180
+    },
+    "rotation=10,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_wc",
+      "y": 180
+    },
+    "rotation=11,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_autobahn",
+      "y": 270
+    },
+    "rotation=11,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_autobahn_end",
+      "y": 270
+    },
+    "rotation=11,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_bike_zone",
+      "y": 270
+    },
+    "rotation=11,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_bike_zone_end",
+      "y": 270
     },
     "rotation=11,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_22_blank",
       "y": 270
     },
-    "rotation=11,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_22_default",
+    "rotation=11,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camper",
+      "y": 270
+    },
+    "rotation=11,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camping",
+      "y": 270
+    },
+    "rotation=11,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camping_ground",
+      "y": 270
+    },
+    "rotation=11,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_church",
+      "y": 270
+    },
+    "rotation=11,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_dead_end",
+      "y": 270
+    },
+    "rotation=11,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_emergency_bay",
+      "y": 270
+    },
+    "rotation=11,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_first_aid",
+      "y": 270
+    },
+    "rotation=11,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station",
+      "y": 270
+    },
+    "rotation=11,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_charging",
+      "y": 270
+    },
+    "rotation=11,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_cng",
+      "y": 270
+    },
+    "rotation=11,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_h2",
+      "y": 270
+    },
+    "rotation=11,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_lpg",
+      "y": 270
+    },
+    "rotation=11,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_hotel",
+      "y": 270
+    },
+    "rotation=11,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_information",
+      "y": 270
+    },
+    "rotation=11,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_inn",
+      "y": 270
+    },
+    "rotation=11,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_kiosk",
+      "y": 270
+    },
+    "rotation=11,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_motor_road",
+      "y": 270
+    },
+    "rotation=11,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_motor_road_end",
+      "y": 270
+    },
+    "rotation=11,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_no_stopping_zone",
+      "y": 270
+    },
+    "rotation=11,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_no_stopping_zone_end",
+      "y": 270
+    },
+    "rotation=11,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_park_and_ride",
+      "y": 270
+    },
+    "rotation=11,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking",
+      "y": 270
+    },
+    "rotation=11,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_garage",
+      "y": 270
+    },
+    "rotation=11,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_left",
+      "y": 270
+    },
+    "rotation=11,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_middle_left",
+      "y": 270
+    },
+    "rotation=11,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_middle_right",
+      "y": 270
+    },
+    "rotation=11,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_right",
+      "y": 270
+    },
+    "rotation=11,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_zone",
+      "y": 270
+    },
+    "rotation=11,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_zone_end",
+      "y": 270
+    },
+    "rotation=11,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_crossing_left",
+      "y": 270
+    },
+    "rotation=11,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_crossing_right",
+      "y": 270
+    },
+    "rotation=11,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_zone",
+      "y": 270
+    },
+    "rotation=11,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_zone_end",
+      "y": 270
+    },
+    "rotation=11,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_phone",
+      "y": 270
+    },
+    "rotation=11,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_phone_sos",
+      "y": 270
+    },
+    "rotation=11,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_police",
+      "y": 270
+    },
+    "rotation=11,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_priority",
+      "y": 270
+    },
+    "rotation=11,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_roadside_assistance",
+      "y": 270
+    },
+    "rotation=11,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_20_zone",
+      "y": 270
+    },
+    "rotation=11,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_20_zone_end",
+      "y": 270
+    },
+    "rotation=11,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_30_zone",
+      "y": 270
+    },
+    "rotation=11,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_30_zone_end",
+      "y": 270
+    },
+    "rotation=11,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_stairs_down",
+      "y": 270
+    },
+    "rotation=11,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_stairs_up",
+      "y": 270
+    },
+    "rotation=11,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_tunnel",
+      "y": 270
+    },
+    "rotation=11,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_wc",
+      "y": 270
+    },
+    "rotation=12,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_autobahn",
+      "y": 270
+    },
+    "rotation=12,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_autobahn_end",
+      "y": 270
+    },
+    "rotation=12,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_bike_zone",
+      "y": 270
+    },
+    "rotation=12,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_bike_zone_end",
       "y": 270
     },
     "rotation=12,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_0_blank",
       "y": 270
     },
-    "rotation=12,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_0_default",
+    "rotation=12,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camper",
+      "y": 270
+    },
+    "rotation=12,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camping",
+      "y": 270
+    },
+    "rotation=12,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camping_ground",
+      "y": 270
+    },
+    "rotation=12,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_church",
+      "y": 270
+    },
+    "rotation=12,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_dead_end",
+      "y": 270
+    },
+    "rotation=12,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_emergency_bay",
+      "y": 270
+    },
+    "rotation=12,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_first_aid",
+      "y": 270
+    },
+    "rotation=12,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station",
+      "y": 270
+    },
+    "rotation=12,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_charging",
+      "y": 270
+    },
+    "rotation=12,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_cng",
+      "y": 270
+    },
+    "rotation=12,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_h2",
+      "y": 270
+    },
+    "rotation=12,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_lpg",
+      "y": 270
+    },
+    "rotation=12,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_hotel",
+      "y": 270
+    },
+    "rotation=12,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_information",
+      "y": 270
+    },
+    "rotation=12,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_inn",
+      "y": 270
+    },
+    "rotation=12,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_kiosk",
+      "y": 270
+    },
+    "rotation=12,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_motor_road",
+      "y": 270
+    },
+    "rotation=12,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_motor_road_end",
+      "y": 270
+    },
+    "rotation=12,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_no_stopping_zone",
+      "y": 270
+    },
+    "rotation=12,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_no_stopping_zone_end",
+      "y": 270
+    },
+    "rotation=12,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_park_and_ride",
+      "y": 270
+    },
+    "rotation=12,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking",
+      "y": 270
+    },
+    "rotation=12,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_garage",
+      "y": 270
+    },
+    "rotation=12,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_left",
+      "y": 270
+    },
+    "rotation=12,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_middle_left",
+      "y": 270
+    },
+    "rotation=12,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_middle_right",
+      "y": 270
+    },
+    "rotation=12,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_right",
+      "y": 270
+    },
+    "rotation=12,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_zone",
+      "y": 270
+    },
+    "rotation=12,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_zone_end",
+      "y": 270
+    },
+    "rotation=12,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_crossing_left",
+      "y": 270
+    },
+    "rotation=12,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_crossing_right",
+      "y": 270
+    },
+    "rotation=12,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_zone",
+      "y": 270
+    },
+    "rotation=12,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_zone_end",
+      "y": 270
+    },
+    "rotation=12,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_phone",
+      "y": 270
+    },
+    "rotation=12,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_phone_sos",
+      "y": 270
+    },
+    "rotation=12,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_police",
+      "y": 270
+    },
+    "rotation=12,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_priority",
+      "y": 270
+    },
+    "rotation=12,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_roadside_assistance",
+      "y": 270
+    },
+    "rotation=12,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_20_zone",
+      "y": 270
+    },
+    "rotation=12,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_20_zone_end",
+      "y": 270
+    },
+    "rotation=12,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_30_zone",
+      "y": 270
+    },
+    "rotation=12,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_30_zone_end",
+      "y": 270
+    },
+    "rotation=12,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_stairs_down",
+      "y": 270
+    },
+    "rotation=12,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_stairs_up",
+      "y": 270
+    },
+    "rotation=12,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_tunnel",
+      "y": 270
+    },
+    "rotation=12,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_wc",
+      "y": 270
+    },
+    "rotation=13,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_autobahn",
+      "y": 270
+    },
+    "rotation=13,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_autobahn_end",
+      "y": 270
+    },
+    "rotation=13,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_bike_zone",
+      "y": 270
+    },
+    "rotation=13,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_bike_zone_end",
       "y": 270
     },
     "rotation=13,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_n22_blank",
       "y": 270
     },
-    "rotation=13,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_n22_default",
+    "rotation=13,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camper",
+      "y": 270
+    },
+    "rotation=13,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camping",
+      "y": 270
+    },
+    "rotation=13,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camping_ground",
+      "y": 270
+    },
+    "rotation=13,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_church",
+      "y": 270
+    },
+    "rotation=13,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_dead_end",
+      "y": 270
+    },
+    "rotation=13,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_emergency_bay",
+      "y": 270
+    },
+    "rotation=13,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_first_aid",
+      "y": 270
+    },
+    "rotation=13,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station",
+      "y": 270
+    },
+    "rotation=13,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_charging",
+      "y": 270
+    },
+    "rotation=13,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_cng",
+      "y": 270
+    },
+    "rotation=13,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_h2",
+      "y": 270
+    },
+    "rotation=13,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_lpg",
+      "y": 270
+    },
+    "rotation=13,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_hotel",
+      "y": 270
+    },
+    "rotation=13,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_information",
+      "y": 270
+    },
+    "rotation=13,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_inn",
+      "y": 270
+    },
+    "rotation=13,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_kiosk",
+      "y": 270
+    },
+    "rotation=13,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_motor_road",
+      "y": 270
+    },
+    "rotation=13,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_motor_road_end",
+      "y": 270
+    },
+    "rotation=13,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_no_stopping_zone",
+      "y": 270
+    },
+    "rotation=13,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_no_stopping_zone_end",
+      "y": 270
+    },
+    "rotation=13,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_park_and_ride",
+      "y": 270
+    },
+    "rotation=13,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking",
+      "y": 270
+    },
+    "rotation=13,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_garage",
+      "y": 270
+    },
+    "rotation=13,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_left",
+      "y": 270
+    },
+    "rotation=13,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_middle_left",
+      "y": 270
+    },
+    "rotation=13,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_middle_right",
+      "y": 270
+    },
+    "rotation=13,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_right",
+      "y": 270
+    },
+    "rotation=13,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_zone",
+      "y": 270
+    },
+    "rotation=13,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_zone_end",
+      "y": 270
+    },
+    "rotation=13,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_crossing_left",
+      "y": 270
+    },
+    "rotation=13,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_crossing_right",
+      "y": 270
+    },
+    "rotation=13,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_zone",
+      "y": 270
+    },
+    "rotation=13,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_zone_end",
+      "y": 270
+    },
+    "rotation=13,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_phone",
+      "y": 270
+    },
+    "rotation=13,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_phone_sos",
+      "y": 270
+    },
+    "rotation=13,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_police",
+      "y": 270
+    },
+    "rotation=13,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_priority",
+      "y": 270
+    },
+    "rotation=13,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_roadside_assistance",
+      "y": 270
+    },
+    "rotation=13,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_20_zone",
+      "y": 270
+    },
+    "rotation=13,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_20_zone_end",
+      "y": 270
+    },
+    "rotation=13,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_30_zone",
+      "y": 270
+    },
+    "rotation=13,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_30_zone_end",
+      "y": 270
+    },
+    "rotation=13,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_stairs_down",
+      "y": 270
+    },
+    "rotation=13,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_stairs_up",
+      "y": 270
+    },
+    "rotation=13,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_tunnel",
+      "y": 270
+    },
+    "rotation=13,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_wc",
+      "y": 270
+    },
+    "rotation=14,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_autobahn",
+      "y": 270
+    },
+    "rotation=14,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_autobahn_end",
+      "y": 270
+    },
+    "rotation=14,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_bike_zone",
+      "y": 270
+    },
+    "rotation=14,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_bike_zone_end",
       "y": 270
     },
     "rotation=14,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_n45_blank",
       "y": 270
     },
-    "rotation=14,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_n45_default",
+    "rotation=14,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camper",
       "y": 270
+    },
+    "rotation=14,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camping",
+      "y": 270
+    },
+    "rotation=14,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camping_ground",
+      "y": 270
+    },
+    "rotation=14,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_church",
+      "y": 270
+    },
+    "rotation=14,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_dead_end",
+      "y": 270
+    },
+    "rotation=14,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_emergency_bay",
+      "y": 270
+    },
+    "rotation=14,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_first_aid",
+      "y": 270
+    },
+    "rotation=14,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station",
+      "y": 270
+    },
+    "rotation=14,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_charging",
+      "y": 270
+    },
+    "rotation=14,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_cng",
+      "y": 270
+    },
+    "rotation=14,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_h2",
+      "y": 270
+    },
+    "rotation=14,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_lpg",
+      "y": 270
+    },
+    "rotation=14,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_hotel",
+      "y": 270
+    },
+    "rotation=14,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_information",
+      "y": 270
+    },
+    "rotation=14,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_inn",
+      "y": 270
+    },
+    "rotation=14,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_kiosk",
+      "y": 270
+    },
+    "rotation=14,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_motor_road",
+      "y": 270
+    },
+    "rotation=14,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_motor_road_end",
+      "y": 270
+    },
+    "rotation=14,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_no_stopping_zone",
+      "y": 270
+    },
+    "rotation=14,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_no_stopping_zone_end",
+      "y": 270
+    },
+    "rotation=14,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_park_and_ride",
+      "y": 270
+    },
+    "rotation=14,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking",
+      "y": 270
+    },
+    "rotation=14,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_garage",
+      "y": 270
+    },
+    "rotation=14,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_left",
+      "y": 270
+    },
+    "rotation=14,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_middle_left",
+      "y": 270
+    },
+    "rotation=14,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_middle_right",
+      "y": 270
+    },
+    "rotation=14,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_right",
+      "y": 270
+    },
+    "rotation=14,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_zone",
+      "y": 270
+    },
+    "rotation=14,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_zone_end",
+      "y": 270
+    },
+    "rotation=14,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_crossing_left",
+      "y": 270
+    },
+    "rotation=14,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_crossing_right",
+      "y": 270
+    },
+    "rotation=14,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_zone",
+      "y": 270
+    },
+    "rotation=14,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_zone_end",
+      "y": 270
+    },
+    "rotation=14,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_phone",
+      "y": 270
+    },
+    "rotation=14,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_phone_sos",
+      "y": 270
+    },
+    "rotation=14,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_police",
+      "y": 270
+    },
+    "rotation=14,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_priority",
+      "y": 270
+    },
+    "rotation=14,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_roadside_assistance",
+      "y": 270
+    },
+    "rotation=14,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_20_zone",
+      "y": 270
+    },
+    "rotation=14,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_20_zone_end",
+      "y": 270
+    },
+    "rotation=14,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_30_zone",
+      "y": 270
+    },
+    "rotation=14,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_30_zone_end",
+      "y": 270
+    },
+    "rotation=14,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_stairs_down",
+      "y": 270
+    },
+    "rotation=14,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_stairs_up",
+      "y": 270
+    },
+    "rotation=14,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_tunnel",
+      "y": 270
+    },
+    "rotation=14,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_wc",
+      "y": 270
+    },
+    "rotation=15,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_autobahn",
+      "y": 0
+    },
+    "rotation=15,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_autobahn_end",
+      "y": 0
+    },
+    "rotation=15,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_bike_zone",
+      "y": 0
+    },
+    "rotation=15,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_bike_zone_end",
+      "y": 0
     },
     "rotation=15,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_22_blank",
       "y": 0
     },
-    "rotation=15,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_22_default",
+    "rotation=15,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camper",
+      "y": 0
+    },
+    "rotation=15,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camping",
+      "y": 0
+    },
+    "rotation=15,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camping_ground",
+      "y": 0
+    },
+    "rotation=15,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_church",
+      "y": 0
+    },
+    "rotation=15,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_dead_end",
+      "y": 0
+    },
+    "rotation=15,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_emergency_bay",
+      "y": 0
+    },
+    "rotation=15,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_first_aid",
+      "y": 0
+    },
+    "rotation=15,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station",
+      "y": 0
+    },
+    "rotation=15,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_charging",
+      "y": 0
+    },
+    "rotation=15,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_cng",
+      "y": 0
+    },
+    "rotation=15,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_h2",
+      "y": 0
+    },
+    "rotation=15,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_lpg",
+      "y": 0
+    },
+    "rotation=15,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_hotel",
+      "y": 0
+    },
+    "rotation=15,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_information",
+      "y": 0
+    },
+    "rotation=15,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_inn",
+      "y": 0
+    },
+    "rotation=15,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_kiosk",
+      "y": 0
+    },
+    "rotation=15,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_motor_road",
+      "y": 0
+    },
+    "rotation=15,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_motor_road_end",
+      "y": 0
+    },
+    "rotation=15,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_no_stopping_zone",
+      "y": 0
+    },
+    "rotation=15,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_no_stopping_zone_end",
+      "y": 0
+    },
+    "rotation=15,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_park_and_ride",
+      "y": 0
+    },
+    "rotation=15,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking",
+      "y": 0
+    },
+    "rotation=15,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_garage",
+      "y": 0
+    },
+    "rotation=15,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_left",
+      "y": 0
+    },
+    "rotation=15,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_middle_left",
+      "y": 0
+    },
+    "rotation=15,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_middle_right",
+      "y": 0
+    },
+    "rotation=15,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_right",
+      "y": 0
+    },
+    "rotation=15,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_zone",
+      "y": 0
+    },
+    "rotation=15,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_zone_end",
+      "y": 0
+    },
+    "rotation=15,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_crossing_left",
+      "y": 0
+    },
+    "rotation=15,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_crossing_right",
+      "y": 0
+    },
+    "rotation=15,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_zone",
+      "y": 0
+    },
+    "rotation=15,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_zone_end",
+      "y": 0
+    },
+    "rotation=15,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_phone",
+      "y": 0
+    },
+    "rotation=15,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_phone_sos",
+      "y": 0
+    },
+    "rotation=15,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_police",
+      "y": 0
+    },
+    "rotation=15,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_priority",
+      "y": 0
+    },
+    "rotation=15,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_roadside_assistance",
+      "y": 0
+    },
+    "rotation=15,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_20_zone",
+      "y": 0
+    },
+    "rotation=15,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_20_zone_end",
+      "y": 0
+    },
+    "rotation=15,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_30_zone",
+      "y": 0
+    },
+    "rotation=15,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_30_zone_end",
+      "y": 0
+    },
+    "rotation=15,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_stairs_down",
+      "y": 0
+    },
+    "rotation=15,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_stairs_up",
+      "y": 0
+    },
+    "rotation=15,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_tunnel",
+      "y": 0
+    },
+    "rotation=15,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_wc",
+      "y": 0
+    },
+    "rotation=2,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_autobahn",
+      "y": 0
+    },
+    "rotation=2,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_autobahn_end",
+      "y": 0
+    },
+    "rotation=2,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_bike_zone",
+      "y": 0
+    },
+    "rotation=2,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_bike_zone_end",
       "y": 0
     },
     "rotation=2,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_n45_blank",
       "y": 0
     },
-    "rotation=2,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_n45_default",
+    "rotation=2,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camper",
       "y": 0
+    },
+    "rotation=2,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camping",
+      "y": 0
+    },
+    "rotation=2,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camping_ground",
+      "y": 0
+    },
+    "rotation=2,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_church",
+      "y": 0
+    },
+    "rotation=2,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_dead_end",
+      "y": 0
+    },
+    "rotation=2,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_emergency_bay",
+      "y": 0
+    },
+    "rotation=2,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_first_aid",
+      "y": 0
+    },
+    "rotation=2,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station",
+      "y": 0
+    },
+    "rotation=2,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_charging",
+      "y": 0
+    },
+    "rotation=2,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_cng",
+      "y": 0
+    },
+    "rotation=2,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_h2",
+      "y": 0
+    },
+    "rotation=2,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_lpg",
+      "y": 0
+    },
+    "rotation=2,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_hotel",
+      "y": 0
+    },
+    "rotation=2,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_information",
+      "y": 0
+    },
+    "rotation=2,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_inn",
+      "y": 0
+    },
+    "rotation=2,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_kiosk",
+      "y": 0
+    },
+    "rotation=2,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_motor_road",
+      "y": 0
+    },
+    "rotation=2,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_motor_road_end",
+      "y": 0
+    },
+    "rotation=2,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_no_stopping_zone",
+      "y": 0
+    },
+    "rotation=2,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_no_stopping_zone_end",
+      "y": 0
+    },
+    "rotation=2,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_park_and_ride",
+      "y": 0
+    },
+    "rotation=2,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking",
+      "y": 0
+    },
+    "rotation=2,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_garage",
+      "y": 0
+    },
+    "rotation=2,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_left",
+      "y": 0
+    },
+    "rotation=2,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_middle_left",
+      "y": 0
+    },
+    "rotation=2,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_middle_right",
+      "y": 0
+    },
+    "rotation=2,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_right",
+      "y": 0
+    },
+    "rotation=2,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_zone",
+      "y": 0
+    },
+    "rotation=2,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_zone_end",
+      "y": 0
+    },
+    "rotation=2,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_crossing_left",
+      "y": 0
+    },
+    "rotation=2,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_crossing_right",
+      "y": 0
+    },
+    "rotation=2,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_zone",
+      "y": 0
+    },
+    "rotation=2,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_zone_end",
+      "y": 0
+    },
+    "rotation=2,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_phone",
+      "y": 0
+    },
+    "rotation=2,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_phone_sos",
+      "y": 0
+    },
+    "rotation=2,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_police",
+      "y": 0
+    },
+    "rotation=2,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_priority",
+      "y": 0
+    },
+    "rotation=2,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_roadside_assistance",
+      "y": 0
+    },
+    "rotation=2,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_20_zone",
+      "y": 0
+    },
+    "rotation=2,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_20_zone_end",
+      "y": 0
+    },
+    "rotation=2,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_30_zone",
+      "y": 0
+    },
+    "rotation=2,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_30_zone_end",
+      "y": 0
+    },
+    "rotation=2,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_stairs_down",
+      "y": 0
+    },
+    "rotation=2,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_stairs_up",
+      "y": 0
+    },
+    "rotation=2,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_tunnel",
+      "y": 0
+    },
+    "rotation=2,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_wc",
+      "y": 0
+    },
+    "rotation=3,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_autobahn",
+      "y": 90
+    },
+    "rotation=3,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_autobahn_end",
+      "y": 90
+    },
+    "rotation=3,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_bike_zone",
+      "y": 90
+    },
+    "rotation=3,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_bike_zone_end",
+      "y": 90
     },
     "rotation=3,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_22_blank",
       "y": 90
     },
-    "rotation=3,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_22_default",
+    "rotation=3,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camper",
+      "y": 90
+    },
+    "rotation=3,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camping",
+      "y": 90
+    },
+    "rotation=3,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camping_ground",
+      "y": 90
+    },
+    "rotation=3,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_church",
+      "y": 90
+    },
+    "rotation=3,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_dead_end",
+      "y": 90
+    },
+    "rotation=3,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_emergency_bay",
+      "y": 90
+    },
+    "rotation=3,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_first_aid",
+      "y": 90
+    },
+    "rotation=3,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station",
+      "y": 90
+    },
+    "rotation=3,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_charging",
+      "y": 90
+    },
+    "rotation=3,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_cng",
+      "y": 90
+    },
+    "rotation=3,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_h2",
+      "y": 90
+    },
+    "rotation=3,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_lpg",
+      "y": 90
+    },
+    "rotation=3,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_hotel",
+      "y": 90
+    },
+    "rotation=3,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_information",
+      "y": 90
+    },
+    "rotation=3,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_inn",
+      "y": 90
+    },
+    "rotation=3,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_kiosk",
+      "y": 90
+    },
+    "rotation=3,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_motor_road",
+      "y": 90
+    },
+    "rotation=3,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_motor_road_end",
+      "y": 90
+    },
+    "rotation=3,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_no_stopping_zone",
+      "y": 90
+    },
+    "rotation=3,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_no_stopping_zone_end",
+      "y": 90
+    },
+    "rotation=3,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_park_and_ride",
+      "y": 90
+    },
+    "rotation=3,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking",
+      "y": 90
+    },
+    "rotation=3,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_garage",
+      "y": 90
+    },
+    "rotation=3,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_left",
+      "y": 90
+    },
+    "rotation=3,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_middle_left",
+      "y": 90
+    },
+    "rotation=3,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_middle_right",
+      "y": 90
+    },
+    "rotation=3,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_right",
+      "y": 90
+    },
+    "rotation=3,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_zone",
+      "y": 90
+    },
+    "rotation=3,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_zone_end",
+      "y": 90
+    },
+    "rotation=3,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_crossing_left",
+      "y": 90
+    },
+    "rotation=3,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_crossing_right",
+      "y": 90
+    },
+    "rotation=3,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_zone",
+      "y": 90
+    },
+    "rotation=3,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_zone_end",
+      "y": 90
+    },
+    "rotation=3,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_phone",
+      "y": 90
+    },
+    "rotation=3,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_phone_sos",
+      "y": 90
+    },
+    "rotation=3,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_police",
+      "y": 90
+    },
+    "rotation=3,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_priority",
+      "y": 90
+    },
+    "rotation=3,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_roadside_assistance",
+      "y": 90
+    },
+    "rotation=3,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_20_zone",
+      "y": 90
+    },
+    "rotation=3,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_20_zone_end",
+      "y": 90
+    },
+    "rotation=3,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_30_zone",
+      "y": 90
+    },
+    "rotation=3,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_30_zone_end",
+      "y": 90
+    },
+    "rotation=3,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_stairs_down",
+      "y": 90
+    },
+    "rotation=3,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_stairs_up",
+      "y": 90
+    },
+    "rotation=3,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_tunnel",
+      "y": 90
+    },
+    "rotation=3,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_wc",
+      "y": 90
+    },
+    "rotation=4,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_autobahn",
+      "y": 90
+    },
+    "rotation=4,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_autobahn_end",
+      "y": 90
+    },
+    "rotation=4,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_bike_zone",
+      "y": 90
+    },
+    "rotation=4,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_bike_zone_end",
       "y": 90
     },
     "rotation=4,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_0_blank",
       "y": 90
     },
-    "rotation=4,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_0_default",
+    "rotation=4,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camper",
+      "y": 90
+    },
+    "rotation=4,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camping",
+      "y": 90
+    },
+    "rotation=4,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camping_ground",
+      "y": 90
+    },
+    "rotation=4,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_church",
+      "y": 90
+    },
+    "rotation=4,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_dead_end",
+      "y": 90
+    },
+    "rotation=4,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_emergency_bay",
+      "y": 90
+    },
+    "rotation=4,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_first_aid",
+      "y": 90
+    },
+    "rotation=4,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station",
+      "y": 90
+    },
+    "rotation=4,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_charging",
+      "y": 90
+    },
+    "rotation=4,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_cng",
+      "y": 90
+    },
+    "rotation=4,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_h2",
+      "y": 90
+    },
+    "rotation=4,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_lpg",
+      "y": 90
+    },
+    "rotation=4,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_hotel",
+      "y": 90
+    },
+    "rotation=4,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_information",
+      "y": 90
+    },
+    "rotation=4,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_inn",
+      "y": 90
+    },
+    "rotation=4,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_kiosk",
+      "y": 90
+    },
+    "rotation=4,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_motor_road",
+      "y": 90
+    },
+    "rotation=4,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_motor_road_end",
+      "y": 90
+    },
+    "rotation=4,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_no_stopping_zone",
+      "y": 90
+    },
+    "rotation=4,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_no_stopping_zone_end",
+      "y": 90
+    },
+    "rotation=4,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_park_and_ride",
+      "y": 90
+    },
+    "rotation=4,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking",
+      "y": 90
+    },
+    "rotation=4,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_garage",
+      "y": 90
+    },
+    "rotation=4,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_left",
+      "y": 90
+    },
+    "rotation=4,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_middle_left",
+      "y": 90
+    },
+    "rotation=4,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_middle_right",
+      "y": 90
+    },
+    "rotation=4,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_right",
+      "y": 90
+    },
+    "rotation=4,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_zone",
+      "y": 90
+    },
+    "rotation=4,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_zone_end",
+      "y": 90
+    },
+    "rotation=4,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_crossing_left",
+      "y": 90
+    },
+    "rotation=4,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_crossing_right",
+      "y": 90
+    },
+    "rotation=4,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_zone",
+      "y": 90
+    },
+    "rotation=4,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_zone_end",
+      "y": 90
+    },
+    "rotation=4,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_phone",
+      "y": 90
+    },
+    "rotation=4,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_phone_sos",
+      "y": 90
+    },
+    "rotation=4,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_police",
+      "y": 90
+    },
+    "rotation=4,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_priority",
+      "y": 90
+    },
+    "rotation=4,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_roadside_assistance",
+      "y": 90
+    },
+    "rotation=4,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_20_zone",
+      "y": 90
+    },
+    "rotation=4,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_20_zone_end",
+      "y": 90
+    },
+    "rotation=4,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_30_zone",
+      "y": 90
+    },
+    "rotation=4,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_30_zone_end",
+      "y": 90
+    },
+    "rotation=4,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_stairs_down",
+      "y": 90
+    },
+    "rotation=4,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_stairs_up",
+      "y": 90
+    },
+    "rotation=4,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_tunnel",
+      "y": 90
+    },
+    "rotation=4,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_wc",
+      "y": 90
+    },
+    "rotation=5,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_autobahn",
+      "y": 90
+    },
+    "rotation=5,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_autobahn_end",
+      "y": 90
+    },
+    "rotation=5,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_bike_zone",
+      "y": 90
+    },
+    "rotation=5,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_bike_zone_end",
       "y": 90
     },
     "rotation=5,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_n22_blank",
       "y": 90
     },
-    "rotation=5,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_n22_default",
+    "rotation=5,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camper",
+      "y": 90
+    },
+    "rotation=5,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camping",
+      "y": 90
+    },
+    "rotation=5,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camping_ground",
+      "y": 90
+    },
+    "rotation=5,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_church",
+      "y": 90
+    },
+    "rotation=5,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_dead_end",
+      "y": 90
+    },
+    "rotation=5,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_emergency_bay",
+      "y": 90
+    },
+    "rotation=5,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_first_aid",
+      "y": 90
+    },
+    "rotation=5,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station",
+      "y": 90
+    },
+    "rotation=5,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_charging",
+      "y": 90
+    },
+    "rotation=5,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_cng",
+      "y": 90
+    },
+    "rotation=5,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_h2",
+      "y": 90
+    },
+    "rotation=5,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_lpg",
+      "y": 90
+    },
+    "rotation=5,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_hotel",
+      "y": 90
+    },
+    "rotation=5,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_information",
+      "y": 90
+    },
+    "rotation=5,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_inn",
+      "y": 90
+    },
+    "rotation=5,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_kiosk",
+      "y": 90
+    },
+    "rotation=5,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_motor_road",
+      "y": 90
+    },
+    "rotation=5,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_motor_road_end",
+      "y": 90
+    },
+    "rotation=5,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_no_stopping_zone",
+      "y": 90
+    },
+    "rotation=5,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_no_stopping_zone_end",
+      "y": 90
+    },
+    "rotation=5,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_park_and_ride",
+      "y": 90
+    },
+    "rotation=5,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking",
+      "y": 90
+    },
+    "rotation=5,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_garage",
+      "y": 90
+    },
+    "rotation=5,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_left",
+      "y": 90
+    },
+    "rotation=5,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_middle_left",
+      "y": 90
+    },
+    "rotation=5,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_middle_right",
+      "y": 90
+    },
+    "rotation=5,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_right",
+      "y": 90
+    },
+    "rotation=5,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_zone",
+      "y": 90
+    },
+    "rotation=5,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_zone_end",
+      "y": 90
+    },
+    "rotation=5,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_crossing_left",
+      "y": 90
+    },
+    "rotation=5,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_crossing_right",
+      "y": 90
+    },
+    "rotation=5,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_zone",
+      "y": 90
+    },
+    "rotation=5,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_zone_end",
+      "y": 90
+    },
+    "rotation=5,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_phone",
+      "y": 90
+    },
+    "rotation=5,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_phone_sos",
+      "y": 90
+    },
+    "rotation=5,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_police",
+      "y": 90
+    },
+    "rotation=5,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_priority",
+      "y": 90
+    },
+    "rotation=5,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_roadside_assistance",
+      "y": 90
+    },
+    "rotation=5,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_20_zone",
+      "y": 90
+    },
+    "rotation=5,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_20_zone_end",
+      "y": 90
+    },
+    "rotation=5,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_30_zone",
+      "y": 90
+    },
+    "rotation=5,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_30_zone_end",
+      "y": 90
+    },
+    "rotation=5,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_stairs_down",
+      "y": 90
+    },
+    "rotation=5,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_stairs_up",
+      "y": 90
+    },
+    "rotation=5,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_tunnel",
+      "y": 90
+    },
+    "rotation=5,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_wc",
+      "y": 90
+    },
+    "rotation=6,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_autobahn",
+      "y": 90
+    },
+    "rotation=6,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_autobahn_end",
+      "y": 90
+    },
+    "rotation=6,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_bike_zone",
+      "y": 90
+    },
+    "rotation=6,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_bike_zone_end",
       "y": 90
     },
     "rotation=6,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_n45_blank",
       "y": 90
     },
-    "rotation=6,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_n45_default",
+    "rotation=6,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camper",
       "y": 90
+    },
+    "rotation=6,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camping",
+      "y": 90
+    },
+    "rotation=6,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_camping_ground",
+      "y": 90
+    },
+    "rotation=6,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_church",
+      "y": 90
+    },
+    "rotation=6,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_dead_end",
+      "y": 90
+    },
+    "rotation=6,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_emergency_bay",
+      "y": 90
+    },
+    "rotation=6,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_first_aid",
+      "y": 90
+    },
+    "rotation=6,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station",
+      "y": 90
+    },
+    "rotation=6,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_charging",
+      "y": 90
+    },
+    "rotation=6,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_cng",
+      "y": 90
+    },
+    "rotation=6,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_h2",
+      "y": 90
+    },
+    "rotation=6,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_gas_station_lpg",
+      "y": 90
+    },
+    "rotation=6,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_hotel",
+      "y": 90
+    },
+    "rotation=6,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_information",
+      "y": 90
+    },
+    "rotation=6,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_inn",
+      "y": 90
+    },
+    "rotation=6,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_kiosk",
+      "y": 90
+    },
+    "rotation=6,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_motor_road",
+      "y": 90
+    },
+    "rotation=6,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_motor_road_end",
+      "y": 90
+    },
+    "rotation=6,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_no_stopping_zone",
+      "y": 90
+    },
+    "rotation=6,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_no_stopping_zone_end",
+      "y": 90
+    },
+    "rotation=6,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_park_and_ride",
+      "y": 90
+    },
+    "rotation=6,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking",
+      "y": 90
+    },
+    "rotation=6,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_garage",
+      "y": 90
+    },
+    "rotation=6,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_left",
+      "y": 90
+    },
+    "rotation=6,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_middle_left",
+      "y": 90
+    },
+    "rotation=6,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_middle_right",
+      "y": 90
+    },
+    "rotation=6,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_right",
+      "y": 90
+    },
+    "rotation=6,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_zone",
+      "y": 90
+    },
+    "rotation=6,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_parking_zone_end",
+      "y": 90
+    },
+    "rotation=6,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_crossing_left",
+      "y": 90
+    },
+    "rotation=6,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_crossing_right",
+      "y": 90
+    },
+    "rotation=6,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_zone",
+      "y": 90
+    },
+    "rotation=6,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_pedestrian_zone_end",
+      "y": 90
+    },
+    "rotation=6,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_phone",
+      "y": 90
+    },
+    "rotation=6,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_phone_sos",
+      "y": 90
+    },
+    "rotation=6,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_police",
+      "y": 90
+    },
+    "rotation=6,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_priority",
+      "y": 90
+    },
+    "rotation=6,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_roadside_assistance",
+      "y": 90
+    },
+    "rotation=6,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_20_zone",
+      "y": 90
+    },
+    "rotation=6,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_20_zone_end",
+      "y": 90
+    },
+    "rotation=6,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_30_zone",
+      "y": 90
+    },
+    "rotation=6,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_speed_limit_30_zone_end",
+      "y": 90
+    },
+    "rotation=6,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_stairs_down",
+      "y": 90
+    },
+    "rotation=6,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_stairs_up",
+      "y": 90
+    },
+    "rotation=6,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_tunnel",
+      "y": 90
+    },
+    "rotation=6,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_n45_wc",
+      "y": 90
+    },
+    "rotation=7,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_autobahn",
+      "y": 180
+    },
+    "rotation=7,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_autobahn_end",
+      "y": 180
+    },
+    "rotation=7,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_bike_zone",
+      "y": 180
+    },
+    "rotation=7,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_bike_zone_end",
+      "y": 180
     },
     "rotation=7,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_22_blank",
       "y": 180
     },
-    "rotation=7,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_22_default",
+    "rotation=7,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camper",
+      "y": 180
+    },
+    "rotation=7,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camping",
+      "y": 180
+    },
+    "rotation=7,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_camping_ground",
+      "y": 180
+    },
+    "rotation=7,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_church",
+      "y": 180
+    },
+    "rotation=7,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_dead_end",
+      "y": 180
+    },
+    "rotation=7,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_emergency_bay",
+      "y": 180
+    },
+    "rotation=7,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_first_aid",
+      "y": 180
+    },
+    "rotation=7,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station",
+      "y": 180
+    },
+    "rotation=7,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_charging",
+      "y": 180
+    },
+    "rotation=7,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_cng",
+      "y": 180
+    },
+    "rotation=7,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_h2",
+      "y": 180
+    },
+    "rotation=7,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_gas_station_lpg",
+      "y": 180
+    },
+    "rotation=7,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_hotel",
+      "y": 180
+    },
+    "rotation=7,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_information",
+      "y": 180
+    },
+    "rotation=7,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_inn",
+      "y": 180
+    },
+    "rotation=7,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_kiosk",
+      "y": 180
+    },
+    "rotation=7,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_motor_road",
+      "y": 180
+    },
+    "rotation=7,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_motor_road_end",
+      "y": 180
+    },
+    "rotation=7,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_no_stopping_zone",
+      "y": 180
+    },
+    "rotation=7,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_no_stopping_zone_end",
+      "y": 180
+    },
+    "rotation=7,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_park_and_ride",
+      "y": 180
+    },
+    "rotation=7,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking",
+      "y": 180
+    },
+    "rotation=7,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_garage",
+      "y": 180
+    },
+    "rotation=7,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_left",
+      "y": 180
+    },
+    "rotation=7,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_middle_left",
+      "y": 180
+    },
+    "rotation=7,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_middle_right",
+      "y": 180
+    },
+    "rotation=7,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_right",
+      "y": 180
+    },
+    "rotation=7,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_zone",
+      "y": 180
+    },
+    "rotation=7,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_parking_zone_end",
+      "y": 180
+    },
+    "rotation=7,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_crossing_left",
+      "y": 180
+    },
+    "rotation=7,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_crossing_right",
+      "y": 180
+    },
+    "rotation=7,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_zone",
+      "y": 180
+    },
+    "rotation=7,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_pedestrian_zone_end",
+      "y": 180
+    },
+    "rotation=7,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_phone",
+      "y": 180
+    },
+    "rotation=7,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_phone_sos",
+      "y": 180
+    },
+    "rotation=7,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_police",
+      "y": 180
+    },
+    "rotation=7,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_priority",
+      "y": 180
+    },
+    "rotation=7,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_roadside_assistance",
+      "y": 180
+    },
+    "rotation=7,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_20_zone",
+      "y": 180
+    },
+    "rotation=7,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_20_zone_end",
+      "y": 180
+    },
+    "rotation=7,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_30_zone",
+      "y": 180
+    },
+    "rotation=7,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_speed_limit_30_zone_end",
+      "y": 180
+    },
+    "rotation=7,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_stairs_down",
+      "y": 180
+    },
+    "rotation=7,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_stairs_up",
+      "y": 180
+    },
+    "rotation=7,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_tunnel",
+      "y": 180
+    },
+    "rotation=7,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_22_wc",
+      "y": 180
+    },
+    "rotation=8,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_autobahn",
+      "y": 180
+    },
+    "rotation=8,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_autobahn_end",
+      "y": 180
+    },
+    "rotation=8,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_bike_zone",
+      "y": 180
+    },
+    "rotation=8,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_bike_zone_end",
       "y": 180
     },
     "rotation=8,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_0_blank",
       "y": 180
     },
-    "rotation=8,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_0_default",
+    "rotation=8,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camper",
+      "y": 180
+    },
+    "rotation=8,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camping",
+      "y": 180
+    },
+    "rotation=8,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_camping_ground",
+      "y": 180
+    },
+    "rotation=8,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_church",
+      "y": 180
+    },
+    "rotation=8,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_dead_end",
+      "y": 180
+    },
+    "rotation=8,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_emergency_bay",
+      "y": 180
+    },
+    "rotation=8,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_first_aid",
+      "y": 180
+    },
+    "rotation=8,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station",
+      "y": 180
+    },
+    "rotation=8,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_charging",
+      "y": 180
+    },
+    "rotation=8,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_cng",
+      "y": 180
+    },
+    "rotation=8,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_h2",
+      "y": 180
+    },
+    "rotation=8,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_gas_station_lpg",
+      "y": 180
+    },
+    "rotation=8,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_hotel",
+      "y": 180
+    },
+    "rotation=8,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_information",
+      "y": 180
+    },
+    "rotation=8,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_inn",
+      "y": 180
+    },
+    "rotation=8,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_kiosk",
+      "y": 180
+    },
+    "rotation=8,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_motor_road",
+      "y": 180
+    },
+    "rotation=8,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_motor_road_end",
+      "y": 180
+    },
+    "rotation=8,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_no_stopping_zone",
+      "y": 180
+    },
+    "rotation=8,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_no_stopping_zone_end",
+      "y": 180
+    },
+    "rotation=8,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_park_and_ride",
+      "y": 180
+    },
+    "rotation=8,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking",
+      "y": 180
+    },
+    "rotation=8,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_garage",
+      "y": 180
+    },
+    "rotation=8,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_left",
+      "y": 180
+    },
+    "rotation=8,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_middle_left",
+      "y": 180
+    },
+    "rotation=8,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_middle_right",
+      "y": 180
+    },
+    "rotation=8,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_right",
+      "y": 180
+    },
+    "rotation=8,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_zone",
+      "y": 180
+    },
+    "rotation=8,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_parking_zone_end",
+      "y": 180
+    },
+    "rotation=8,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_crossing_left",
+      "y": 180
+    },
+    "rotation=8,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_crossing_right",
+      "y": 180
+    },
+    "rotation=8,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_zone",
+      "y": 180
+    },
+    "rotation=8,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_pedestrian_zone_end",
+      "y": 180
+    },
+    "rotation=8,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_phone",
+      "y": 180
+    },
+    "rotation=8,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_phone_sos",
+      "y": 180
+    },
+    "rotation=8,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_police",
+      "y": 180
+    },
+    "rotation=8,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_priority",
+      "y": 180
+    },
+    "rotation=8,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_roadside_assistance",
+      "y": 180
+    },
+    "rotation=8,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_20_zone",
+      "y": 180
+    },
+    "rotation=8,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_20_zone_end",
+      "y": 180
+    },
+    "rotation=8,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_30_zone",
+      "y": 180
+    },
+    "rotation=8,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_speed_limit_30_zone_end",
+      "y": 180
+    },
+    "rotation=8,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_stairs_down",
+      "y": 180
+    },
+    "rotation=8,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_stairs_up",
+      "y": 180
+    },
+    "rotation=8,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_tunnel",
+      "y": 180
+    },
+    "rotation=8,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_0_wc",
+      "y": 180
+    },
+    "rotation=9,variant=autobahn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_autobahn",
+      "y": 180
+    },
+    "rotation=9,variant=autobahn_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_autobahn_end",
+      "y": 180
+    },
+    "rotation=9,variant=bike_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_bike_zone",
+      "y": 180
+    },
+    "rotation=9,variant=bike_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_bike_zone_end",
       "y": 180
     },
     "rotation=9,variant=blank": {
       "model": "roadside-addons:block/sign_information/sign_information_n22_blank",
       "y": 180
     },
-    "rotation=9,variant=default": {
-      "model": "roadside-addons:block/sign_information/sign_information_n22_default",
+    "rotation=9,variant=camper": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camper",
+      "y": 180
+    },
+    "rotation=9,variant=camping": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camping",
+      "y": 180
+    },
+    "rotation=9,variant=camping_ground": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_camping_ground",
+      "y": 180
+    },
+    "rotation=9,variant=church": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_church",
+      "y": 180
+    },
+    "rotation=9,variant=dead_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_dead_end",
+      "y": 180
+    },
+    "rotation=9,variant=emergency_bay": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_emergency_bay",
+      "y": 180
+    },
+    "rotation=9,variant=first_aid": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_first_aid",
+      "y": 180
+    },
+    "rotation=9,variant=gas_station": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station",
+      "y": 180
+    },
+    "rotation=9,variant=gas_station_charging": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_charging",
+      "y": 180
+    },
+    "rotation=9,variant=gas_station_cng": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_cng",
+      "y": 180
+    },
+    "rotation=9,variant=gas_station_h2": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_h2",
+      "y": 180
+    },
+    "rotation=9,variant=gas_station_lpg": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_gas_station_lpg",
+      "y": 180
+    },
+    "rotation=9,variant=hotel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_hotel",
+      "y": 180
+    },
+    "rotation=9,variant=information": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_information",
+      "y": 180
+    },
+    "rotation=9,variant=inn": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_inn",
+      "y": 180
+    },
+    "rotation=9,variant=kiosk": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_kiosk",
+      "y": 180
+    },
+    "rotation=9,variant=motor_road": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_motor_road",
+      "y": 180
+    },
+    "rotation=9,variant=motor_road_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_motor_road_end",
+      "y": 180
+    },
+    "rotation=9,variant=no_stopping_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_no_stopping_zone",
+      "y": 180
+    },
+    "rotation=9,variant=no_stopping_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_no_stopping_zone_end",
+      "y": 180
+    },
+    "rotation=9,variant=park_and_ride": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_park_and_ride",
+      "y": 180
+    },
+    "rotation=9,variant=parking": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking",
+      "y": 180
+    },
+    "rotation=9,variant=parking_garage": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_garage",
+      "y": 180
+    },
+    "rotation=9,variant=parking_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_left",
+      "y": 180
+    },
+    "rotation=9,variant=parking_middle_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_middle_left",
+      "y": 180
+    },
+    "rotation=9,variant=parking_middle_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_middle_right",
+      "y": 180
+    },
+    "rotation=9,variant=parking_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_right",
+      "y": 180
+    },
+    "rotation=9,variant=parking_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_zone",
+      "y": 180
+    },
+    "rotation=9,variant=parking_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_parking_zone_end",
+      "y": 180
+    },
+    "rotation=9,variant=pedestrian_crossing_left": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_crossing_left",
+      "y": 180
+    },
+    "rotation=9,variant=pedestrian_crossing_right": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_crossing_right",
+      "y": 180
+    },
+    "rotation=9,variant=pedestrian_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_zone",
+      "y": 180
+    },
+    "rotation=9,variant=pedestrian_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_pedestrian_zone_end",
+      "y": 180
+    },
+    "rotation=9,variant=phone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_phone",
+      "y": 180
+    },
+    "rotation=9,variant=phone_sos": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_phone_sos",
+      "y": 180
+    },
+    "rotation=9,variant=police": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_police",
+      "y": 180
+    },
+    "rotation=9,variant=priority": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_priority",
+      "y": 180
+    },
+    "rotation=9,variant=roadside_assistance": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_roadside_assistance",
+      "y": 180
+    },
+    "rotation=9,variant=speed_limit_20_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_20_zone",
+      "y": 180
+    },
+    "rotation=9,variant=speed_limit_20_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_20_zone_end",
+      "y": 180
+    },
+    "rotation=9,variant=speed_limit_30_zone": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_30_zone",
+      "y": 180
+    },
+    "rotation=9,variant=speed_limit_30_zone_end": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_speed_limit_30_zone_end",
+      "y": 180
+    },
+    "rotation=9,variant=stairs_down": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_stairs_down",
+      "y": 180
+    },
+    "rotation=9,variant=stairs_up": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_stairs_up",
+      "y": 180
+    },
+    "rotation=9,variant=tunnel": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_tunnel",
+      "y": 180
+    },
+    "rotation=9,variant=wc": {
+      "model": "roadside-addons:block/sign_information/sign_information_n22_wc",
       "y": 180
     }
   }
