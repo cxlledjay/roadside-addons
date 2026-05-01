@@ -2,6 +2,7 @@ package de.cxlledjay.roadsideaddons.block.sign.generic;
 
 import com.mojang.serialization.MapCodec;
 import de.cxlledjay.roadsideaddons.block.RotatableBlock;
+import de.cxlledjay.roadsideaddons.gui.SignShape;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
@@ -74,4 +75,5 @@ public abstract class AbstractSign extends RotatableBlock{
 
     // ---------------------------- <variants interface> ----------------------------
     public abstract EnumProperty<? extends SignVariant> getVariantProperty();
+    public abstract SignShape getSignShape();
 }

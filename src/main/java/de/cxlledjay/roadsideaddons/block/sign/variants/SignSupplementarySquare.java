@@ -4,6 +4,7 @@ package de.cxlledjay.roadsideaddons.block.sign.variants;
 import com.mojang.serialization.MapCodec;
 import de.cxlledjay.roadsideaddons.block.sign.generic.AbstractSign;
 import de.cxlledjay.roadsideaddons.block.sign.generic.SignVariant;
+import de.cxlledjay.roadsideaddons.gui.SignShape;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.state.StateManager;
@@ -31,8 +32,30 @@ public class SignSupplementarySquare extends AbstractSign {
     // Define the specific Enum for this block
     public enum SupplementarySquareType implements SignVariant {
 
-        // --- general ---
-        DEFAULT("default", "general"),
+        // --- Priority Routing ---
+        PRIORITY_BOTTOM_LEFT_2("priority_bottom_left_2", "priority"),
+        PRIORITY_TOP_LEFT_2("priority_top_left_2", "priority"),
+        PRIORITY_BOTTOM_RIGHT_2("priority_bottom_right_2", "priority"),
+        PRIORITY_TOP_RIGHT_2("priority_top_right_2", "priority"),
+        PRIORITY_BOTTOM_LEFT_1("priority_bottom_left_1", "priority"),
+        PRIORITY_BOTTOM_LEFT_3("priority_bottom_left_3", "priority"),
+        PRIORITY_TOP_LEFT_1("priority_top_left_1", "priority"),
+        PRIORITY_BOTTOM_RIGHT_1("priority_bottom_right_1", "priority"),
+        PRIORITY_BOTTOM_RIGHT_3("priority_bottom_right_3", "priority"),
+        PRIORITY_TOP_RIGHT_1("priority_top_right_1", "priority"),
+
+        // --- General ---
+        BIKE_VEHICLE("bike_vehicle", "general"),
+        BUS_TRAILER_TOO("bus_trailer_too", "general"),
+        CYCLE_MOPED_FREE("cycle_moped_free", "general"),
+        ROUNDABOUT_LEFT("roundabout_left", "general"),
+        ROUNDABOUT_STRAIGHT("roundabout_straight", "general"),
+        TRUCK_BUS_TRAILER("truck_bus_trailer", "general"),
+        WET("wet", "general"),
+
+        // --- traffic_light ---
+        GREEN_ARROW("green_arrow", "traffic_light"),
+
         // --- blank ---
         BLANK("blank", "blank");
 
@@ -58,6 +81,11 @@ public class SignSupplementarySquare extends AbstractSign {
     @Override
     public EnumProperty<? extends SignVariant> getVariantProperty() {
         return VARIANT;
+    }
+
+    @Override
+    public SignShape getSignShape() {
+        return SignShape.SUPPLEMENTARY_SQUARE;
     }
 
     @Override

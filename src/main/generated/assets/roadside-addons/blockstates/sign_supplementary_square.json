@@ -1,131 +1,1219 @@
 {
   "variants": {
+    "rotation=0,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_bike_vehicle",
+      "y": 0
+    },
     "rotation=0,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_blank",
       "y": 0
     },
-    "rotation=0,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_default",
+    "rotation=0,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_bus_trailer_too",
+      "y": 0
+    },
+    "rotation=0,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_cycle_moped_free",
+      "y": 0
+    },
+    "rotation=0,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_green_arrow",
+      "y": 0
+    },
+    "rotation=0,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_1",
+      "y": 0
+    },
+    "rotation=0,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_2",
+      "y": 0
+    },
+    "rotation=0,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_3",
+      "y": 0
+    },
+    "rotation=0,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_1",
+      "y": 0
+    },
+    "rotation=0,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_2",
+      "y": 0
+    },
+    "rotation=0,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_3",
+      "y": 0
+    },
+    "rotation=0,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_left_1",
+      "y": 0
+    },
+    "rotation=0,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_left_2",
+      "y": 0
+    },
+    "rotation=0,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_right_1",
+      "y": 0
+    },
+    "rotation=0,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_right_2",
+      "y": 0
+    },
+    "rotation=0,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_roundabout_left",
+      "y": 0
+    },
+    "rotation=0,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_roundabout_straight",
+      "y": 0
+    },
+    "rotation=0,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_truck_bus_trailer",
+      "y": 0
+    },
+    "rotation=0,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_wet",
+      "y": 0
+    },
+    "rotation=1,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_bike_vehicle",
       "y": 0
     },
     "rotation=1,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_blank",
       "y": 0
     },
-    "rotation=1,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_default",
+    "rotation=1,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_bus_trailer_too",
       "y": 0
+    },
+    "rotation=1,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_cycle_moped_free",
+      "y": 0
+    },
+    "rotation=1,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_green_arrow",
+      "y": 0
+    },
+    "rotation=1,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_1",
+      "y": 0
+    },
+    "rotation=1,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_2",
+      "y": 0
+    },
+    "rotation=1,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_3",
+      "y": 0
+    },
+    "rotation=1,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_1",
+      "y": 0
+    },
+    "rotation=1,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_2",
+      "y": 0
+    },
+    "rotation=1,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_3",
+      "y": 0
+    },
+    "rotation=1,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_left_1",
+      "y": 0
+    },
+    "rotation=1,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_left_2",
+      "y": 0
+    },
+    "rotation=1,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_right_1",
+      "y": 0
+    },
+    "rotation=1,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_right_2",
+      "y": 0
+    },
+    "rotation=1,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_roundabout_left",
+      "y": 0
+    },
+    "rotation=1,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_roundabout_straight",
+      "y": 0
+    },
+    "rotation=1,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_truck_bus_trailer",
+      "y": 0
+    },
+    "rotation=1,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_wet",
+      "y": 0
+    },
+    "rotation=10,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_bike_vehicle",
+      "y": 180
     },
     "rotation=10,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_blank",
       "y": 180
     },
-    "rotation=10,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_default",
+    "rotation=10,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_bus_trailer_too",
       "y": 180
+    },
+    "rotation=10,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_cycle_moped_free",
+      "y": 180
+    },
+    "rotation=10,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_green_arrow",
+      "y": 180
+    },
+    "rotation=10,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_1",
+      "y": 180
+    },
+    "rotation=10,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_2",
+      "y": 180
+    },
+    "rotation=10,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_3",
+      "y": 180
+    },
+    "rotation=10,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_1",
+      "y": 180
+    },
+    "rotation=10,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_2",
+      "y": 180
+    },
+    "rotation=10,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_3",
+      "y": 180
+    },
+    "rotation=10,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_left_1",
+      "y": 180
+    },
+    "rotation=10,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_left_2",
+      "y": 180
+    },
+    "rotation=10,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_right_1",
+      "y": 180
+    },
+    "rotation=10,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_right_2",
+      "y": 180
+    },
+    "rotation=10,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_roundabout_left",
+      "y": 180
+    },
+    "rotation=10,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_roundabout_straight",
+      "y": 180
+    },
+    "rotation=10,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_truck_bus_trailer",
+      "y": 180
+    },
+    "rotation=10,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_wet",
+      "y": 180
+    },
+    "rotation=11,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_bike_vehicle",
+      "y": 270
     },
     "rotation=11,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_blank",
       "y": 270
     },
-    "rotation=11,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_default",
+    "rotation=11,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_bus_trailer_too",
+      "y": 270
+    },
+    "rotation=11,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_cycle_moped_free",
+      "y": 270
+    },
+    "rotation=11,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_green_arrow",
+      "y": 270
+    },
+    "rotation=11,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_1",
+      "y": 270
+    },
+    "rotation=11,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_2",
+      "y": 270
+    },
+    "rotation=11,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_3",
+      "y": 270
+    },
+    "rotation=11,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_1",
+      "y": 270
+    },
+    "rotation=11,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_2",
+      "y": 270
+    },
+    "rotation=11,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_3",
+      "y": 270
+    },
+    "rotation=11,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_left_1",
+      "y": 270
+    },
+    "rotation=11,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_left_2",
+      "y": 270
+    },
+    "rotation=11,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_right_1",
+      "y": 270
+    },
+    "rotation=11,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_right_2",
+      "y": 270
+    },
+    "rotation=11,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_roundabout_left",
+      "y": 270
+    },
+    "rotation=11,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_roundabout_straight",
+      "y": 270
+    },
+    "rotation=11,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_truck_bus_trailer",
+      "y": 270
+    },
+    "rotation=11,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_wet",
+      "y": 270
+    },
+    "rotation=12,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_bike_vehicle",
       "y": 270
     },
     "rotation=12,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_blank",
       "y": 270
     },
-    "rotation=12,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_default",
+    "rotation=12,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_bus_trailer_too",
+      "y": 270
+    },
+    "rotation=12,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_cycle_moped_free",
+      "y": 270
+    },
+    "rotation=12,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_green_arrow",
+      "y": 270
+    },
+    "rotation=12,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_1",
+      "y": 270
+    },
+    "rotation=12,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_2",
+      "y": 270
+    },
+    "rotation=12,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_3",
+      "y": 270
+    },
+    "rotation=12,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_1",
+      "y": 270
+    },
+    "rotation=12,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_2",
+      "y": 270
+    },
+    "rotation=12,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_3",
+      "y": 270
+    },
+    "rotation=12,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_left_1",
+      "y": 270
+    },
+    "rotation=12,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_left_2",
+      "y": 270
+    },
+    "rotation=12,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_right_1",
+      "y": 270
+    },
+    "rotation=12,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_right_2",
+      "y": 270
+    },
+    "rotation=12,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_roundabout_left",
+      "y": 270
+    },
+    "rotation=12,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_roundabout_straight",
+      "y": 270
+    },
+    "rotation=12,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_truck_bus_trailer",
+      "y": 270
+    },
+    "rotation=12,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_wet",
+      "y": 270
+    },
+    "rotation=13,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_bike_vehicle",
       "y": 270
     },
     "rotation=13,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_blank",
       "y": 270
     },
-    "rotation=13,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_default",
+    "rotation=13,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_bus_trailer_too",
+      "y": 270
+    },
+    "rotation=13,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_cycle_moped_free",
+      "y": 270
+    },
+    "rotation=13,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_green_arrow",
+      "y": 270
+    },
+    "rotation=13,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_1",
+      "y": 270
+    },
+    "rotation=13,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_2",
+      "y": 270
+    },
+    "rotation=13,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_3",
+      "y": 270
+    },
+    "rotation=13,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_1",
+      "y": 270
+    },
+    "rotation=13,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_2",
+      "y": 270
+    },
+    "rotation=13,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_3",
+      "y": 270
+    },
+    "rotation=13,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_left_1",
+      "y": 270
+    },
+    "rotation=13,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_left_2",
+      "y": 270
+    },
+    "rotation=13,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_right_1",
+      "y": 270
+    },
+    "rotation=13,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_right_2",
+      "y": 270
+    },
+    "rotation=13,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_roundabout_left",
+      "y": 270
+    },
+    "rotation=13,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_roundabout_straight",
+      "y": 270
+    },
+    "rotation=13,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_truck_bus_trailer",
+      "y": 270
+    },
+    "rotation=13,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_wet",
+      "y": 270
+    },
+    "rotation=14,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_bike_vehicle",
       "y": 270
     },
     "rotation=14,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_blank",
       "y": 270
     },
-    "rotation=14,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_default",
+    "rotation=14,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_bus_trailer_too",
       "y": 270
+    },
+    "rotation=14,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_cycle_moped_free",
+      "y": 270
+    },
+    "rotation=14,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_green_arrow",
+      "y": 270
+    },
+    "rotation=14,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_1",
+      "y": 270
+    },
+    "rotation=14,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_2",
+      "y": 270
+    },
+    "rotation=14,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_3",
+      "y": 270
+    },
+    "rotation=14,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_1",
+      "y": 270
+    },
+    "rotation=14,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_2",
+      "y": 270
+    },
+    "rotation=14,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_3",
+      "y": 270
+    },
+    "rotation=14,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_left_1",
+      "y": 270
+    },
+    "rotation=14,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_left_2",
+      "y": 270
+    },
+    "rotation=14,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_right_1",
+      "y": 270
+    },
+    "rotation=14,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_right_2",
+      "y": 270
+    },
+    "rotation=14,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_roundabout_left",
+      "y": 270
+    },
+    "rotation=14,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_roundabout_straight",
+      "y": 270
+    },
+    "rotation=14,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_truck_bus_trailer",
+      "y": 270
+    },
+    "rotation=14,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_wet",
+      "y": 270
+    },
+    "rotation=15,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_bike_vehicle",
+      "y": 0
     },
     "rotation=15,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_blank",
       "y": 0
     },
-    "rotation=15,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_default",
+    "rotation=15,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_bus_trailer_too",
+      "y": 0
+    },
+    "rotation=15,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_cycle_moped_free",
+      "y": 0
+    },
+    "rotation=15,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_green_arrow",
+      "y": 0
+    },
+    "rotation=15,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_1",
+      "y": 0
+    },
+    "rotation=15,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_2",
+      "y": 0
+    },
+    "rotation=15,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_3",
+      "y": 0
+    },
+    "rotation=15,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_1",
+      "y": 0
+    },
+    "rotation=15,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_2",
+      "y": 0
+    },
+    "rotation=15,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_3",
+      "y": 0
+    },
+    "rotation=15,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_left_1",
+      "y": 0
+    },
+    "rotation=15,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_left_2",
+      "y": 0
+    },
+    "rotation=15,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_right_1",
+      "y": 0
+    },
+    "rotation=15,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_right_2",
+      "y": 0
+    },
+    "rotation=15,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_roundabout_left",
+      "y": 0
+    },
+    "rotation=15,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_roundabout_straight",
+      "y": 0
+    },
+    "rotation=15,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_truck_bus_trailer",
+      "y": 0
+    },
+    "rotation=15,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_wet",
+      "y": 0
+    },
+    "rotation=2,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_bike_vehicle",
       "y": 0
     },
     "rotation=2,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_blank",
       "y": 0
     },
-    "rotation=2,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_default",
+    "rotation=2,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_bus_trailer_too",
       "y": 0
+    },
+    "rotation=2,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_cycle_moped_free",
+      "y": 0
+    },
+    "rotation=2,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_green_arrow",
+      "y": 0
+    },
+    "rotation=2,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_1",
+      "y": 0
+    },
+    "rotation=2,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_2",
+      "y": 0
+    },
+    "rotation=2,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_3",
+      "y": 0
+    },
+    "rotation=2,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_1",
+      "y": 0
+    },
+    "rotation=2,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_2",
+      "y": 0
+    },
+    "rotation=2,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_3",
+      "y": 0
+    },
+    "rotation=2,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_left_1",
+      "y": 0
+    },
+    "rotation=2,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_left_2",
+      "y": 0
+    },
+    "rotation=2,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_right_1",
+      "y": 0
+    },
+    "rotation=2,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_right_2",
+      "y": 0
+    },
+    "rotation=2,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_roundabout_left",
+      "y": 0
+    },
+    "rotation=2,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_roundabout_straight",
+      "y": 0
+    },
+    "rotation=2,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_truck_bus_trailer",
+      "y": 0
+    },
+    "rotation=2,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_wet",
+      "y": 0
+    },
+    "rotation=3,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_bike_vehicle",
+      "y": 90
     },
     "rotation=3,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_blank",
       "y": 90
     },
-    "rotation=3,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_default",
+    "rotation=3,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_bus_trailer_too",
+      "y": 90
+    },
+    "rotation=3,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_cycle_moped_free",
+      "y": 90
+    },
+    "rotation=3,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_green_arrow",
+      "y": 90
+    },
+    "rotation=3,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_1",
+      "y": 90
+    },
+    "rotation=3,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_2",
+      "y": 90
+    },
+    "rotation=3,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_3",
+      "y": 90
+    },
+    "rotation=3,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_1",
+      "y": 90
+    },
+    "rotation=3,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_2",
+      "y": 90
+    },
+    "rotation=3,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_3",
+      "y": 90
+    },
+    "rotation=3,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_left_1",
+      "y": 90
+    },
+    "rotation=3,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_left_2",
+      "y": 90
+    },
+    "rotation=3,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_right_1",
+      "y": 90
+    },
+    "rotation=3,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_right_2",
+      "y": 90
+    },
+    "rotation=3,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_roundabout_left",
+      "y": 90
+    },
+    "rotation=3,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_roundabout_straight",
+      "y": 90
+    },
+    "rotation=3,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_truck_bus_trailer",
+      "y": 90
+    },
+    "rotation=3,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_wet",
+      "y": 90
+    },
+    "rotation=4,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_bike_vehicle",
       "y": 90
     },
     "rotation=4,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_blank",
       "y": 90
     },
-    "rotation=4,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_default",
+    "rotation=4,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_bus_trailer_too",
+      "y": 90
+    },
+    "rotation=4,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_cycle_moped_free",
+      "y": 90
+    },
+    "rotation=4,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_green_arrow",
+      "y": 90
+    },
+    "rotation=4,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_1",
+      "y": 90
+    },
+    "rotation=4,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_2",
+      "y": 90
+    },
+    "rotation=4,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_3",
+      "y": 90
+    },
+    "rotation=4,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_1",
+      "y": 90
+    },
+    "rotation=4,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_2",
+      "y": 90
+    },
+    "rotation=4,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_3",
+      "y": 90
+    },
+    "rotation=4,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_left_1",
+      "y": 90
+    },
+    "rotation=4,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_left_2",
+      "y": 90
+    },
+    "rotation=4,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_right_1",
+      "y": 90
+    },
+    "rotation=4,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_right_2",
+      "y": 90
+    },
+    "rotation=4,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_roundabout_left",
+      "y": 90
+    },
+    "rotation=4,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_roundabout_straight",
+      "y": 90
+    },
+    "rotation=4,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_truck_bus_trailer",
+      "y": 90
+    },
+    "rotation=4,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_wet",
+      "y": 90
+    },
+    "rotation=5,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_bike_vehicle",
       "y": 90
     },
     "rotation=5,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_blank",
       "y": 90
     },
-    "rotation=5,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_default",
+    "rotation=5,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_bus_trailer_too",
+      "y": 90
+    },
+    "rotation=5,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_cycle_moped_free",
+      "y": 90
+    },
+    "rotation=5,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_green_arrow",
+      "y": 90
+    },
+    "rotation=5,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_1",
+      "y": 90
+    },
+    "rotation=5,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_2",
+      "y": 90
+    },
+    "rotation=5,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_3",
+      "y": 90
+    },
+    "rotation=5,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_1",
+      "y": 90
+    },
+    "rotation=5,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_2",
+      "y": 90
+    },
+    "rotation=5,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_3",
+      "y": 90
+    },
+    "rotation=5,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_left_1",
+      "y": 90
+    },
+    "rotation=5,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_left_2",
+      "y": 90
+    },
+    "rotation=5,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_right_1",
+      "y": 90
+    },
+    "rotation=5,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_right_2",
+      "y": 90
+    },
+    "rotation=5,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_roundabout_left",
+      "y": 90
+    },
+    "rotation=5,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_roundabout_straight",
+      "y": 90
+    },
+    "rotation=5,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_truck_bus_trailer",
+      "y": 90
+    },
+    "rotation=5,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_wet",
+      "y": 90
+    },
+    "rotation=6,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_bike_vehicle",
       "y": 90
     },
     "rotation=6,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_blank",
       "y": 90
     },
-    "rotation=6,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_default",
+    "rotation=6,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_bus_trailer_too",
       "y": 90
+    },
+    "rotation=6,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_cycle_moped_free",
+      "y": 90
+    },
+    "rotation=6,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_green_arrow",
+      "y": 90
+    },
+    "rotation=6,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_1",
+      "y": 90
+    },
+    "rotation=6,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_2",
+      "y": 90
+    },
+    "rotation=6,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_left_3",
+      "y": 90
+    },
+    "rotation=6,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_1",
+      "y": 90
+    },
+    "rotation=6,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_2",
+      "y": 90
+    },
+    "rotation=6,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_bottom_right_3",
+      "y": 90
+    },
+    "rotation=6,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_left_1",
+      "y": 90
+    },
+    "rotation=6,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_left_2",
+      "y": 90
+    },
+    "rotation=6,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_right_1",
+      "y": 90
+    },
+    "rotation=6,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_priority_top_right_2",
+      "y": 90
+    },
+    "rotation=6,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_roundabout_left",
+      "y": 90
+    },
+    "rotation=6,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_roundabout_straight",
+      "y": 90
+    },
+    "rotation=6,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_truck_bus_trailer",
+      "y": 90
+    },
+    "rotation=6,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n45_wet",
+      "y": 90
+    },
+    "rotation=7,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_bike_vehicle",
+      "y": 180
     },
     "rotation=7,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_blank",
       "y": 180
     },
-    "rotation=7,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_default",
+    "rotation=7,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_bus_trailer_too",
+      "y": 180
+    },
+    "rotation=7,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_cycle_moped_free",
+      "y": 180
+    },
+    "rotation=7,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_green_arrow",
+      "y": 180
+    },
+    "rotation=7,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_1",
+      "y": 180
+    },
+    "rotation=7,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_2",
+      "y": 180
+    },
+    "rotation=7,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_left_3",
+      "y": 180
+    },
+    "rotation=7,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_1",
+      "y": 180
+    },
+    "rotation=7,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_2",
+      "y": 180
+    },
+    "rotation=7,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_bottom_right_3",
+      "y": 180
+    },
+    "rotation=7,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_left_1",
+      "y": 180
+    },
+    "rotation=7,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_left_2",
+      "y": 180
+    },
+    "rotation=7,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_right_1",
+      "y": 180
+    },
+    "rotation=7,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_priority_top_right_2",
+      "y": 180
+    },
+    "rotation=7,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_roundabout_left",
+      "y": 180
+    },
+    "rotation=7,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_roundabout_straight",
+      "y": 180
+    },
+    "rotation=7,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_truck_bus_trailer",
+      "y": 180
+    },
+    "rotation=7,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_22_wet",
+      "y": 180
+    },
+    "rotation=8,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_bike_vehicle",
       "y": 180
     },
     "rotation=8,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_blank",
       "y": 180
     },
-    "rotation=8,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_default",
+    "rotation=8,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_bus_trailer_too",
+      "y": 180
+    },
+    "rotation=8,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_cycle_moped_free",
+      "y": 180
+    },
+    "rotation=8,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_green_arrow",
+      "y": 180
+    },
+    "rotation=8,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_1",
+      "y": 180
+    },
+    "rotation=8,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_2",
+      "y": 180
+    },
+    "rotation=8,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_left_3",
+      "y": 180
+    },
+    "rotation=8,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_1",
+      "y": 180
+    },
+    "rotation=8,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_2",
+      "y": 180
+    },
+    "rotation=8,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_bottom_right_3",
+      "y": 180
+    },
+    "rotation=8,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_left_1",
+      "y": 180
+    },
+    "rotation=8,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_left_2",
+      "y": 180
+    },
+    "rotation=8,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_right_1",
+      "y": 180
+    },
+    "rotation=8,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_priority_top_right_2",
+      "y": 180
+    },
+    "rotation=8,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_roundabout_left",
+      "y": 180
+    },
+    "rotation=8,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_roundabout_straight",
+      "y": 180
+    },
+    "rotation=8,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_truck_bus_trailer",
+      "y": 180
+    },
+    "rotation=8,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_0_wet",
+      "y": 180
+    },
+    "rotation=9,variant=bike_vehicle": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_bike_vehicle",
       "y": 180
     },
     "rotation=9,variant=blank": {
       "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_blank",
       "y": 180
     },
-    "rotation=9,variant=default": {
-      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_default",
+    "rotation=9,variant=bus_trailer_too": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_bus_trailer_too",
+      "y": 180
+    },
+    "rotation=9,variant=cycle_moped_free": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_cycle_moped_free",
+      "y": 180
+    },
+    "rotation=9,variant=green_arrow": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_green_arrow",
+      "y": 180
+    },
+    "rotation=9,variant=priority_bottom_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_1",
+      "y": 180
+    },
+    "rotation=9,variant=priority_bottom_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_2",
+      "y": 180
+    },
+    "rotation=9,variant=priority_bottom_left_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_left_3",
+      "y": 180
+    },
+    "rotation=9,variant=priority_bottom_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_1",
+      "y": 180
+    },
+    "rotation=9,variant=priority_bottom_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_2",
+      "y": 180
+    },
+    "rotation=9,variant=priority_bottom_right_3": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_bottom_right_3",
+      "y": 180
+    },
+    "rotation=9,variant=priority_top_left_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_left_1",
+      "y": 180
+    },
+    "rotation=9,variant=priority_top_left_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_left_2",
+      "y": 180
+    },
+    "rotation=9,variant=priority_top_right_1": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_right_1",
+      "y": 180
+    },
+    "rotation=9,variant=priority_top_right_2": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_priority_top_right_2",
+      "y": 180
+    },
+    "rotation=9,variant=roundabout_left": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_roundabout_left",
+      "y": 180
+    },
+    "rotation=9,variant=roundabout_straight": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_roundabout_straight",
+      "y": 180
+    },
+    "rotation=9,variant=truck_bus_trailer": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_truck_bus_trailer",
+      "y": 180
+    },
+    "rotation=9,variant=wet": {
+      "model": "roadside-addons:block/sign_supplementary_square/sign_supplementary_square_n22_wet",
       "y": 180
     }
   }

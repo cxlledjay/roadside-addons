@@ -23,14 +23,16 @@ public class SignVariantSelectScreen extends Screen {
     private final BlockPos blockPos;
     /// derived from the clicked block: the variant Enum
     private final Property<?> variantProperty;
+    private final SignShape shapeInfo;
 
 
     // ---------------------------- <interfaces> ----------------------------
-    public SignVariantSelectScreen(BlockPos blockPos, Block clickedBlock, Property<?> variantProperty) {
+    public SignVariantSelectScreen(BlockPos blockPos, Block clickedBlock, Property<?> variantProperty, SignShape shapeInfo) {
         super(Text.literal("Sign Variant Selection"));
         this.blockPos = blockPos;
         this.variantProperty = variantProperty;
         this.clickedBlock = clickedBlock;
+        this.shapeInfo = shapeInfo;
     }
 
     @Override
@@ -115,7 +117,7 @@ public class SignVariantSelectScreen extends Screen {
                             "textures/block/" + Registries.BLOCK.getId(clickedBlock).getPath() + "/" + variant.asString() + ".png");
 
                     // add button to row
-                    rowButtons.add(new VariantButtonWidget(currentX, 0, tex, btn -> {
+                    rowButtons.add(new VariantButtonWidget(currentX, 0, tex, shapeInfo,  btn -> {
                         // onClick handler (executed on client!)
 
                         // send variant change request packet to server

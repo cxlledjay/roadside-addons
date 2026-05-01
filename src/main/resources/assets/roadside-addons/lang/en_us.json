@@ -37,6 +37,13 @@
   "sign_category.roadside-addons.facilities" : "Facility Information",
   "sign_category.roadside-addons.pedestrian_crossing" : "Pedestrian Crossing",
 
+  "sign_category.roadside-addons.distance" : "Affected Distance",
+  "sign_category.roadside-addons.length" : "Affected Length",
+  "sign_category.roadside-addons.time" : "Affected Time",
+  "sign_category.roadside-addons.weight" : "Affected Weight",
+  "sign_category.roadside-addons.text" : "Textual Description",
+  "sign_category.roadside-addons.traffic_light" : "Traffic Light",
+
 
 
   "block.roadside-addons.traffic_cone": "Traffic Cone",

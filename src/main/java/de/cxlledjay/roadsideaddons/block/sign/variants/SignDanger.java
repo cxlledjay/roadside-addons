@@ -4,6 +4,7 @@ package de.cxlledjay.roadsideaddons.block.sign.variants;
 import com.mojang.serialization.MapCodec;
 import de.cxlledjay.roadsideaddons.block.sign.generic.AbstractSign;
 import de.cxlledjay.roadsideaddons.block.sign.generic.SignVariant;
+import de.cxlledjay.roadsideaddons.gui.SignShape;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.state.StateManager;
@@ -93,6 +94,11 @@ public class SignDanger extends AbstractSign {
     @Override
     public EnumProperty<? extends SignVariant> getVariantProperty() {
         return VARIANT;
+    }
+
+    @Override
+    public SignShape getSignShape() {
+        return SignShape.NORMAL;
     }
 
     @Override

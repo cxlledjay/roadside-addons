@@ -49,7 +49,7 @@ public class SignBrush extends Item {
 
                 if(world.isClient()) {
                     // open gui on client side
-                    MinecraftClient.getInstance().setScreen(new SignVariantSelectScreen(pos, clickedBlock, variantProperty));
+                    MinecraftClient.getInstance().setScreen(new SignVariantSelectScreen(pos, clickedBlock, variantProperty, signBlock.getSignShape()));
                 }
 
                 // set result to success for player hand swing animation
