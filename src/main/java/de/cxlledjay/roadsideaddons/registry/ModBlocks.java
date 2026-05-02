@@ -39,50 +39,62 @@ public class ModBlocks {
 
 
     // ---------------------------- <sign variants> ----------------------------
+
+    private static AbstractBlock.Settings createSignSettings() {
+        return AbstractBlock.Settings.create()
+                .nonOpaque()
+                .strength(2f)
+                .requiresTool()
+                .mapColor(MapColor.GRAY)
+                .sounds(BlockSoundGroup.COPPER)
+                .luminance(state -> 6);
+    }
+
     public static final Block SIGN_DANGER = registerBlock("sign_danger",
-            new SignDanger(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+            new SignDanger(createSignSettings()));
 
     public static final Block SIGN_STOP = registerBlock("sign_stop",
-            new SignStop(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+            new SignStop(createSignSettings()));
 
     public static final Block SIGN_YIELD = registerBlock("sign_yield",
-            new SignYield(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+            new SignYield(createSignSettings()));
 
     public static final Block SIGN_REGULATORY = registerBlock("sign_regulatory",
-            new SignRegulatory(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+            new SignRegulatory(createSignSettings()));
 
     public static final Block SIGN_PRIORITY_ROAD= registerBlock("sign_priority_road",
-            new SignPriorityRoad(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+            new SignPriorityRoad(createSignSettings()));
 
     public static final Block SIGN_INFORMATION= registerBlock("sign_information",
-            new SignInformation(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+            new SignInformation(createSignSettings()));
 
     public static final Block SIGN_ONEWAY= registerBlock("sign_oneway",
-            new SignOneway(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+            new SignOneway(createSignSettings()));
 
     public static final Block SIGN_SUPPLEMENTARY_SQUARE= registerBlock("sign_supplementary_square",
-            new SignSupplementarySquare(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+            new SignSupplementarySquare(createSignSettings()));
 
     public static final Block SIGN_SUPPLEMENTARY_WIDE= registerBlock("sign_supplementary_wide",
-            new SignSupplementaryWide(AbstractBlock.Settings.create().nonOpaque().strength(2f).requiresTool().mapColor(MapColor.GRAY).sounds(BlockSoundGroup.COPPER)));
+            new SignSupplementaryWide(createSignSettings()));
 
 
     // ---------------------------- <construction> ----------------------------
      public static final Block TRAFFIC_CONE = registerBlock("traffic_cone",
-             new TrafficCone(AbstractBlock.Settings.create().nonOpaque().strength(0.5f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.POINTED_DRIPSTONE)));
+             new TrafficCone(AbstractBlock.Settings.create().nonOpaque().strength(-1.0f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.POINTED_DRIPSTONE)));
 
     public static final Block BOLLARD_CONSTRUCTION = registerBlock("bollard_construction",
-            new BollardConstruction(AbstractBlock.Settings.create().nonOpaque().strength(1.5f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)));
+            new BollardConstruction(AbstractBlock.Settings.create().nonOpaque().strength(1.0f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)));
 
     public static final Block BOLLARD_CONSTRUCTION_LAMP = registerBlock("bollard_construction_lamp",
-            new BollardConstructionLamp(AbstractBlock.Settings.create().nonOpaque().strength(1.5f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)
+            new BollardConstructionLamp(AbstractBlock.Settings.create().nonOpaque().strength(1.0f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)
                     .luminance(state -> (state.get(LAMP_ON)) ? 13 : 0)));
 
 
     // ---------------------------- <bollards> ----------------------------
 
     public static final Block BOLLARD_GERMAN = registerBlock("bollard_german",
-            new GermanBollard(AbstractBlock.Settings.create().nonOpaque().strength(1.5f).requiresTool().sounds(BlockSoundGroup.POLISHED_TUFF)));
+            new GermanBollard(AbstractBlock.Settings.create().nonOpaque().strength(1.5f).requiresTool().sounds(BlockSoundGroup.POLISHED_TUFF)
+                    .luminance(state -> 5)));
 
 
 
