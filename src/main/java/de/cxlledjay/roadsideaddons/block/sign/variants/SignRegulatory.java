@@ -135,6 +135,8 @@ public class SignRegulatory extends AbstractSign {
         // --- passing ---
         NO_PASSING("no_passing", "passing"),
         NO_PASSING_END("no_passing_end", "passing"),
+        NO_PASSING_BIKES("no_passing_bikes", "passing"),
+        NO_PASSING_BIKES_END("no_passing_bikes_end", "passing"),
         NO_PASSING_TRUCKS("no_passing_trucks", "passing"),
         NO_PASSING_TRUCKS_END("no_passing_trucks_end", "passing"),
 

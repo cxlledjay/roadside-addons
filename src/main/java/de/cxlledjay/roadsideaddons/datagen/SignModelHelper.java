@@ -9,6 +9,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.block.Block;
 import net.minecraft.data.client.*;
 import net.minecraft.registry.Registries;
+import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.EnumProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.state.property.Property;
@@ -41,6 +42,17 @@ public class SignModelHelper {
 
         // generate blockstates for rotation
         generateNormalBlockstates(modblock, generator);
+    }
+
+
+    // register a 16 way rotatable block with two variants (e.g. on, off)
+    public static void generateRotatableBlockDataBooleanProperty(FabricDataOutput output, BlockStateModelGenerator generator, Block modblock
+            , BooleanProperty property, String textureKey, String nameTrue, String nameFalse) {
+        // generate block and item model for this block
+        generateBooleanPropertyRotatableModels(modblock, output, generator, property, textureKey, nameTrue, nameFalse);
+
+        // generate blockstates for rotation
+        generateBooleanPropertyBlockstates(modblock, generator, property, nameTrue, nameFalse);
     }
 
 
@@ -105,6 +117,61 @@ public class SignModelHelper {
             generator.modelCollector.accept(modifiedJsonId, () -> modifiedJson);
         }
 
+        // register item model via parent (refers to template file, which shall be rendered in inv)
+        generator.registerParentedItemModel(modblock, Identifier.of(RoadsideAddons.MOD_ID + ":" + "block/" + blockId));
+    }
+
+    private static void generateBooleanPropertyRotatableModels(Block modblock, FabricDataOutput output, BlockStateModelGenerator generator,
+                                                               BooleanProperty property, String textureKey, String nameTrue, String nameFalse) {
+        // get filesystem path
+        Path templateModelDir = output.getPath().getParent()
+                .resolve("resources/assets")
+                .resolve(RoadsideAddons.MOD_ID)
+                .resolve("models/block");
+
+        // get identifier of handled block
+        String blockId = Registries.BLOCK.getId(modblock).getPath();
+        RoadsideAddons.LOGGER.info("generating boolean rotatable block models for: " + blockId);
+        Path templatePath = templateModelDir.resolve(blockId + ".json");
+
+        // read in template JSON
+        String jsonContent = null;
+        try {
+            jsonContent = Files.readString(templatePath);
+        } catch (IOException e) {
+            RoadsideAddons.LOGGER.error("could not resolve templatePath: " + templatePath.toString());
+            return;
+        }
+
+        JsonObject templateJson = JsonParser.parseString(jsonContent).getAsJsonObject();
+
+        // Iterate through the boolean values (true and false)
+        for (Boolean value : property.getValues()) {
+            // This will yield "true" or "false" for your texture and model file names
+            String valueName = (value) ? nameTrue : nameFalse;
+
+            RoadsideAddons.LOGGER.info("calculating boolean variant " + valueName + " for " + blockId);
+
+            // create all 4 different rotated models
+            for (int i = 0; i < angles.length; ++i) {
+                // create copy!!
+                JsonObject modifiedJson = templateJson.deepCopy();
+
+                // iterate through json object and apply rotation
+                applyRotation(modifiedJson, angles[i]);
+
+                // Apply Texture Surgery
+                // NOTE: Change "overlay" if your boolean block uses a different texture key!
+                if (modifiedJson.has("textures")) {
+                    JsonObject textures = modifiedJson.getAsJsonObject("textures");
+                    textures.addProperty(textureKey, RoadsideAddons.MOD_ID + ":block/" + blockId + "/" + valueName);
+                }
+
+                // use generator to save new json (e.g. block/my_block/my_block_22_true.json)
+                Identifier modifiedJsonId = Identifier.of(RoadsideAddons.MOD_ID, "block/" + blockId + "/" + blockId + "_" + fileEndings[i] + "_" + valueName);
+                generator.modelCollector.accept(modifiedJsonId, () -> modifiedJson);
+            }
+        }
         // register item model via parent (refers to template file, which shall be rendered in inv)
         generator.registerParentedItemModel(modblock, Identifier.of(RoadsideAddons.MOD_ID + ":" + "block/" + blockId));
     }
@@ -174,6 +241,7 @@ public class SignModelHelper {
     }
 
 
+
     private static void applyRotation(JsonObject modelJson, double newAngle) {
         // 1. Get the 'elements' array from your template
         if (modelJson.has("elements") && modelJson.get("elements").isJsonArray()) {
@@ -235,6 +303,35 @@ public class SignModelHelper {
                             Identifier modelId = modelIds.get(rotation % 4);
 
                             // Calculates 0, 90, 180, 270 based on the pair
+                            int yStep = ((rotation + 1) / 4) * 90;
+                            VariantSettings.Rotation yRot = getRotationFromDegrees(yStep);
+
+                            return BlockStateVariant.create()
+                                    .put(VariantSettings.MODEL, modelId)
+                                    .put(VariantSettings.Y, yRot);
+                        })
+                )
+        );
+    }
+
+    private static void generateBooleanPropertyBlockstates(Block modblock, BlockStateModelGenerator generator, BooleanProperty property
+            , String nameTrue, String nameFalse) {
+        // get the block path (e.g. traffic_light)
+        String blockPath = Registries.BLOCK.getId(modblock).getPath();
+
+        // Create the Cartesian Product (Boolean Variant x Rotation)
+        generator.blockStateCollector.accept(VariantsBlockStateSupplier.create(modblock)
+                .coordinate(BlockStateVariantMap.create(property, RotatableBlock.ROTATION)
+                        .register((value, rotation) -> {
+
+                            // Get the variant name ("true" or "false")
+                            String valueName = (value) ? nameTrue : nameFalse;
+
+                            // Match naming convention: "block/traffic_light/traffic_light_22_true"
+                            String modelPath = "block/" + blockPath + "/" + blockPath + "_" + fileEndings[rotation % 4] + "_" + valueName;
+                            Identifier modelId = Identifier.of(RoadsideAddons.MOD_ID, modelPath);
+
+                            // Calculate the engine Y rotation
                             int yStep = ((rotation + 1) / 4) * 90;
                             VariantSettings.Rotation yRot = getRotationFromDegrees(yStep);
 

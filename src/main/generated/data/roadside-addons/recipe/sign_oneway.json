@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "roadside-addons:sign_post"
+    }
+  },
+  "pattern": [
+    "III",
+    " P "
+  ],
+  "result": {
+    "count": 4,
+    "id": "roadside-addons:sign_oneway"
+  }
+}

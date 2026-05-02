@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "F": {
+      "item": "minecraft:item_frame"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "NIN",
+    "IFI",
+    "NIN"
+  ],
+  "result": {
+    "count": 4,
+    "id": "roadside-addons:sign_regulatory"
+  }
+}

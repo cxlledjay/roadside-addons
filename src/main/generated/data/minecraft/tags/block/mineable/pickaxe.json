@@ -6,6 +6,13 @@
     "roadside-addons:sign_danger",
     "roadside-addons:sign_yield",
     "roadside-addons:sign_stop",
-    "roadside-addons:bollard_construction"
+    "roadside-addons:sign_regulatory",
+    "roadside-addons:sign_information",
+    "roadside-addons:sign_priority_road",
+    "roadside-addons:sign_oneway",
+    "roadside-addons:sign_supplementary_wide",
+    "roadside-addons:sign_supplementary_square",
+    "roadside-addons:bollard_construction",
+    "roadside-addons:bollard_construction_lamp"
   ]
 }

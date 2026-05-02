@@ -18,12 +18,21 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SIGN_POST);
         addDrop(ModBlocks.SIGN_POST_BASE);
         addDrop(ModBlocks.SIGN_POST_BASE_CONSTRUCTION);
+
         // sign variants
         addDrop(ModBlocks.SIGN_DANGER);
         addDrop(ModBlocks.SIGN_YIELD);
         addDrop(ModBlocks.SIGN_STOP);
+        addDrop(ModBlocks.SIGN_REGULATORY);
+        addDrop(ModBlocks.SIGN_INFORMATION);
+        addDrop(ModBlocks.SIGN_PRIORITY_ROAD);
+        addDrop(ModBlocks.SIGN_ONEWAY);
+        addDrop(ModBlocks.SIGN_SUPPLEMENTARY_WIDE);
+        addDrop(ModBlocks.SIGN_SUPPLEMENTARY_SQUARE);
+
         // construction
         addDrop(ModBlocks.TRAFFIC_CONE);
         addDrop(ModBlocks.BOLLARD_CONSTRUCTION);
+        addDrop(ModBlocks.BOLLARD_CONSTRUCTION_LAMP);
     }
 }

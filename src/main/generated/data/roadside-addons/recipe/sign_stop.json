@@ -13,12 +13,12 @@
     }
   },
   "pattern": [
-    "NIN",
-    "IFI",
-    "NIN"
+    "INI",
+    "NFN",
+    "INI"
   ],
   "result": {
-    "count": 3,
+    "count": 4,
     "id": "roadside-addons:sign_stop"
   }
 }

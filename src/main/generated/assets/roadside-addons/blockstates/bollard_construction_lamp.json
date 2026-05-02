@@ -1,0 +1,132 @@
+{
+  "variants": {
+    "lamp_on=false,rotation=0": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_0_lamp_off",
+      "y": 0
+    },
+    "lamp_on=false,rotation=1": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n22_lamp_off",
+      "y": 0
+    },
+    "lamp_on=false,rotation=10": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n45_lamp_off",
+      "y": 180
+    },
+    "lamp_on=false,rotation=11": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_22_lamp_off",
+      "y": 270
+    },
+    "lamp_on=false,rotation=12": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_0_lamp_off",
+      "y": 270
+    },
+    "lamp_on=false,rotation=13": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n22_lamp_off",
+      "y": 270
+    },
+    "lamp_on=false,rotation=14": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n45_lamp_off",
+      "y": 270
+    },
+    "lamp_on=false,rotation=15": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_22_lamp_off",
+      "y": 0
+    },
+    "lamp_on=false,rotation=2": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n45_lamp_off",
+      "y": 0
+    },
+    "lamp_on=false,rotation=3": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_22_lamp_off",
+      "y": 90
+    },
+    "lamp_on=false,rotation=4": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_0_lamp_off",
+      "y": 90
+    },
+    "lamp_on=false,rotation=5": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n22_lamp_off",
+      "y": 90
+    },
+    "lamp_on=false,rotation=6": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n45_lamp_off",
+      "y": 90
+    },
+    "lamp_on=false,rotation=7": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_22_lamp_off",
+      "y": 180
+    },
+    "lamp_on=false,rotation=8": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_0_lamp_off",
+      "y": 180
+    },
+    "lamp_on=false,rotation=9": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n22_lamp_off",
+      "y": 180
+    },
+    "lamp_on=true,rotation=0": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_0_lamp_on",
+      "y": 0
+    },
+    "lamp_on=true,rotation=1": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n22_lamp_on",
+      "y": 0
+    },
+    "lamp_on=true,rotation=10": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n45_lamp_on",
+      "y": 180
+    },
+    "lamp_on=true,rotation=11": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_22_lamp_on",
+      "y": 270
+    },
+    "lamp_on=true,rotation=12": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_0_lamp_on",
+      "y": 270
+    },
+    "lamp_on=true,rotation=13": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n22_lamp_on",
+      "y": 270
+    },
+    "lamp_on=true,rotation=14": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n45_lamp_on",
+      "y": 270
+    },
+    "lamp_on=true,rotation=15": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_22_lamp_on",
+      "y": 0
+    },
+    "lamp_on=true,rotation=2": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n45_lamp_on",
+      "y": 0
+    },
+    "lamp_on=true,rotation=3": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_22_lamp_on",
+      "y": 90
+    },
+    "lamp_on=true,rotation=4": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_0_lamp_on",
+      "y": 90
+    },
+    "lamp_on=true,rotation=5": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n22_lamp_on",
+      "y": 90
+    },
+    "lamp_on=true,rotation=6": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n45_lamp_on",
+      "y": 90
+    },
+    "lamp_on=true,rotation=7": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_22_lamp_on",
+      "y": 180
+    },
+    "lamp_on=true,rotation=8": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_0_lamp_on",
+      "y": 180
+    },
+    "lamp_on=true,rotation=9": {
+      "model": "roadside-addons:block/bollard_construction_lamp/bollard_construction_lamp_n22_lamp_on",
+      "y": 180
+    }
+  }
+}

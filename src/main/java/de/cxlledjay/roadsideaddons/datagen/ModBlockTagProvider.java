@@ -19,18 +19,41 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SIGN_POST)
                 .add(ModBlocks.SIGN_POST_BASE)
                 .add(ModBlocks.SIGN_POST_BASE_CONSTRUCTION)
+
                 .add(ModBlocks.SIGN_DANGER)
                 .add(ModBlocks.SIGN_YIELD)
                 .add(ModBlocks.SIGN_STOP)
-                .add(ModBlocks.BOLLARD_CONSTRUCTION);
+                .add(ModBlocks.SIGN_REGULATORY)
+                .add(ModBlocks.SIGN_INFORMATION)
+                .add(ModBlocks.SIGN_PRIORITY_ROAD)
+                .add(ModBlocks.SIGN_ONEWAY)
+                .add(ModBlocks.SIGN_SUPPLEMENTARY_WIDE)
+                .add(ModBlocks.SIGN_SUPPLEMENTARY_SQUARE)
+
+                .add(ModBlocks.BOLLARD_CONSTRUCTION)
+                .add(ModBlocks.BOLLARD_CONSTRUCTION_LAMP);
+
+
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SIGN_POST)
                 .add(ModBlocks.SIGN_POST_BASE)
                 .add(ModBlocks.SIGN_POST_BASE_CONSTRUCTION)
+
                 .add(ModBlocks.SIGN_DANGER)
                 .add(ModBlocks.SIGN_YIELD)
                 .add(ModBlocks.SIGN_STOP)
-                .add(ModBlocks.BOLLARD_CONSTRUCTION);
+                .add(ModBlocks.SIGN_REGULATORY)
+                .add(ModBlocks.SIGN_INFORMATION)
+                .add(ModBlocks.SIGN_PRIORITY_ROAD)
+                .add(ModBlocks.SIGN_ONEWAY)
+                .add(ModBlocks.SIGN_SUPPLEMENTARY_WIDE)
+                .add(ModBlocks.SIGN_SUPPLEMENTARY_SQUARE);
+
+
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.BOLLARD_CONSTRUCTION)
+                .add(ModBlocks.BOLLARD_CONSTRUCTION_LAMP);
     }
 }

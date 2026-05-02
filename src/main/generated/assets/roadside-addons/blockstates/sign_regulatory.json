@@ -148,6 +148,14 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing",
       "y": 0
     },
+    "rotation=0,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_bikes",
+      "y": 0
+    },
+    "rotation=0,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_bikes_end",
+      "y": 0
+    },
     "rotation=0,variant=no_passing_end": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_end",
       "y": 0
@@ -526,6 +534,14 @@
     },
     "rotation=1,variant=no_passing": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing",
+      "y": 0
+    },
+    "rotation=1,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing_bikes",
+      "y": 0
+    },
+    "rotation=1,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing_bikes_end",
       "y": 0
     },
     "rotation=1,variant=no_passing_end": {
@@ -908,6 +924,14 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing",
       "y": 180
     },
+    "rotation=10,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_bikes",
+      "y": 180
+    },
+    "rotation=10,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_bikes_end",
+      "y": 180
+    },
     "rotation=10,variant=no_passing_end": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_end",
       "y": 180
@@ -1286,6 +1310,14 @@
     },
     "rotation=11,variant=no_passing": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing",
+      "y": 270
+    },
+    "rotation=11,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing_bikes",
+      "y": 270
+    },
+    "rotation=11,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing_bikes_end",
       "y": 270
     },
     "rotation=11,variant=no_passing_end": {
@@ -1668,6 +1700,14 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing",
       "y": 270
     },
+    "rotation=12,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_bikes",
+      "y": 270
+    },
+    "rotation=12,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_bikes_end",
+      "y": 270
+    },
     "rotation=12,variant=no_passing_end": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_end",
       "y": 270
@@ -2046,6 +2086,14 @@
     },
     "rotation=13,variant=no_passing": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing",
+      "y": 270
+    },
+    "rotation=13,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing_bikes",
+      "y": 270
+    },
+    "rotation=13,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing_bikes_end",
       "y": 270
     },
     "rotation=13,variant=no_passing_end": {
@@ -2428,6 +2476,14 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing",
       "y": 270
     },
+    "rotation=14,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_bikes",
+      "y": 270
+    },
+    "rotation=14,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_bikes_end",
+      "y": 270
+    },
     "rotation=14,variant=no_passing_end": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_end",
       "y": 270
@@ -2806,6 +2862,14 @@
     },
     "rotation=15,variant=no_passing": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing",
+      "y": 0
+    },
+    "rotation=15,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing_bikes",
+      "y": 0
+    },
+    "rotation=15,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing_bikes_end",
       "y": 0
     },
     "rotation=15,variant=no_passing_end": {
@@ -3188,6 +3252,14 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing",
       "y": 0
     },
+    "rotation=2,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_bikes",
+      "y": 0
+    },
+    "rotation=2,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_bikes_end",
+      "y": 0
+    },
     "rotation=2,variant=no_passing_end": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_end",
       "y": 0
@@ -3566,6 +3638,14 @@
     },
     "rotation=3,variant=no_passing": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing",
+      "y": 90
+    },
+    "rotation=3,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing_bikes",
+      "y": 90
+    },
+    "rotation=3,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing_bikes_end",
       "y": 90
     },
     "rotation=3,variant=no_passing_end": {
@@ -3948,6 +4028,14 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing",
       "y": 90
     },
+    "rotation=4,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_bikes",
+      "y": 90
+    },
+    "rotation=4,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_bikes_end",
+      "y": 90
+    },
     "rotation=4,variant=no_passing_end": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_end",
       "y": 90
@@ -4326,6 +4414,14 @@
     },
     "rotation=5,variant=no_passing": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing",
+      "y": 90
+    },
+    "rotation=5,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing_bikes",
+      "y": 90
+    },
+    "rotation=5,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing_bikes_end",
       "y": 90
     },
     "rotation=5,variant=no_passing_end": {
@@ -4708,6 +4804,14 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing",
       "y": 90
     },
+    "rotation=6,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_bikes",
+      "y": 90
+    },
+    "rotation=6,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_bikes_end",
+      "y": 90
+    },
     "rotation=6,variant=no_passing_end": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n45_no_passing_end",
       "y": 90
@@ -5086,6 +5190,14 @@
     },
     "rotation=7,variant=no_passing": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing",
+      "y": 180
+    },
+    "rotation=7,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing_bikes",
+      "y": 180
+    },
+    "rotation=7,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_22_no_passing_bikes_end",
       "y": 180
     },
     "rotation=7,variant=no_passing_end": {
@@ -5468,6 +5580,14 @@
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing",
       "y": 180
     },
+    "rotation=8,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_bikes",
+      "y": 180
+    },
+    "rotation=8,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_bikes_end",
+      "y": 180
+    },
     "rotation=8,variant=no_passing_end": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_0_no_passing_end",
       "y": 180
@@ -5846,6 +5966,14 @@
     },
     "rotation=9,variant=no_passing": {
       "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing",
+      "y": 180
+    },
+    "rotation=9,variant=no_passing_bikes": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing_bikes",
+      "y": 180
+    },
+    "rotation=9,variant=no_passing_bikes_end": {
+      "model": "roadside-addons:block/sign_regulatory/sign_regulatory_n22_no_passing_bikes_end",
       "y": 180
     },
     "rotation=9,variant=no_passing_end": {

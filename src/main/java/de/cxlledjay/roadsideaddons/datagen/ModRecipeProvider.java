@@ -4,8 +4,10 @@ import de.cxlledjay.roadsideaddons.registry.ModBlocks;
 import de.cxlledjay.roadsideaddons.registry.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -22,7 +24,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(RecipeExporter exporter) {
 
         // ------------------------- <sign posts> -------------------------
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_POST_BASE,3)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_POST_BASE,4)
                 .pattern(" I ")
                 .pattern(" I ")
                 .pattern("NIN")
@@ -32,7 +34,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_POST,3)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_POST,4)
                 .pattern("I")
                 .pattern("I")
                 .pattern("I")
@@ -40,7 +42,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_POST_BASE_CONSTRUCTION,3)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_POST_BASE_CONSTRUCTION,4)
                 .pattern(" I ")
                 .pattern(" I ")
                 .pattern("CIC")
@@ -53,27 +55,47 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         // ------------------------- <sign variants> -------------------------
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_DANGER,1)
+        // danger
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_DANGER,4)
                 .pattern(" N ")
                 .pattern("NFN")
-                .pattern("NNN")
+                .pattern("III")
+                .input('N', Items.IRON_NUGGET)
+                .input('F', Items.ITEM_FRAME)
+                .input('I', Items.IRON_INGOT)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
+                .criterion(hasItem(Items.ITEM_FRAME), conditionsFromItem(Items.ITEM_FRAME))
+                .offerTo(exporter);
+
+        // yield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_YIELD,4)
+                .pattern("III")
+                .pattern("NFN")
+                .pattern(" N ")
+                .input('I', Items.IRON_INGOT)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .input('N', Items.IRON_NUGGET)
                 .input('F', Items.ITEM_FRAME)
                 .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
                 .criterion(hasItem(Items.ITEM_FRAME), conditionsFromItem(Items.ITEM_FRAME))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_YIELD,1)
-                .pattern("NNN")
+        // stop
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_STOP,4)
+                .pattern("INI")
                 .pattern("NFN")
-                .pattern(" N ")
+                .pattern("INI")
                 .input('N', Items.IRON_NUGGET)
                 .input('F', Items.ITEM_FRAME)
+                .input('I', Items.IRON_INGOT)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
                 .criterion(hasItem(Items.ITEM_FRAME), conditionsFromItem(Items.ITEM_FRAME))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_STOP,3)
+        // regulatory
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_REGULATORY,4)
                 .pattern("NIN")
                 .pattern("IFI")
                 .pattern("NIN")
@@ -83,6 +105,59 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
                 .criterion(hasItem(Items.ITEM_FRAME), conditionsFromItem(Items.ITEM_FRAME))
+                .offerTo(exporter);
+
+        // info
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_INFORMATION,8)
+                .pattern("III")
+                .pattern("IFI")
+                .pattern("III")
+                .input('F', Items.ITEM_FRAME)
+                .input('I', Items.IRON_INGOT)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(Items.ITEM_FRAME), conditionsFromItem(Items.ITEM_FRAME))
+                .offerTo(exporter);
+
+        // priority road
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_PRIORITY_ROAD,4)
+                .pattern(" I ")
+                .pattern("IFI")
+                .pattern(" I ")
+                .input('F', Items.ITEM_FRAME)
+                .input('I', Items.IRON_INGOT)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(Items.ITEM_FRAME), conditionsFromItem(Items.ITEM_FRAME))
+                .offerTo(exporter);
+
+        // oneway
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_ONEWAY,4)
+                .pattern("III")
+                .pattern(" P ")
+                .input('I', Items.IRON_INGOT)
+                .input('P', ModBlocks.SIGN_POST)
+                .criterion(hasItem(ModBlocks.SIGN_POST), conditionsFromItem(ModBlocks.SIGN_POST))
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter);
+
+        // sup wide
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_SUPPLEMENTARY_WIDE,2)
+                .pattern("NNN")
+                .pattern(" P ")
+                .input('N', Items.IRON_NUGGET)
+                .input('P', ModBlocks.SIGN_POST)
+                .criterion(hasItem(ModBlocks.SIGN_POST), conditionsFromItem(ModBlocks.SIGN_POST))
+                .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
+                .offerTo(exporter);
+
+        // sup square
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIGN_SUPPLEMENTARY_SQUARE,2)
+                .pattern("NN")
+                .pattern("NN")
+                .pattern(" P")
+                .input('N', Items.IRON_NUGGET)
+                .input('P', ModBlocks.SIGN_POST)
+                .criterion(hasItem(ModBlocks.SIGN_POST), conditionsFromItem(ModBlocks.SIGN_POST))
+                .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
                 .offerTo(exporter);
 
 
@@ -102,7 +177,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
 
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOLLARD_CONSTRUCTION,3)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOLLARD_CONSTRUCTION,4)
                 .pattern(" W ")
                 .pattern(" R ")
                 .pattern("CWC")
@@ -112,6 +187,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.RED_CONCRETE), conditionsFromItem(Items.RED_CONCRETE))
                 .criterion(hasItem(Items.WHITE_CONCRETE), conditionsFromItem(Items.WHITE_CONCRETE))
                 .criterion(hasItem(Items.CYAN_TERRACOTTA), conditionsFromItem(Items.CYAN_TERRACOTTA))
+                .offerTo(exporter);
+
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOLLARD_CONSTRUCTION_LAMP, 1)
+                .input(ModBlocks.BOLLARD_CONSTRUCTION)
+                .input(Blocks.LANTERN)
+                .criterion(hasItem(ModBlocks.BOLLARD_CONSTRUCTION), conditionsFromItem(ModBlocks.BOLLARD_CONSTRUCTION))
+                .criterion(hasItem(Blocks.LANTERN), conditionsFromItem(Blocks.LANTERN))
                 .offerTo(exporter);
 
 

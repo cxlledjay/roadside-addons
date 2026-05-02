@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "F": {
+      "item": "minecraft:item_frame"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IFI",
+    " I "
+  ],
+  "result": {
+    "count": 4,
+    "id": "roadside-addons:sign_priority_road"
+  }
+}

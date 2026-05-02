@@ -48,11 +48,15 @@
 
   "block.roadside-addons.traffic_cone": "Traffic Cone",
   "block.roadside-addons.bollard_construction": "Construction Bollard",
+  "block.roadside-addons.bollard_construction_lamp": "Construction Bollard with Lamp",
 
   "block.roadside-addons.bollard_german": "German Bollard",
 
 
 
-  "item.roadside-addons.sign_brush": "Sign Brush"
+  "item.roadside-addons.sign_brush": "Sign Brush",
+
+
+  "tooltip.roadside-addons.brush": "Use on a §eTraffic Sign §fto change variants"
 
 }

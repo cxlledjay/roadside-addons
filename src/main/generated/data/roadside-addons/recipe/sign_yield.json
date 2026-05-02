@@ -5,17 +5,20 @@
     "F": {
       "item": "minecraft:item_frame"
     },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
     "N": {
       "item": "minecraft:iron_nugget"
     }
   },
   "pattern": [
-    "NNN",
+    "III",
     "NFN",
     " N "
   ],
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "roadside-addons:sign_yield"
   }
 }

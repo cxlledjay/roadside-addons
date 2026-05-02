@@ -5,6 +5,9 @@
     "F": {
       "item": "minecraft:item_frame"
     },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
     "N": {
       "item": "minecraft:iron_nugget"
     }
@@ -12,10 +15,10 @@
   "pattern": [
     " N ",
     "NFN",
-    "NNN"
+    "III"
   ],
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "roadside-addons:sign_danger"
   }
 }

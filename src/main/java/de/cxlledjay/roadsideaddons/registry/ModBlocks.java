@@ -3,6 +3,7 @@ package de.cxlledjay.roadsideaddons.registry;
 import de.cxlledjay.roadsideaddons.RoadsideAddons;
 import de.cxlledjay.roadsideaddons.block.bollards.GermanBollard;
 import de.cxlledjay.roadsideaddons.block.construction.BollardConstruction;
+import de.cxlledjay.roadsideaddons.block.construction.BollardConstructionLamp;
 import de.cxlledjay.roadsideaddons.block.sign.post.SignPostBase;
 import de.cxlledjay.roadsideaddons.block.sign.post.SignPostBaseConstruction;
 import de.cxlledjay.roadsideaddons.block.construction.TrafficCone;
@@ -19,6 +20,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+
+import static de.cxlledjay.roadsideaddons.block.construction.BollardConstructionLamp.LAMP_ON;
 
 public class ModBlocks {
 
@@ -70,6 +73,11 @@ public class ModBlocks {
 
     public static final Block BOLLARD_CONSTRUCTION = registerBlock("bollard_construction",
             new BollardConstruction(AbstractBlock.Settings.create().nonOpaque().strength(1.5f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)));
+
+    public static final Block BOLLARD_CONSTRUCTION_LAMP = registerBlock("bollard_construction_lamp",
+            new BollardConstructionLamp(AbstractBlock.Settings.create().nonOpaque().strength(1.5f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)
+                    .luminance(state -> (state.get(LAMP_ON)) ? 13 : 0)));
+
 
     // ---------------------------- <bollards> ----------------------------
 
