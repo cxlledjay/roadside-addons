@@ -1,67 +1,131 @@
 {
   "variants": {
-    "rotation=0": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_0",
+    "is_intersection=false,rotation=0": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_0_bollard_german",
       "y": 0
     },
-    "rotation=1": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_n22",
+    "is_intersection=false,rotation=1": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n22_bollard_german",
       "y": 0
     },
-    "rotation=10": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_n45",
+    "is_intersection=false,rotation=10": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n45_bollard_german",
       "y": 180
     },
-    "rotation=11": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_22",
+    "is_intersection=false,rotation=11": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_22_bollard_german",
       "y": 270
     },
-    "rotation=12": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_0",
+    "is_intersection=false,rotation=12": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_0_bollard_german",
       "y": 270
     },
-    "rotation=13": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_n22",
+    "is_intersection=false,rotation=13": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n22_bollard_german",
       "y": 270
     },
-    "rotation=14": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_n45",
+    "is_intersection=false,rotation=14": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n45_bollard_german",
       "y": 270
     },
-    "rotation=15": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_22",
+    "is_intersection=false,rotation=15": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_22_bollard_german",
       "y": 0
     },
-    "rotation=2": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_n45",
+    "is_intersection=false,rotation=2": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n45_bollard_german",
       "y": 0
     },
-    "rotation=3": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_22",
+    "is_intersection=false,rotation=3": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_22_bollard_german",
       "y": 90
     },
-    "rotation=4": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_0",
+    "is_intersection=false,rotation=4": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_0_bollard_german",
       "y": 90
     },
-    "rotation=5": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_n22",
+    "is_intersection=false,rotation=5": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n22_bollard_german",
       "y": 90
     },
-    "rotation=6": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_n45",
+    "is_intersection=false,rotation=6": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n45_bollard_german",
       "y": 90
     },
-    "rotation=7": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_22",
+    "is_intersection=false,rotation=7": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_22_bollard_german",
       "y": 180
     },
-    "rotation=8": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_0",
+    "is_intersection=false,rotation=8": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_0_bollard_german",
       "y": 180
     },
-    "rotation=9": {
-      "model": "roadside-addons:block/bollard_german/bollard_german_n22",
+    "is_intersection=false,rotation=9": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n22_bollard_german",
+      "y": 180
+    },
+    "is_intersection=true,rotation=0": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_0_bollard_german_intersection",
+      "y": 0
+    },
+    "is_intersection=true,rotation=1": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n22_bollard_german_intersection",
+      "y": 0
+    },
+    "is_intersection=true,rotation=10": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n45_bollard_german_intersection",
+      "y": 180
+    },
+    "is_intersection=true,rotation=11": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_22_bollard_german_intersection",
+      "y": 270
+    },
+    "is_intersection=true,rotation=12": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_0_bollard_german_intersection",
+      "y": 270
+    },
+    "is_intersection=true,rotation=13": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n22_bollard_german_intersection",
+      "y": 270
+    },
+    "is_intersection=true,rotation=14": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n45_bollard_german_intersection",
+      "y": 270
+    },
+    "is_intersection=true,rotation=15": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_22_bollard_german_intersection",
+      "y": 0
+    },
+    "is_intersection=true,rotation=2": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n45_bollard_german_intersection",
+      "y": 0
+    },
+    "is_intersection=true,rotation=3": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_22_bollard_german_intersection",
+      "y": 90
+    },
+    "is_intersection=true,rotation=4": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_0_bollard_german_intersection",
+      "y": 90
+    },
+    "is_intersection=true,rotation=5": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n22_bollard_german_intersection",
+      "y": 90
+    },
+    "is_intersection=true,rotation=6": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n45_bollard_german_intersection",
+      "y": 90
+    },
+    "is_intersection=true,rotation=7": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_22_bollard_german_intersection",
+      "y": 180
+    },
+    "is_intersection=true,rotation=8": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_0_bollard_german_intersection",
+      "y": 180
+    },
+    "is_intersection=true,rotation=9": {
+      "model": "roadside-addons:block/bollard_german/bollard_german_n22_bollard_german_intersection",
       "y": 180
     }
   }

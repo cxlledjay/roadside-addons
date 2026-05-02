@@ -3,13 +3,13 @@
 	"id": "roadside-addons",
 	"version": "${version}",
 	"name": "Roadside Addons",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds German Traffic Signs with many variants and some more aesthetic blocks for roads!",
 	"authors": [
-		"Me!"
+		"cxlledjay"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/cxlledjay",
+		"sources": "https://github.com/cxlledjay/roadside-addons"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/roadside-addons/icon.png",

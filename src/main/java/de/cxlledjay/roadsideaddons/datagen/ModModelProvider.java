@@ -3,6 +3,7 @@ package de.cxlledjay.roadsideaddons.datagen;
 import com.google.gson.JsonPrimitive;
 import de.cxlledjay.roadsideaddons.RoadsideAddons;
 import de.cxlledjay.roadsideaddons.block.RotatableBlock;
+import de.cxlledjay.roadsideaddons.block.bollards.GermanBollard;
 import de.cxlledjay.roadsideaddons.block.construction.BollardConstructionLamp;
 import de.cxlledjay.roadsideaddons.registry.ModBlocks;
 import de.cxlledjay.roadsideaddons.registry.ModItems;
@@ -35,10 +36,12 @@ public class ModModelProvider extends FabricModelProvider {
         SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.SIGN_POST_BASE_CONSTRUCTION);
         SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.TRAFFIC_CONE);
         SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.BOLLARD_CONSTRUCTION);
-        SignModelHelper.generateRotatableBlockData(out, blockStateModelGenerator, ModBlocks.BOLLARD_GERMAN);
 
         SignModelHelper.generateRotatableBlockDataBooleanProperty(out, blockStateModelGenerator, ModBlocks.BOLLARD_CONSTRUCTION_LAMP,
                 BollardConstructionLamp.LAMP_ON, "lamp", "lamp_on", "lamp_off");
+
+        SignModelHelper.generateRotatableBlockDataBooleanProperty(out, blockStateModelGenerator, ModBlocks.BOLLARD_GERMAN,
+                GermanBollard.IS_INTERSECTION, "base", "bollard_german_intersection", "bollard_german");
 
         SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_DANGER);
         SignModelHelper.generateSignData(out, blockStateModelGenerator, ModBlocks.SIGN_YIELD);

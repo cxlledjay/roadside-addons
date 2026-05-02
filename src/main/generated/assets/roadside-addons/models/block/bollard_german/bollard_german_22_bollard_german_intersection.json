@@ -1,0 +1,622 @@
+{
+  "credit": "Made with Blockbench",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "translation": [
+        -1,
+        4,
+        1.75
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "translation": [
+        -1,
+        4,
+        1.75
+      ]
+    },
+    "fixed": {
+      "scale": [
+        0.87,
+        0.87,
+        0.87
+      ],
+      "translation": [
+        0,
+        -1.5,
+        0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "translation": [
+        0,
+        1.75,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        28,
+        -155,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "translation": [
+        0,
+        -1,
+        0
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        14.5,
+        0
+      ]
+    },
+    "on_shelf": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#base",
+          "uv": [
+            5.75,
+            0.75,
+            5.25,
+            0.875
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            1.25,
+            5,
+            1.375,
+            9.9375
+          ]
+        },
+        "north": {
+          "texture": "#base",
+          "uv": [
+            3,
+            0,
+            3.5,
+            4.9375
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            3.5,
+            0,
+            4,
+            4.9375
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            5.75,
+            0.625,
+            5.25,
+            0.5
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            1.5,
+            5,
+            1.625,
+            9.9375
+          ]
+        }
+      },
+      "from": [
+        7,
+        0,
+        8
+      ],
+      "name": "rotatable",
+      "rotation": {
+        "angle": 22.5,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "to": [
+        9,
+        19.75,
+        8.5
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#base",
+          "uv": [
+            5.875,
+            0.25,
+            5.25,
+            0.375
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            0.25,
+            5,
+            0.375,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#base",
+          "uv": [
+            1.5,
+            0,
+            2.125,
+            5
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            2.25,
+            0,
+            2.875,
+            5
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            5.875,
+            0.125,
+            5.25,
+            0
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            0.5,
+            5,
+            0.625,
+            10
+          ]
+        }
+      },
+      "from": [
+        6.75,
+        0,
+        8.5
+      ],
+      "name": "rotatable",
+      "rotation": {
+        "angle": 22.5,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "to": [
+        9.25,
+        20,
+        9
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#base",
+          "uv": [
+            5.25,
+            5,
+            4.5,
+            5.125
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            0.75,
+            5,
+            0.875,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#base",
+          "uv": [
+            0,
+            0,
+            0.75,
+            5
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            0.75,
+            0,
+            1.5,
+            5
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            4.5,
+            5.125,
+            3.75,
+            5
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            1,
+            5,
+            1.125,
+            10
+          ]
+        }
+      },
+      "from": [
+        6.5,
+        0,
+        9
+      ],
+      "name": "rotatable",
+      "rotation": {
+        "angle": 22.5,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "to": [
+        9.5,
+        20,
+        9.5
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#base",
+          "uv": [
+            5.625,
+            1.25,
+            5.25,
+            1.375
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            1.75,
+            5,
+            1.875,
+            9.875
+          ]
+        },
+        "north": {
+          "texture": "#base",
+          "uv": [
+            4,
+            0,
+            4.375,
+            4.875
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            4.5,
+            0,
+            4.875,
+            4.875
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            5.625,
+            1.125,
+            5.25,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            2,
+            5,
+            2.125,
+            9.875
+          ]
+        }
+      },
+      "from": [
+        7.25,
+        0,
+        7.5
+      ],
+      "name": "rotatable",
+      "rotation": {
+        "angle": 22.5,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "to": [
+        8.75,
+        19.5,
+        8
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#base",
+          "uv": [
+            5.5,
+            1.75,
+            5.25,
+            1.875
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            2.25,
+            5,
+            2.375,
+            9.8125
+          ]
+        },
+        "north": {
+          "texture": "#base",
+          "uv": [
+            0,
+            5,
+            0.25,
+            9.8125
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            5,
+            0,
+            5.25,
+            4.8125
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            5.5,
+            1.625,
+            5.25,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            2.5,
+            5,
+            2.625,
+            9.8125
+          ]
+        }
+      },
+      "from": [
+        7.5,
+        0,
+        7
+      ],
+      "name": "rotatable",
+      "rotation": {
+        "angle": 22.5,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "to": [
+        8.5,
+        19.25,
+        7.5
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#base",
+          "uv": [
+            5.375,
+            2.25,
+            5.25,
+            2.375
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            3,
+            5,
+            3.125,
+            9.75
+          ]
+        },
+        "north": {
+          "texture": "#base",
+          "uv": [
+            2.75,
+            5,
+            2.875,
+            9.75
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            3.25,
+            5,
+            3.375,
+            9.75
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            5.375,
+            2.125,
+            5.25,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            3.5,
+            5,
+            3.625,
+            9.75
+          ]
+        }
+      },
+      "from": [
+        7.75,
+        0,
+        6.5
+      ],
+      "name": "rotatable",
+      "rotation": {
+        "angle": 22.5,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "to": [
+        8.25,
+        19,
+        7
+      ]
+    }
+  ],
+  "format_version": "1.9.0",
+  "groups": [
+    {
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "color": 0,
+      "name": "bollard",
+      "origin": [
+        7,
+        0,
+        5.5
+      ],
+      "scope": 0
+    }
+  ],
+  "texture_size": [
+    64,
+    64
+  ],
+  "textures": {
+    "base": "roadside-addons:block/bollard_german/bollard_german_intersection",
+    "particle": "roadside-addons:block/bollard_german/bollard_german"
+  }
+}
