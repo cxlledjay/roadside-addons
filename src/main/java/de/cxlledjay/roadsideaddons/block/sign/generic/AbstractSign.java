@@ -52,7 +52,7 @@ public abstract class AbstractSign extends RotatableBlock{
                 break;
             case 3:
             case 11:
-                res = SHAPE_DEFAULT_SN_22;
+                res = SHAPE_DEFAULT_EW_22;
                 break;
             case 5:
             case 13:
@@ -60,7 +60,7 @@ public abstract class AbstractSign extends RotatableBlock{
                 break;
             case 7:
             case 15:
-                res = SHAPE_DEFAULT_EW_22;
+                res = SHAPE_DEFAULT_SN_22;
                 break;
             case 2:
             case 6:
