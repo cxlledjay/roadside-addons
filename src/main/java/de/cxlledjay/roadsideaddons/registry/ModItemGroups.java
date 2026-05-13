@@ -14,7 +14,7 @@ public class ModItemGroups {
     public static final ItemGroup ROADSIDE_ADDONS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(RoadsideAddons.MOD_ID + "items"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(ModBlocks.SIGN_POST_BASE))
+                    .icon(() -> new ItemStack(ModBlocks.TRAFFIC_CONE))
                     .displayName(Text.translatable("itemgroup.roadside-addons.items"))
                     .entries((displayContext, entries) -> {
                         // ----- blocks

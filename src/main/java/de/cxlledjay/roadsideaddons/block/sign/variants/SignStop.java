@@ -33,7 +33,7 @@ public class SignStop extends AbstractSign {
         // --- priority ---
         DEFAULT("default", "priority"),
         // --- legacy ---
-        LEGACY("legacy", "legacy"),
+        //LEGACY("legacy", "legacy"),
         // --- blank ---
         BLANK("blank", "blank");
 

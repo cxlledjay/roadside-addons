@@ -31,8 +31,8 @@ public class SignPriorityRoad extends AbstractSign {
 
     // Define the specific Enum for this block
     public enum PriorityType implements SignVariant {
-        PRIORITY_ROAD("priority_road", "general"),
-        PRIORITY_ROAD_END("priority_road_end", "general"),
+        PRIORITY_ROAD("priority_road", "priority"),
+        PRIORITY_ROAD_END("priority_road_end", "priority"),
 
         // --- blank ---
         BLANK("blank", "blank");

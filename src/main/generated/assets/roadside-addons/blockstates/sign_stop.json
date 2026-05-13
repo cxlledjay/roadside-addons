@@ -8,20 +8,12 @@
       "model": "roadside-addons:block/sign_stop/sign_stop_0_default",
       "y": 0
     },
-    "rotation=0,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_0_legacy",
-      "y": 0
-    },
     "rotation=1,variant=blank": {
       "model": "roadside-addons:block/sign_stop/sign_stop_n22_blank",
       "y": 0
     },
     "rotation=1,variant=default": {
       "model": "roadside-addons:block/sign_stop/sign_stop_n22_default",
-      "y": 0
-    },
-    "rotation=1,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_n22_legacy",
       "y": 0
     },
     "rotation=10,variant=blank": {
@@ -32,20 +24,12 @@
       "model": "roadside-addons:block/sign_stop/sign_stop_n45_default",
       "y": 180
     },
-    "rotation=10,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_n45_legacy",
-      "y": 180
-    },
     "rotation=11,variant=blank": {
       "model": "roadside-addons:block/sign_stop/sign_stop_22_blank",
       "y": 270
     },
     "rotation=11,variant=default": {
       "model": "roadside-addons:block/sign_stop/sign_stop_22_default",
-      "y": 270
-    },
-    "rotation=11,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_22_legacy",
       "y": 270
     },
     "rotation=12,variant=blank": {
@@ -56,20 +40,12 @@
       "model": "roadside-addons:block/sign_stop/sign_stop_0_default",
       "y": 270
     },
-    "rotation=12,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_0_legacy",
-      "y": 270
-    },
     "rotation=13,variant=blank": {
       "model": "roadside-addons:block/sign_stop/sign_stop_n22_blank",
       "y": 270
     },
     "rotation=13,variant=default": {
       "model": "roadside-addons:block/sign_stop/sign_stop_n22_default",
-      "y": 270
-    },
-    "rotation=13,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_n22_legacy",
       "y": 270
     },
     "rotation=14,variant=blank": {
@@ -80,20 +56,12 @@
       "model": "roadside-addons:block/sign_stop/sign_stop_n45_default",
       "y": 270
     },
-    "rotation=14,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_n45_legacy",
-      "y": 270
-    },
     "rotation=15,variant=blank": {
       "model": "roadside-addons:block/sign_stop/sign_stop_22_blank",
       "y": 0
     },
     "rotation=15,variant=default": {
       "model": "roadside-addons:block/sign_stop/sign_stop_22_default",
-      "y": 0
-    },
-    "rotation=15,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_22_legacy",
       "y": 0
     },
     "rotation=2,variant=blank": {
@@ -104,20 +72,12 @@
       "model": "roadside-addons:block/sign_stop/sign_stop_n45_default",
       "y": 0
     },
-    "rotation=2,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_n45_legacy",
-      "y": 0
-    },
     "rotation=3,variant=blank": {
       "model": "roadside-addons:block/sign_stop/sign_stop_22_blank",
       "y": 90
     },
     "rotation=3,variant=default": {
       "model": "roadside-addons:block/sign_stop/sign_stop_22_default",
-      "y": 90
-    },
-    "rotation=3,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_22_legacy",
       "y": 90
     },
     "rotation=4,variant=blank": {
@@ -128,20 +88,12 @@
       "model": "roadside-addons:block/sign_stop/sign_stop_0_default",
       "y": 90
     },
-    "rotation=4,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_0_legacy",
-      "y": 90
-    },
     "rotation=5,variant=blank": {
       "model": "roadside-addons:block/sign_stop/sign_stop_n22_blank",
       "y": 90
     },
     "rotation=5,variant=default": {
       "model": "roadside-addons:block/sign_stop/sign_stop_n22_default",
-      "y": 90
-    },
-    "rotation=5,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_n22_legacy",
       "y": 90
     },
     "rotation=6,variant=blank": {
@@ -152,20 +104,12 @@
       "model": "roadside-addons:block/sign_stop/sign_stop_n45_default",
       "y": 90
     },
-    "rotation=6,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_n45_legacy",
-      "y": 90
-    },
     "rotation=7,variant=blank": {
       "model": "roadside-addons:block/sign_stop/sign_stop_22_blank",
       "y": 180
     },
     "rotation=7,variant=default": {
       "model": "roadside-addons:block/sign_stop/sign_stop_22_default",
-      "y": 180
-    },
-    "rotation=7,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_22_legacy",
       "y": 180
     },
     "rotation=8,variant=blank": {
@@ -176,20 +120,12 @@
       "model": "roadside-addons:block/sign_stop/sign_stop_0_default",
       "y": 180
     },
-    "rotation=8,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_0_legacy",
-      "y": 180
-    },
     "rotation=9,variant=blank": {
       "model": "roadside-addons:block/sign_stop/sign_stop_n22_blank",
       "y": 180
     },
     "rotation=9,variant=default": {
       "model": "roadside-addons:block/sign_stop/sign_stop_n22_default",
-      "y": 180
-    },
-    "rotation=9,variant=legacy": {
-      "model": "roadside-addons:block/sign_stop/sign_stop_n22_legacy",
       "y": 180
     }
   }
