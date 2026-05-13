@@ -35,6 +35,11 @@ public class SignOneway extends AbstractSign {
         // --- general ---
         LEFT("left", "general"),
         RIGHT("right", "general"),
+
+        // --- detour ---
+        DETOUR("detour", "detour"),
+        DETOUR_END("detour_end", "detour"),
+
         // --- blank ---
         BLANK("blank", "blank");
 

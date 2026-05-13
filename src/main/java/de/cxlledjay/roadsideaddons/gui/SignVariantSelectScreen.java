@@ -5,6 +5,7 @@ import de.cxlledjay.roadsideaddons.block.sign.generic.SignVariant;
 import de.cxlledjay.roadsideaddons.networking.packets.ChangeSignVariantPayload;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.block.Block;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.registry.Registries;
@@ -27,7 +28,7 @@ public class SignVariantSelectScreen extends Screen {
 
 
     // ---------------------------- <interfaces> ----------------------------
-    public SignVariantSelectScreen(BlockPos blockPos, Block clickedBlock, Property<?> variantProperty, SignShape shapeInfo) {
+    private SignVariantSelectScreen(BlockPos blockPos, Block clickedBlock, Property<?> variantProperty, SignShape shapeInfo) {
         super(Text.literal("Sign Variant Selection"));
         this.blockPos = blockPos;
         this.variantProperty = variantProperty;
@@ -38,6 +39,10 @@ public class SignVariantSelectScreen extends Screen {
     @Override
     protected void init() {
         initGui();
+    }
+
+    public static void openSignVariantSelectScreen(BlockPos blockPos, Block clickedBlock, Property<?> variantProperty, SignShape shapeInfo) {
+        MinecraftClient.getInstance().setScreen(new SignVariantSelectScreen(blockPos, clickedBlock, variantProperty, shapeInfo));
     }
 
 

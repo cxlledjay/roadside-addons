@@ -4,6 +4,14 @@
       "model": "roadside-addons:block/sign_oneway/sign_oneway_0_blank",
       "y": 0
     },
+    "rotation=0,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_detour",
+      "y": 0
+    },
+    "rotation=0,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_detour_end",
+      "y": 0
+    },
     "rotation=0,variant=left": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_0_left",
       "y": 0
@@ -14,6 +22,14 @@
     },
     "rotation=1,variant=blank": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_blank",
+      "y": 0
+    },
+    "rotation=1,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_detour",
+      "y": 0
+    },
+    "rotation=1,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_detour_end",
       "y": 0
     },
     "rotation=1,variant=left": {
@@ -28,6 +44,14 @@
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_blank",
       "y": 180
     },
+    "rotation=10,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_detour",
+      "y": 180
+    },
+    "rotation=10,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_detour_end",
+      "y": 180
+    },
     "rotation=10,variant=left": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_left",
       "y": 180
@@ -38,6 +62,14 @@
     },
     "rotation=11,variant=blank": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_22_blank",
+      "y": 270
+    },
+    "rotation=11,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_detour",
+      "y": 270
+    },
+    "rotation=11,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_detour_end",
       "y": 270
     },
     "rotation=11,variant=left": {
@@ -52,6 +84,14 @@
       "model": "roadside-addons:block/sign_oneway/sign_oneway_0_blank",
       "y": 270
     },
+    "rotation=12,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_detour",
+      "y": 270
+    },
+    "rotation=12,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_detour_end",
+      "y": 270
+    },
     "rotation=12,variant=left": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_0_left",
       "y": 270
@@ -62,6 +102,14 @@
     },
     "rotation=13,variant=blank": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_blank",
+      "y": 270
+    },
+    "rotation=13,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_detour",
+      "y": 270
+    },
+    "rotation=13,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_detour_end",
       "y": 270
     },
     "rotation=13,variant=left": {
@@ -76,6 +124,14 @@
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_blank",
       "y": 270
     },
+    "rotation=14,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_detour",
+      "y": 270
+    },
+    "rotation=14,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_detour_end",
+      "y": 270
+    },
     "rotation=14,variant=left": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_left",
       "y": 270
@@ -86,6 +142,14 @@
     },
     "rotation=15,variant=blank": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_22_blank",
+      "y": 0
+    },
+    "rotation=15,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_detour",
+      "y": 0
+    },
+    "rotation=15,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_detour_end",
       "y": 0
     },
     "rotation=15,variant=left": {
@@ -100,6 +164,14 @@
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_blank",
       "y": 0
     },
+    "rotation=2,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_detour",
+      "y": 0
+    },
+    "rotation=2,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_detour_end",
+      "y": 0
+    },
     "rotation=2,variant=left": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_left",
       "y": 0
@@ -110,6 +182,14 @@
     },
     "rotation=3,variant=blank": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_22_blank",
+      "y": 90
+    },
+    "rotation=3,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_detour",
+      "y": 90
+    },
+    "rotation=3,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_detour_end",
       "y": 90
     },
     "rotation=3,variant=left": {
@@ -124,6 +204,14 @@
       "model": "roadside-addons:block/sign_oneway/sign_oneway_0_blank",
       "y": 90
     },
+    "rotation=4,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_detour",
+      "y": 90
+    },
+    "rotation=4,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_detour_end",
+      "y": 90
+    },
     "rotation=4,variant=left": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_0_left",
       "y": 90
@@ -134,6 +222,14 @@
     },
     "rotation=5,variant=blank": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_blank",
+      "y": 90
+    },
+    "rotation=5,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_detour",
+      "y": 90
+    },
+    "rotation=5,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_detour_end",
       "y": 90
     },
     "rotation=5,variant=left": {
@@ -148,6 +244,14 @@
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_blank",
       "y": 90
     },
+    "rotation=6,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_detour",
+      "y": 90
+    },
+    "rotation=6,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_detour_end",
+      "y": 90
+    },
     "rotation=6,variant=left": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n45_left",
       "y": 90
@@ -158,6 +262,14 @@
     },
     "rotation=7,variant=blank": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_22_blank",
+      "y": 180
+    },
+    "rotation=7,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_detour",
+      "y": 180
+    },
+    "rotation=7,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_22_detour_end",
       "y": 180
     },
     "rotation=7,variant=left": {
@@ -172,6 +284,14 @@
       "model": "roadside-addons:block/sign_oneway/sign_oneway_0_blank",
       "y": 180
     },
+    "rotation=8,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_detour",
+      "y": 180
+    },
+    "rotation=8,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_0_detour_end",
+      "y": 180
+    },
     "rotation=8,variant=left": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_0_left",
       "y": 180
@@ -182,6 +302,14 @@
     },
     "rotation=9,variant=blank": {
       "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_blank",
+      "y": 180
+    },
+    "rotation=9,variant=detour": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_detour",
+      "y": 180
+    },
+    "rotation=9,variant=detour_end": {
+      "model": "roadside-addons:block/sign_oneway/sign_oneway_n22_detour_end",
       "y": 180
     },
     "rotation=9,variant=left": {
