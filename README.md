@@ -12,7 +12,7 @@ Adds Sign Poles and 9 different *European* (*German*) Street Sign Blocks as well
 ## Sign Variant Selection
 
 <div style="text-align: center;">
-<img src="screenshots/variants_1.jpg" alt="Sign Variant Brush Screenshot 1" width="49.8%" style="margin: 0;"/> <img src="screenshots/variants_2.jpg" alt="Sign Variant Brush Screenshot 1" width="49.8%" style="margin: 0;"/>
+<img src="screenshots/variants_1.jpg" alt="Sign Variant Brush Screenshot 1" width="49%" style="margin: 0;"/> <img src="screenshots/variants_2.jpg" alt="Sign Variant Brush Screenshot 1" width="49%" style="margin: 0;"/>
 </div>
 
 Use a **Sign Brush** to change between variants. Newly placed Sign Blocks will be blank!
