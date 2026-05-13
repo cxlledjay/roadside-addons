@@ -31,11 +31,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SIGN_SUPPLEMENTARY_SQUARE)
 
                 .add(ModBlocks.BOLLARD_CONSTRUCTION)
-                .add(ModBlocks.BOLLARD_CONSTRUCTION_LAMP);
+                .add(ModBlocks.BOLLARD_CONSTRUCTION_LAMP)
+                .add(ModBlocks.BOLLARD_GERMAN);
 
 
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.SIGN_POST)
                 .add(ModBlocks.SIGN_POST_BASE)
                 .add(ModBlocks.SIGN_POST_BASE_CONSTRUCTION)
@@ -50,10 +51,5 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SIGN_SUPPLEMENTARY_WIDE)
                 .add(ModBlocks.SIGN_SUPPLEMENTARY_SQUARE);
 
-
-
-        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.BOLLARD_CONSTRUCTION)
-                .add(ModBlocks.BOLLARD_CONSTRUCTION_LAMP);
     }
 }

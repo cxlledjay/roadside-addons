@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "minecraft:black_concrete"
+    },
+    "W": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "pattern": [
+    "W",
+    "B",
+    "W"
+  ],
+  "result": {
+    "count": 8,
+    "id": "roadside-addons:bollard_german"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "itemgroup.roadside-addons.items": "Wayside Additions",
+
+  "block.roadside-addons.sign_post": "Signe Pillar",
+  "block.roadside-addons.sign_post_base": "Signe Pillar Foundation",
+  "block.roadside-addons.sign_post_base_construction": "Labourer's Pillar Foundation",
+
+  "block.roadside-addons.sign_danger": "Traveller's Signe: Peril",
+  "block.roadside-addons.sign_stop": "Traveller's Signe: Halt",
+  "block.roadside-addons.sign_yield": "Traveller's Signe: Give Way",
+  "block.roadside-addons.sign_regulatory": "Traveller's Signe: Ordinance",
+  "block.roadside-addons.sign_priority_road": "Traveller's Signe: King's Highway",
+  "block.roadside-addons.sign_information": "Traveller's Signe: Tidings",
+  "block.roadside-addons.sign_oneway": "Traveller's Signe: Thither Only",
+  "block.roadside-addons.sign_supplementary_square": "Traveller's Signe: Addendum (Square)",
+  "block.roadside-addons.sign_supplementary_wide": "Traveller's Signe: Addendum (Broad)",
+
+  "sign_category.roadside-addons.general" : "General",
+  "sign_category.roadside-addons.street_course" : "Path's Course",
+  "sign_category.roadside-addons.priority" : "Right of Passage",
+  "sign_category.roadside-addons.blank" : "Blank Signe",
+  "sign_category.roadside-addons.directional" : "Ordained Bearings",
+  "sign_category.roadside-addons.special_routes" : "Peculiar Paths",
+  "sign_category.roadside-addons.no_stopping" : "Restraints of Tarrying",
+  "sign_category.roadside-addons.no_stopping_restricted" : "Restraints of Halting",
+  "sign_category.roadside-addons.speed_limit" : "Swiftness Decree",
+  "sign_category.roadside-addons.speed_limit_end" : "Swiftness Decree Lifted",
+  "sign_category.roadside-addons.passing" : "Bans on Passing",
+  "sign_category.roadside-addons.other" : "Diverse Forms",
+  "sign_category.roadside-addons.legacy" : "Designs of Yore",
+
+  "sign_category.roadside-addons.zone" : "Realms",
+  "sign_category.roadside-addons.parking" : "Tidings of Tarrying",
+  "sign_category.roadside-addons.highway" : "King's Highways",
+  "sign_category.roadside-addons.facilities" : "Tidings of Establishments",
+  "sign_category.roadside-addons.pedestrian_crossing" : "Footman's Ford",
+
+  "sign_category.roadside-addons.distance" : "Spanned Leagues",
+  "sign_category.roadside-addons.length" : "Spanned Length",
+  "sign_category.roadside-addons.time" : "Spanned Hours",
+  "sign_category.roadside-addons.weight" : "Spanned Burdens",
+  "sign_category.roadside-addons.text" : "Writ Description",
+  "sign_category.roadside-addons.traffic_light" : "Traveller's Lantern",
+  "sign_category.roadside-addons.detour" : "Winding Path",
+
+  "block.roadside-addons.traffic_cone": "Wayfarer's Cone",
+  "block.roadside-addons.bollard_construction": "Labourer's Pillar",
+  "block.roadside-addons.bollard_construction_lamp": "Labourer's Pillar with Lantern",
+
+  "block.roadside-addons.bollard_german": "Guiding Pillar",
+
+  "item.roadside-addons.sign_brush": "Signe Brush",
+
+  "tooltip.roadside-addons.brush": "§7Employ upon a §3Traveller's Signe §7to alter its form",
+  "tooltip.roadside-addons.bollard_german": "§7Right-click to shift the crossway state",
+  "tooltip.roadside-addons.bollard_construction_lamp": "§7Requireth the vigour of Redstone"
+}

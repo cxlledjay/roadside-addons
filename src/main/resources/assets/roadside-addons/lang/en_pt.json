@@ -1,0 +1,57 @@
+{
+  "itemgroup.roadside-addons.items": "Trailside Riggin'",
+
+  "block.roadside-addons.sign_post": "Sign Mast",
+  "block.roadside-addons.sign_post_base": "Mast Base",
+  "block.roadside-addons.sign_post_base_construction": "Shipwright's Mast Base",
+
+  "block.roadside-addons.sign_danger": "Trail Sign: Beware!",
+  "block.roadside-addons.sign_stop": "Trail Sign: Drop Anchor!",
+  "block.roadside-addons.sign_yield": "Trail Sign: Give Way",
+  "block.roadside-addons.sign_regulatory": "Trail Sign: Cap'n's Orders",
+  "block.roadside-addons.sign_priority_road": "Trail Sign: Right o' Way",
+  "block.roadside-addons.sign_information": "Trail Sign: Bearings",
+  "block.roadside-addons.sign_oneway": "Trail Sign: One Way Voyage",
+  "block.roadside-addons.sign_supplementary_square": "Trail Sign: Extra Parley (Square)",
+  "block.roadside-addons.sign_supplementary_wide": "Trail Sign: Extra Parley (Wide)",
+
+  "sign_category.roadside-addons.general" : "General",
+  "sign_category.roadside-addons.street_course" : "Trail Chart",
+  "sign_category.roadside-addons.priority" : "Right o' Way",
+  "sign_category.roadside-addons.blank" : "Blank Canvas",
+  "sign_category.roadside-addons.directional" : "Cap'n's Headings",
+  "sign_category.roadside-addons.special_routes" : "Secret Passages",
+  "sign_category.roadside-addons.no_stopping" : "Moorin' Rules",
+  "sign_category.roadside-addons.no_stopping_restricted" : "Drop Anchor Bans",
+  "sign_category.roadside-addons.speed_limit" : "Knot Limit",
+  "sign_category.roadside-addons.speed_limit_end" : "Knot Limit Lifted",
+  "sign_category.roadside-addons.passing" : "No Passin' Allowed",
+  "sign_category.roadside-addons.other" : "Other Booty",
+  "sign_category.roadside-addons.legacy" : "Old Salt Designs",
+
+  "sign_category.roadside-addons.zone" : "Waters",
+  "sign_category.roadside-addons.parking" : "Moorin' Details",
+  "sign_category.roadside-addons.highway" : "Main Trade Routes",
+  "sign_category.roadside-addons.facilities" : "Port Facilities",
+  "sign_category.roadside-addons.pedestrian_crossing" : "Landlubber Crossin'",
+
+  "sign_category.roadside-addons.distance" : "Cursed Leagues",
+  "sign_category.roadside-addons.length" : "Cursed Length",
+  "sign_category.roadside-addons.time" : "Cursed Tides",
+  "sign_category.roadside-addons.weight" : "Cursed Ballast",
+  "sign_category.roadside-addons.text" : "Parchment Writin'",
+  "sign_category.roadside-addons.traffic_light" : "Signal Lantern",
+  "sign_category.roadside-addons.detour" : "New Headin'",
+
+  "block.roadside-addons.traffic_cone": "Bilge Cone",
+  "block.roadside-addons.bollard_construction": "Shipwright's Bollard",
+  "block.roadside-addons.bollard_construction_lamp": "Shipwright's Bollard with Lantern",
+
+  "block.roadside-addons.bollard_german": "Guide Peg",
+
+  "item.roadside-addons.sign_brush": "Sign Swab",
+
+  "tooltip.roadside-addons.brush": "§7Use on a §3Trail Sign §7t' change yer booty",
+  "tooltip.roadside-addons.bollard_german": "§7Right-click t' toggle the crossroads",
+  "tooltip.roadside-addons.bollard_construction_lamp": "§7Requires the power o' Redstone"
+}

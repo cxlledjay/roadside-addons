@@ -7,10 +7,14 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.EnumProperty;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
@@ -19,6 +23,8 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class BollardConstructionLamp extends RotatableBlock {
 
@@ -93,5 +99,13 @@ public class BollardConstructionLamp extends RotatableBlock {
                 world.setBlockState(pos, state.with(LAMP_ON, isPowered), 3);
             }
         }
+    }
+
+
+    // ---------------------------- <tooltips> ----------------------------
+    @Override
+    public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
+        tooltip.add(Text.translatable("tooltip.roadside-addons.bollard_construction_lamp"));
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }

@@ -1,0 +1,57 @@
+{
+  "itemgroup.roadside-addons.items": "suopp∀ ǝpᴉspɐoᴚ",
+
+  "block.roadside-addons.sign_post": "ʇsoԀ uᵷᴉS",
+  "block.roadside-addons.sign_post_base": "ǝsɐᗺ ʇsoԀ uᵷᴉS",
+  "block.roadside-addons.sign_post_base_construction": "ǝsɐᗺ ʇsoԀ uᵷᴉS uoᴉʇɔnɹʇsuoƆ",
+
+  "block.roadside-addons.sign_danger": "ɹǝᵷuɐᗡ :uᵷᴉS ɔᴉɟɟɐɹ⊥",
+  "block.roadside-addons.sign_stop": "doʇS :uᵷᴉS ɔᴉɟɟɐɹ⊥",
+  "block.roadside-addons.sign_yield": "pꞁǝᴉ⅄ :uᵷᴉS ɔᴉɟɟɐɹ⊥",
+  "block.roadside-addons.sign_regulatory": "ʎɹoʇɐꞁnᵷǝᴚ :uᵷᴉS ɔᴉɟɟɐɹ⊥",
+  "block.roadside-addons.sign_priority_road": "pɐoᴚ ʎʇᴉɹoᴉɹԀ :uᵷᴉS ɔᴉɟɟɐɹ⊥",
+  "block.roadside-addons.sign_information": "uoᴉʇɐɯɹoɟuI :uᵷᴉS ɔᴉɟɟɐɹ⊥",
+  "block.roadside-addons.sign_oneway": "ʎɐʍǝuO :uᵷᴉS ɔᴉɟɟɐɹ⊥",
+  "block.roadside-addons.sign_supplementary_square": "(ǝɹɐnbS) ʎɹɐʇuǝɯǝꞁddnS :uᵷᴉS ɔᴉɟɟɐɹ⊥",
+  "block.roadside-addons.sign_supplementary_wide": "(ǝpᴉM) ʎɹɐʇuǝɯǝꞁddnS :uᵷᴉS ɔᴉɟɟɐɹ⊥",
+
+  "sign_category.roadside-addons.general" : "ꞁɐɹǝuǝ⅁",
+  "sign_category.roadside-addons.street_course" : "ʇnoʎɐ⅂ pɐoᴚ",
+  "sign_category.roadside-addons.priority" : "ʎɐM ɟo ʇɥᵷᴉᴚ",
+  "sign_category.roadside-addons.blank" : "uᵷᴉS ʞuɐꞁᗺ",
+  "sign_category.roadside-addons.directional" : "ꞁǝʌɐɹ⊥ ɟo suoᴉʇɔǝɹᴉᗡ pǝqᴉɹɔsǝɹԀ",
+  "sign_category.roadside-addons.special_routes" : "sǝʇnoᴚ ꞁɐᴉɔǝdS",
+  "sign_category.roadside-addons.no_stopping" : "suoᴉʇɔᴉɹʇsǝᴚ ᵷuᴉʞɹɐԀ",
+  "sign_category.roadside-addons.no_stopping_restricted" : "suoᴉʇɔᴉɹʇsǝᴚ ᵷuᴉddoʇS",
+  "sign_category.roadside-addons.speed_limit" : "ʇᴉɯᴉ⅂ pǝǝdS",
+  "sign_category.roadside-addons.speed_limit_end" : "ʇᴉɯᴉ⅂ pǝǝdS pǝʇɟᴉ⅂",
+  "sign_category.roadside-addons.passing" : "suɐᗺ ᵷuᴉʞɐʇɹǝʌO",
+  "sign_category.roadside-addons.other" : "sʇuɐᴉɹɐΛ ɹǝɥʇO",
+  "sign_category.roadside-addons.legacy" : "suᵷᴉsǝᗡ ʎɔɐᵷǝ⅂",
+
+  "sign_category.roadside-addons.zone" : "sǝuoZ",
+  "sign_category.roadside-addons.parking" : "uoᴉʇɐɯɹoɟuI ᵷuᴉʞɹɐԀ",
+  "sign_category.roadside-addons.highway" : "sʎɐʍɥᵷᴉH",
+  "sign_category.roadside-addons.facilities" : "uoᴉʇɐɯɹoɟuI ʎʇᴉꞁᴉɔɐℲ",
+  "sign_category.roadside-addons.pedestrian_crossing" : "ᵷuᴉssoɹƆ uɐᴉɹʇsǝpǝԀ",
+
+  "sign_category.roadside-addons.distance" : "ǝɔuɐʇsᴉᗡ pǝʇɔǝɟɟ∀",
+  "sign_category.roadside-addons.length" : "ɥʇᵷuǝ⅂ pǝʇɔǝɟɟ∀",
+  "sign_category.roadside-addons.time" : "ǝɯᴉ⊥ pǝʇɔǝɟɟ∀",
+  "sign_category.roadside-addons.weight" : "ʇɥᵷᴉǝM pǝʇɔǝɟɟ∀",
+  "sign_category.roadside-addons.text" : "uoᴉʇdᴉɹɔsǝᗡ ꞁɐnʇxǝ⊥",
+  "sign_category.roadside-addons.traffic_light" : "ʇɥᵷᴉ⅂ ɔᴉɟɟɐɹ⊥",
+  "sign_category.roadside-addons.detour" : "ɹnoʇǝᗡ",
+
+  "block.roadside-addons.traffic_cone": "ǝuoƆ ɔᴉɟɟɐɹ⊥",
+  "block.roadside-addons.bollard_construction": "pɹɐꞁꞁoᗺ uoᴉʇɔnɹʇsuoƆ",
+  "block.roadside-addons.bollard_construction_lamp": "dɯɐ⅂ ɥʇᴉʍ pɹɐꞁꞁoᗺ uoᴉʇɔnɹʇsuoƆ",
+
+  "block.roadside-addons.bollard_german": "ʇsoԀ ǝpᴉn⅁",
+
+  "item.roadside-addons.sign_brush": "ɥsnɹᗺ uᵷᴉS",
+
+  "tooltip.roadside-addons.brush": "§7sʇuɐᴉɹɐʌ ǝᵷuɐɥɔ oʇ §3uᵷᴉS ɔᴉɟɟɐɹ⊥§7 ɐ uo ǝs∩",
+  "tooltip.roadside-addons.bollard_german": "§7ǝpoɯ uoᴉʇɔǝsɹǝʇuᴉ ǝꞁᵷᵷoʇ oʇ ʞɔᴉꞁɔ-ʇɥᵷᴉᴚ",
+  "tooltip.roadside-addons.bollard_construction_lamp": "§7ɹǝʍod ǝuoʇspǝᴚ sǝɹᴉnbǝᴚ"
+}

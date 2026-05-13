@@ -1,0 +1,58 @@
+{
+  "itemgroup.roadside-addons.items": "Roadside Addons",
+
+  "block.roadside-addons.sign_post": "Schilderpfosten",
+  "block.roadside-addons.sign_post_base": "Schilderpfostenbasis",
+  "block.roadside-addons.sign_post_base_construction": "Baustellen-Schilderpfostenbasis",
+
+  "block.roadside-addons.sign_danger": "Verkehrszeichen: Gefahrzeichen",
+  "block.roadside-addons.sign_stop": "Verkehrszeichen: Halt. Vorfahrt gewähren",
+  "block.roadside-addons.sign_yield": "Verkehrszeichen: Vorfahrt gewähren",
+  "block.roadside-addons.sign_regulatory": "Verkehrszeichen: Vorschriftzeichen",
+  "block.roadside-addons.sign_priority_road": "Verkehrszeichen: Vorfahrtstraße",
+  "block.roadside-addons.sign_information": "Verkehrszeichen: Richtzeichen",
+  "block.roadside-addons.sign_oneway": "Verkehrszeichen: Einbahnstraße",
+  "block.roadside-addons.sign_supplementary_square": "Verkehrszeichen: Zusatzzeichen (Quadratisch)",
+  "block.roadside-addons.sign_supplementary_wide": "Verkehrszeichen: Zusatzzeichen (Breit)",
+
+  "sign_category.roadside-addons.general" : "Allgemein",
+  "sign_category.roadside-addons.street_course" : "Streckenverlauf",
+  "sign_category.roadside-addons.priority" : "Vorfahrt",
+  "sign_category.roadside-addons.blank" : "Leeres Schild",
+  "sign_category.roadside-addons.directional" : "Vorgeschriebene Fahrtrichtungen",
+  "sign_category.roadside-addons.special_routes" : "Sonderwege",
+  "sign_category.roadside-addons.no_stopping" : "Absolutes Halteverbot",
+  "sign_category.roadside-addons.no_stopping_restricted" : "Eingeschränktes Halteverbot",
+  "sign_category.roadside-addons.speed_limit" : "Geschwindigkeitsbegrenzungen",
+  "sign_category.roadside-addons.speed_limit_end" : "Aufhebung von Geschwindigkeitsbegrenzungen",
+  "sign_category.roadside-addons.passing" : "Überholverbote",
+  "sign_category.roadside-addons.other" : "Sonstige Varianten",
+  "sign_category.roadside-addons.legacy" : "Veraltete Designs",
+
+  "sign_category.roadside-addons.zone" : "Zonen",
+  "sign_category.roadside-addons.parking" : "Parken",
+  "sign_category.roadside-addons.highway" : "Autobahn",
+  "sign_category.roadside-addons.facilities" : "Einrichtungen",
+  "sign_category.roadside-addons.pedestrian_crossing" : "Fußgängerüberweg",
+
+  "sign_category.roadside-addons.distance" : "Entfernungsangaben",
+  "sign_category.roadside-addons.length" : "Längenangaben",
+  "sign_category.roadside-addons.time" : "Zeitangaben",
+  "sign_category.roadside-addons.weight" : "Gewichtsangaben",
+  "sign_category.roadside-addons.text" : "Textbeschreibungen",
+  "sign_category.roadside-addons.traffic_light" : "Ampelanlagen",
+  "sign_category.roadside-addons.detour" : "Umleitungen",
+
+  "block.roadside-addons.traffic_cone": "Leitkegel",
+  "block.roadside-addons.bollard_construction": "Baustellenbake",
+  "block.roadside-addons.bollard_construction_lamp": "Baustellenbake mit Warnleuchte",
+
+  "block.roadside-addons.bollard_german": "Leitpfosten",
+
+  "item.roadside-addons.sign_brush": "Verkehrszeichen-Pinsel",
+
+  "tooltip.roadside-addons.brush": "§7Nutze dies an einem §3Verkehrszeichen§7, um die Variante zu ändern",
+  "tooltip.roadside-addons.bollard_german": "§7Rechtsklick, um den Kreuzungs-Modus umzuschalten",
+  "tooltip.roadside-addons.bollard_construction_lamp": "§7Benötigt ein Redstone-Signal"
+
+}

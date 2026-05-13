@@ -80,20 +80,20 @@ public class ModBlocks {
 
     // ---------------------------- <construction> ----------------------------
      public static final Block TRAFFIC_CONE = registerBlock("traffic_cone",
-             new TrafficCone(AbstractBlock.Settings.create().nonOpaque().strength(-1.0f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.POINTED_DRIPSTONE)));
+             new TrafficCone(AbstractBlock.Settings.create().nonOpaque().mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.POINTED_DRIPSTONE)));
 
     public static final Block BOLLARD_CONSTRUCTION = registerBlock("bollard_construction",
-            new BollardConstruction(AbstractBlock.Settings.create().nonOpaque().strength(1.0f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)));
+            new BollardConstruction(AbstractBlock.Settings.create().nonOpaque().strength(1.0f).requiresTool().mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)));
 
     public static final Block BOLLARD_CONSTRUCTION_LAMP = registerBlock("bollard_construction_lamp",
-            new BollardConstructionLamp(AbstractBlock.Settings.create().nonOpaque().strength(1.0f).mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)
+            new BollardConstructionLamp(AbstractBlock.Settings.create().nonOpaque().strength(1.0f).requiresTool().mapColor(MapColor.ORANGE).sounds(BlockSoundGroup.METAL)
                     .luminance(state -> (state.get(LAMP_ON)) ? 13 : 0)));
 
 
     // ---------------------------- <bollards> ----------------------------
 
     public static final Block BOLLARD_GERMAN = registerBlock("bollard_german",
-            new GermanBollard(AbstractBlock.Settings.create().nonOpaque().strength(1.5f).requiresTool().sounds(BlockSoundGroup.POLISHED_TUFF)
+            new GermanBollard(AbstractBlock.Settings.create().nonOpaque().strength(0.5f).requiresTool().sounds(BlockSoundGroup.POLISHED_TUFF)
                     .luminance(state -> 5)));
 
 

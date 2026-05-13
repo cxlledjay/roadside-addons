@@ -13,6 +13,7 @@
     "roadside-addons:sign_supplementary_wide",
     "roadside-addons:sign_supplementary_square",
     "roadside-addons:bollard_construction",
-    "roadside-addons:bollard_construction_lamp"
+    "roadside-addons:bollard_construction_lamp",
+    "roadside-addons:bollard_german"
   ]
 }

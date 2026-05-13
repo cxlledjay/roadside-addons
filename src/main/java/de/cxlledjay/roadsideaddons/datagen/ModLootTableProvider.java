@@ -34,5 +34,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TRAFFIC_CONE);
         addDrop(ModBlocks.BOLLARD_CONSTRUCTION);
         addDrop(ModBlocks.BOLLARD_CONSTRUCTION_LAMP);
+
+        // bollards
+        addDrop(ModBlocks.BOLLARD_GERMAN);
     }
 }

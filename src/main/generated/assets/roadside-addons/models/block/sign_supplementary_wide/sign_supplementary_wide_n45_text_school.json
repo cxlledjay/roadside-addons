@@ -244,8 +244,9 @@
         10.999,
         6.999
       ],
+      "name": "rotatable",
       "rotation": {
-        "angle": 0,
+        "angle": -45,
         "axis": "y",
         "origin": [
           8,

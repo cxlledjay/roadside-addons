@@ -7,18 +7,18 @@
   "block.roadside-addons.sign_post_base": "Sign Post Base",
   "block.roadside-addons.sign_post_base_construction": "Construction Sign Post Base",
 
-  "block.roadside-addons.sign_danger": "Danger Sign",
-  "block.roadside-addons.sign_stop": "Stop Sign",
-  "block.roadside-addons.sign_yield": "Yield Sign",
-  "block.roadside-addons.sign_regulatory": "Regulatory Sign",
-  "block.roadside-addons.sign_priority_road": "Priority Road Sign",
-  "block.roadside-addons.sign_information": "Information Sign",
-  "block.roadside-addons.sign_oneway": "Oneway Sign",
-  "block.roadside-addons.sign_supplementary_square": "Supplementary Sign (Square)",
-  "block.roadside-addons.sign_supplementary_wide": "Supplementary Sign (Wide)",
+  "block.roadside-addons.sign_danger": "Traffic Sign: Danger",
+  "block.roadside-addons.sign_stop": "Traffic Sign: Stop",
+  "block.roadside-addons.sign_yield": "Traffic Sign: Yield",
+  "block.roadside-addons.sign_regulatory": "Traffic Sign: Regulatory",
+  "block.roadside-addons.sign_priority_road": "Traffic Sign: Priority Road",
+  "block.roadside-addons.sign_information": "Traffic Sign: Information",
+  "block.roadside-addons.sign_oneway": "Traffic Sign: Oneway",
+  "block.roadside-addons.sign_supplementary_square": "Traffic Sign: Supplementary (Square)",
+  "block.roadside-addons.sign_supplementary_wide": "Traffic Sign: Supplementary (Wide)",
 
   "sign_category.roadside-addons.general" : "General",
-  "sign_category.roadside-addons.street_course" : "Street Course",
+  "sign_category.roadside-addons.street_course" : "Road Layout",
   "sign_category.roadside-addons.priority" : "Right of Way",
   "sign_category.roadside-addons.blank" : "Blank Sign",
   "sign_category.roadside-addons.directional" : "Prescribed Directions of Travel",
@@ -51,13 +51,15 @@
   "block.roadside-addons.bollard_construction": "Construction Bollard",
   "block.roadside-addons.bollard_construction_lamp": "Construction Bollard with Lamp",
 
-  "block.roadside-addons.bollard_german": "German Bollard",
+  "block.roadside-addons.bollard_german": "Guide Post",
 
 
 
   "item.roadside-addons.sign_brush": "Sign Brush",
 
 
-  "tooltip.roadside-addons.brush": "Use on a §eTraffic Sign §fto change variants"
+  "tooltip.roadside-addons.brush": "§7Use on a §3Traffic Sign §7to change variants",
+  "tooltip.roadside-addons.bollard_german": "§7Right-click to toggle intersection mode",
+  "tooltip.roadside-addons.bollard_construction_lamp": "§7Requires Redstone power"
 
 }

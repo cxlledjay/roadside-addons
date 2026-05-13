@@ -164,6 +164,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         // ------------------------- <construction> -------------------------
 
+        // traffic cone
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRAFFIC_CONE,9)
                 .pattern(" W ")
                 .pattern("OOO")
@@ -176,7 +177,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.GRAY_CONCRETE), conditionsFromItem(Items.GRAY_CONCRETE))
                 .offerTo(exporter);
 
-
+        // construction bollar
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOLLARD_CONSTRUCTION,4)
                 .pattern(" W ")
                 .pattern(" R ")
@@ -189,12 +190,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.CYAN_TERRACOTTA), conditionsFromItem(Items.CYAN_TERRACOTTA))
                 .offerTo(exporter);
 
-
+        // construction bollard with lamp
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOLLARD_CONSTRUCTION_LAMP, 1)
                 .input(ModBlocks.BOLLARD_CONSTRUCTION)
                 .input(Blocks.LANTERN)
                 .criterion(hasItem(ModBlocks.BOLLARD_CONSTRUCTION), conditionsFromItem(ModBlocks.BOLLARD_CONSTRUCTION))
                 .criterion(hasItem(Blocks.LANTERN), conditionsFromItem(Blocks.LANTERN))
+                .offerTo(exporter);
+
+
+        // ------------------------- <bollards> -------------------------
+
+        // german bollard
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOLLARD_GERMAN,8)
+                .pattern("W")
+                .pattern("B")
+                .pattern("W")
+                .input('W', Items.WHITE_CONCRETE)
+                .input('B', Items.BLACK_CONCRETE)
+                .criterion(hasItem(Items.BLACK_CONCRETE), conditionsFromItem(Items.BLACK_CONCRETE))
+                .criterion(hasItem(Items.WHITE_CONCRETE), conditionsFromItem(Items.WHITE_CONCRETE))
                 .offerTo(exporter);
 
 
