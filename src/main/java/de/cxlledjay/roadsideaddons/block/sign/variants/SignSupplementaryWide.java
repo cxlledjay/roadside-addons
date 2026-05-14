@@ -7,8 +7,13 @@ import de.cxlledjay.roadsideaddons.block.sign.generic.SignVariant;
 import de.cxlledjay.roadsideaddons.gui.SignShape;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.EnumProperty;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.util.shape.VoxelShapes;
+import net.minecraft.world.BlockView;
 
 
 public class SignSupplementaryWide extends AbstractSign {
@@ -175,6 +180,61 @@ public class SignSupplementaryWide extends AbstractSign {
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         // You MUST add both the new variant and the inherited rotation
         builder.add(VARIANT, ROTATION);
+    }
+
+    // ---------------------------- <hitbox> ----------------------------
+    private static final VoxelShape POLE = Block.createCuboidShape(6, 0, 6, 10, 8, 10);
+
+    private static final VoxelShape SHAPE_DEFAULT_SN = Block.createCuboidShape(1,8,6,15,16,10);
+    private static final VoxelShape SHAPE_DEFAULT_EW = Block.createCuboidShape(6,8,1,10,16,15);
+
+    private static final VoxelShape SHAPE_DEFAULT_SN_N22 = Block.createCuboidShape(1,8,4,15,16,12);
+    private static final VoxelShape SHAPE_DEFAULT_EW_N22 = Block.createCuboidShape(4,8,1,12,16,15);
+
+    private static final VoxelShape SHAPE_DEFAULT_SN_22 = Block.createCuboidShape(1,8,4,15,16,12);
+    private static final VoxelShape SHAPE_DEFAULT_EW_22 = Block.createCuboidShape(4,8,1,12,16,15);
+
+    private static final VoxelShape SHAPE_DEFAULT_DIAG = Block.createCuboidShape(4,8,4,12,16,12);
+
+
+
+    @Override
+    protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+        VoxelShape res;
+        switch (state.get(ROTATION)) {
+            case 0:
+            case 8:
+                res = VoxelShapes.union(POLE, SHAPE_DEFAULT_SN);
+                break;
+            case 4:
+            case 12:
+                res = VoxelShapes.union(POLE, SHAPE_DEFAULT_EW);
+                break;
+            case 1:
+            case 9:
+                res = VoxelShapes.union(POLE, SHAPE_DEFAULT_SN_N22);
+                break;
+            case 3:
+            case 11:
+                res = VoxelShapes.union(POLE, SHAPE_DEFAULT_EW_22);
+                break;
+            case 5:
+            case 13:
+                res = VoxelShapes.union(POLE, SHAPE_DEFAULT_EW_N22);
+                break;
+            case 7:
+            case 15:
+                res = VoxelShapes.union(POLE, SHAPE_DEFAULT_SN_22);
+                break;
+            case 2:
+            case 6:
+            case 10:
+            case 14:
+            default:
+                res = VoxelShapes.union(POLE, SHAPE_DEFAULT_DIAG);
+                break;
+        }
+        return res;
     }
 
 }
